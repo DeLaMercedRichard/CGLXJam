@@ -1,2 +1,2 @@
-# CGLXJam
-CGLX Game Jam
+# CGX Jam
+CGX Game Jam
