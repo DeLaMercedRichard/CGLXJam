@@ -560,3 +560,20 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.01-20.48.27:184][  0]LogInit: Transaction tracking system initialized
 [2020.05.01-20.48.30:934][  0]BlueprintLog: New page: Editor Load
 [2020.05.01-20.48.36:164][  0]LocalizationService: Localization service is disabled
+[2020.05.01-20.48.53:682][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXGameJam/Content/' took 0.00s
+[2020.05.01-20.48.53:682][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.05.01-20.48.53:682][  0]LogCook: Display: Mobile HDR setting 1
+[2020.05.01-20.49.06:620][  0]SourceControl: Source control is disabled
+[2020.05.01-20.49.06:621][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.05.01-20.49.06:622][  0]LightingResults: New page: Lighting Build
+[2020.05.01-20.49.06:680][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.05.01-20.49.06:680][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.01-20.49.06:680][  0]MapCheck: New page: Map Check
+[2020.05.01-20.49.06:680][  0]LightingResults: New page: Lighting Build
+[2020.05.01-20.49.07:126][  0]LogUObjectHash: Compacting FUObjectHashTables data took   5.33ms
+[2020.05.01-20.49.08:350][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2020.05.01-20.49.08:358][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.05.01-20.49.08:695][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.62ms
+[2020.05.01-20.49.08:695][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.05.01-20.49.08:696][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.445ms to complete.
+[2020.05.01-20.49.08:696][  0]LogFileHelpers: Loading map 'Template_Default' took 2.074
