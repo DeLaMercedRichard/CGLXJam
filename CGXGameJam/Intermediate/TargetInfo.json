@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "CGXGameJam",
+			"Path": "C:\\Users\\Delam\\OneDrive\\Documents\\GitHub\\CGLXJam\\CGXGameJam\\Source\\CGXGameJam.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "CGXGameJamEditor",
+			"Path": "C:\\Users\\Delam\\OneDrive\\Documents\\GitHub\\CGLXJam\\CGXGameJam\\Source\\CGXGameJamEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

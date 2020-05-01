@@ -1,0 +1,5 @@
+C:\Users\Delam\OneDrive\Documents\GitHub\CGLXJam\CGXGameJam\Intermediate\Build\Win64\UE4Editor\Development\CGXGameJam\Definitions.CGXGameJam.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\Delam\OneDrive\Documents\GitHub\CGLXJam\CGXGameJam\Source\CGXGameJam/CGXGameJamPlayerController.h
+c:\users\delam\onedrive\documents\github\cglxjam\cgxgamejam\intermediate\build\win64\ue4editor\inc\cgxgamejam\CGXGameJamPlayerController.generated.h
