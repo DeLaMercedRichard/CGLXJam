@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "CGLX",
+			"Path": "C:\\Users\\Brand\\Documents\\Unreal Projects\\CGLX\\Source\\CGLX.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "CGLXEditor",
+			"Path": "C:\\Users\\Brand\\Documents\\Unreal Projects\\CGLX\\Source\\CGLXEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

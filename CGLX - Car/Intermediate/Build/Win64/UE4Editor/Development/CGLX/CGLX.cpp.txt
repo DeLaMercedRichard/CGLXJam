@@ -1,0 +1,2 @@
+C:\Users\Brand\Documents\Unreal Projects\CGLX\Intermediate\Build\Win64\UE4Editor\Development\CGLX\Definitions.CGLX.h
+C:\Users\Brand\Documents\Unreal Projects\CGLX\Source\CGLX\CGLX.h
