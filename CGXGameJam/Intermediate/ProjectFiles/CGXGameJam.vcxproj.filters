@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\CGXGameJam.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{05EC2442-AC29-48BE-83F1-7FB8E72730F9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CGXGameJam.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CGXGameJamEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{27921D24-46D0-4798-95CC-86A130F23483}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\CGXGameJam">
+      <UniqueIdentifier>{60F30114-F187-494E-B6B1-033314CA005C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CGXGameJam\CGXGameJam.Build.cs">
+      <Filter>Source\CGXGameJam</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\CGXGameJam\CGXGameJam.cpp">
+      <Filter>Source\CGXGameJam</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CGXGameJam\CGXGameJam.h">
+      <Filter>Source\CGXGameJam</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CGXGameJam\CGXGameJamGameModeBase.cpp">
+      <Filter>Source\CGXGameJam</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CGXGameJam\CGXGameJamGameModeBase.h">
+      <Filter>Source\CGXGameJam</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

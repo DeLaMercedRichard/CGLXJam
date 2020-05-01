@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-CGXGameJam.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Delam\OneDrive\Documents\GitHub\CGLXJam\CGXGameJam\Intermediate\Build\Win64\CGXGameJamEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Delam\OneDrive\Documents\GitHub\CGLXJam\CGXGameJam\Intermediate\Build\Win64\UE4Editor\Development\CGXGameJam\CGXGameJam.cpp.obj"
+"C:\Users\Delam\OneDrive\Documents\GitHub\CGLXJam\CGXGameJam\Intermediate\Build\Win64\UE4Editor\Development\CGXGameJam\CGXGameJamGameModeBase.cpp.obj"
+"C:\Users\Delam\OneDrive\Documents\GitHub\CGLXJam\CGXGameJam\Intermediate\Build\Win64\UE4Editor\Development\CGXGameJam\CGXGameJam.init.gen.cpp.obj"
+"C:\Users\Delam\OneDrive\Documents\GitHub\CGLXJam\CGXGameJam\Intermediate\Build\Win64\UE4Editor\Development\CGXGameJam\CGXGameJamGameModeBase.gen.cpp.obj"
+"C:\Users\Delam\OneDrive\Documents\GitHub\CGLXJam\CGXGameJam\Intermediate\Build\Win64\UE4Editor\Development\CGXGameJam\Default.rc2.res"
+/OUT:"C:\Users\Delam\OneDrive\Documents\GitHub\CGLXJam\CGXGameJam\Intermediate\Build\Win64\UE4Editor\Development\CGXGameJam\UE4Editor-CGXGameJam.lib"
+/INCLUDE:IMPLEMENT_MODULE_CGXGameJam
