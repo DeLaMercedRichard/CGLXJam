@@ -17,7 +17,6 @@ void EmptyLinkFunctionForGeneratedCodeUIManager_CPP() {}
 	CGXJAM_API UClass* Z_Construct_UClass_AUIManager_CPP();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_CGXJam();
-	CGXJAM_API UFunction* Z_Construct_UFunction_AUIManager_CPP_AddToStageBudget();
 	CGXJAM_API UFunction* Z_Construct_UFunction_AUIManager_CPP_GetBuildLimit();
 	CGXJAM_API UFunction* Z_Construct_UFunction_AUIManager_CPP_GetMenuHidden();
 	CGXJAM_API UFunction* Z_Construct_UFunction_AUIManager_CPP_GetTimer();
@@ -26,12 +25,12 @@ void EmptyLinkFunctionForGeneratedCodeUIManager_CPP() {}
 	CGXJAM_API UFunction* Z_Construct_UFunction_AUIManager_CPP_SetStageBuildLimit();
 	CGXJAM_API UFunction* Z_Construct_UFunction_AUIManager_CPP_SetTimer();
 	CGXJAM_API UFunction* Z_Construct_UFunction_AUIManager_CPP_SubtractFromStageBudget();
+	CGXJAM_API UFunction* Z_Construct_UFunction_AUIManager_CPP_TryAddToStageBudget();
 // End Cross Module References
 	void AUIManager_CPP::StaticRegisterNativesAUIManager_CPP()
 	{
 		UClass* Class = AUIManager_CPP::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
-			{ "AddToStageBudget", &AUIManager_CPP::execAddToStageBudget },
 			{ "GetBuildLimit", &AUIManager_CPP::execGetBuildLimit },
 			{ "GetMenuHidden", &AUIManager_CPP::execGetMenuHidden },
 			{ "GetTimer", &AUIManager_CPP::execGetTimer },
@@ -40,43 +39,9 @@ void EmptyLinkFunctionForGeneratedCodeUIManager_CPP() {}
 			{ "SetStageBuildLimit", &AUIManager_CPP::execSetStageBuildLimit },
 			{ "SetTimer", &AUIManager_CPP::execSetTimer },
 			{ "SubtractFromStageBudget", &AUIManager_CPP::execSubtractFromStageBudget },
+			{ "TryAddToStageBudget", &AUIManager_CPP::execTryAddToStageBudget },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
-	}
-	struct Z_Construct_UFunction_AUIManager_CPP_AddToStageBudget_Statics
-	{
-		struct UIManager_CPP_eventAddToStageBudget_Parms
-		{
-			int32 itemValue_;
-		};
-		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_itemValue_;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_AUIManager_CPP_AddToStageBudget_Statics::NewProp_itemValue_ = { "itemValue_", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UIManager_CPP_eventAddToStageBudget_Parms, itemValue_), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AUIManager_CPP_AddToStageBudget_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AUIManager_CPP_AddToStageBudget_Statics::NewProp_itemValue_,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AUIManager_CPP_AddToStageBudget_Statics::Function_MetaDataParams[] = {
-		{ "Category", "Stage Properties" },
-		{ "Comment", "//set the max value of stage props that the player can place\n" },
-		{ "ModuleRelativePath", "UIManager_CPP.h" },
-		{ "ToolTip", "set the max value of stage props that the player can place" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AUIManager_CPP_AddToStageBudget_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AUIManager_CPP, nullptr, "AddToStageBudget", nullptr, nullptr, sizeof(UIManager_CPP_eventAddToStageBudget_Parms), Z_Construct_UFunction_AUIManager_CPP_AddToStageBudget_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AUIManager_CPP_AddToStageBudget_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AUIManager_CPP_AddToStageBudget_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AUIManager_CPP_AddToStageBudget_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AUIManager_CPP_AddToStageBudget()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AUIManager_CPP_AddToStageBudget_Statics::FuncParams);
-		}
-		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_AUIManager_CPP_GetBuildLimit_Statics
 	{
@@ -353,6 +318,50 @@ void EmptyLinkFunctionForGeneratedCodeUIManager_CPP() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AUIManager_CPP_TryAddToStageBudget_Statics
+	{
+		struct UIManager_CPP_eventTryAddToStageBudget_Parms
+		{
+			int32 itemValue_;
+			bool ReturnValue;
+		};
+		static void NewProp_ReturnValue_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_itemValue_;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_AUIManager_CPP_TryAddToStageBudget_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+	{
+		((UIManager_CPP_eventTryAddToStageBudget_Parms*)Obj)->ReturnValue = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AUIManager_CPP_TryAddToStageBudget_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UIManager_CPP_eventTryAddToStageBudget_Parms), &Z_Construct_UFunction_AUIManager_CPP_TryAddToStageBudget_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_AUIManager_CPP_TryAddToStageBudget_Statics::NewProp_itemValue_ = { "itemValue_", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UIManager_CPP_eventTryAddToStageBudget_Parms, itemValue_), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AUIManager_CPP_TryAddToStageBudget_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AUIManager_CPP_TryAddToStageBudget_Statics::NewProp_ReturnValue,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AUIManager_CPP_TryAddToStageBudget_Statics::NewProp_itemValue_,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AUIManager_CPP_TryAddToStageBudget_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Stage Properties" },
+		{ "Comment", "//set the max value of stage props that the player can place\n" },
+		{ "ModuleRelativePath", "UIManager_CPP.h" },
+		{ "ToolTip", "set the max value of stage props that the player can place" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AUIManager_CPP_TryAddToStageBudget_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AUIManager_CPP, nullptr, "TryAddToStageBudget", nullptr, nullptr, sizeof(UIManager_CPP_eventTryAddToStageBudget_Parms), Z_Construct_UFunction_AUIManager_CPP_TryAddToStageBudget_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AUIManager_CPP_TryAddToStageBudget_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AUIManager_CPP_TryAddToStageBudget_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AUIManager_CPP_TryAddToStageBudget_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AUIManager_CPP_TryAddToStageBudget()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AUIManager_CPP_TryAddToStageBudget_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AUIManager_CPP_NoRegister()
 	{
 		return AUIManager_CPP::StaticClass();
@@ -395,7 +404,6 @@ void EmptyLinkFunctionForGeneratedCodeUIManager_CPP() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_CGXJam,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AUIManager_CPP_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AUIManager_CPP_AddToStageBudget, "AddToStageBudget" }, // 3523789391
 		{ &Z_Construct_UFunction_AUIManager_CPP_GetBuildLimit, "GetBuildLimit" }, // 4080118128
 		{ &Z_Construct_UFunction_AUIManager_CPP_GetMenuHidden, "GetMenuHidden" }, // 1853998486
 		{ &Z_Construct_UFunction_AUIManager_CPP_GetTimer, "GetTimer" }, // 3697720180
@@ -404,6 +412,7 @@ void EmptyLinkFunctionForGeneratedCodeUIManager_CPP() {}
 		{ &Z_Construct_UFunction_AUIManager_CPP_SetStageBuildLimit, "SetStageBuildLimit" }, // 3499102606
 		{ &Z_Construct_UFunction_AUIManager_CPP_SetTimer, "SetTimer" }, // 1331309388
 		{ &Z_Construct_UFunction_AUIManager_CPP_SubtractFromStageBudget, "SubtractFromStageBudget" }, // 3435750508
+		{ &Z_Construct_UFunction_AUIManager_CPP_TryAddToStageBudget, "TryAddToStageBudget" }, // 3417521969
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AUIManager_CPP_Statics::Class_MetaDataParams[] = {
@@ -441,7 +450,7 @@ void EmptyLinkFunctionForGeneratedCodeUIManager_CPP() {}
 		{ "ToolTip", "Stage Weight Tracking" },
 	};
 #endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_i_buildLimit = { "i_buildLimit", nullptr, (EPropertyFlags)0x0040000000020001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AUIManager_CPP, i_buildLimit), METADATA_PARAMS(Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_i_buildLimit_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_i_buildLimit_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_i_buildLimit = { "i_buildLimit", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AUIManager_CPP, i_buildLimit), METADATA_PARAMS(Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_i_buildLimit_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_i_buildLimit_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_f_timer_MetaData[] = {
 		{ "Category", "Stage Timer" },
@@ -498,7 +507,7 @@ void EmptyLinkFunctionForGeneratedCodeUIManager_CPP() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AUIManager_CPP, 1007400238);
+	IMPLEMENT_CLASS(AUIManager_CPP, 35272357);
 	template<> CGXJAM_API UClass* StaticClass<AUIManager_CPP>()
 	{
 		return AUIManager_CPP::StaticClass();

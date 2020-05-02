@@ -40,7 +40,7 @@ public:
 			void SetStageBuildLimit(int stageLimit_); //set the max value of stage props that the player can place
 
 		UFUNCTION(BlueprintCallable, Category = "Stage Properties")
-			void AddToStageBudget(int itemValue_); //increase the stages used budget based on the passed itme value
+			bool TryAddToStageBudget(int itemValue_); //increase the stages used budget based on the passed itme value
 
 		UFUNCTION(BlueprintCallable, Category = "Stage Properties")
 			void SubtractFromStageBudget(int itemValue_); //Decrease the stages used budget based on the passed itme value
@@ -63,7 +63,7 @@ private:
 	float f_timer; //The time the player has to complete the stage
 
 	//Stage Weight Tracking
-	UPROPERTY(VisibleAnywhere, Category = "Stage Properties")
+	UPROPERTY(EditAnywhere, Category = "Stage Properties")
 		int i_buildLimit; //Max value of buildable obejects per stage
 
 	UPROPERTY(VisibleAnywhere, Category = "Stage Properties")

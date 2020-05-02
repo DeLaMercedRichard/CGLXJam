@@ -57,12 +57,12 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execAddToStageBudget) \
+	DECLARE_FUNCTION(execTryAddToStageBudget) \
 	{ \
 		P_GET_PROPERTY(UIntProperty,Z_Param_itemValue_); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->AddToStageBudget(Z_Param_itemValue_); \
+		*(bool*)Z_Param__Result=P_THIS->TryAddToStageBudget(Z_Param_itemValue_); \
 		P_NATIVE_END; \
 	} \
  \
@@ -136,12 +136,12 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execAddToStageBudget) \
+	DECLARE_FUNCTION(execTryAddToStageBudget) \
 	{ \
 		P_GET_PROPERTY(UIntProperty,Z_Param_itemValue_); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->AddToStageBudget(Z_Param_itemValue_); \
+		*(bool*)Z_Param__Result=P_THIS->TryAddToStageBudget(Z_Param_itemValue_); \
 		P_NATIVE_END; \
 	} \
  \
