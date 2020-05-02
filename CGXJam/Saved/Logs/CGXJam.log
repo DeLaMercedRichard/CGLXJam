@@ -1,4 +1,6 @@
-﻿Log file open, 05/02/20 11:47:04
+
+﻿Log file open, 05/02/20 10:24:29
+
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +11,9 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: CGXJam
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 17 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.490192
+
+LogStats: Stats thread started at 9.531436
+
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -107,7 +111,9 @@ Creating makefile for CGXJamEditor (no existing makefile)
 @progress push 5%
 Parsing headers for CGXJamEditor
   Running UnrealHeaderTool "C:\Users\Delam\OneDrive\Documents\GitHub\CGLXJam\CGXJam\CGXJam.uproject" "C:\Users\Delam\OneDrive\Documents\GitHub\CGLXJam\CGXJam\Intermediate\Build\Win64\CGXJamEditor\Development\CGXJamEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-Reflection code generated for CGXJamEditor in 39.4436001 seconds
+
+Reflection code generated for CGXJamEditor in 44.9000325 seconds
+
 @progress pop
 Building CGXJamEditor...
 Using Visual Studio 2017 14.16.27026 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
@@ -139,8 +145,13 @@ Building 12 actions with 6 processes...
      Creating library C:\Users\Delam\OneDrive\Documents\GitHub\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\UE4Editor-CGXJam.suppressed.lib and object C:\Users\Delam\OneDrive\Documents\GitHub\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\UE4Editor-CGXJam.suppressed.exp
   @progress 'Compiling C++ source code...' 100%
   [12/12] CGXJamEditor.target
+
 Total time in Parallel executor: 72.31 seconds
 Total execution time: 118.38 seconds
+
+Total time in Parallel executor: 79.44 seconds
+Total execution time: 129.87 seconds
+
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.1.1
@@ -204,6 +215,7 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+
 [2020.05.02-15.49.09:710][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2020.05.02-15.49.09:710][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
 [2020.05.02-15.49.09:712][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Config/Windows/Engine.ini]
@@ -653,3 +665,619 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.02-15.52.04:026][360]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
 [2020.05.02-15.52.04:392][360]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
 [2020.05.02-15.52.04:586][360]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+
+[2020.05.02-14.26.47:552][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.05.02-14.26.47:552][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.05.02-14.26.47:553][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Config/Windows/Engine.ini]
+[2020.05.02-14.26.47:553][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.05.02-14.26.47:553][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Config/Windows/Engine.ini]
+[2020.05.02-14.26.47:553][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Config/Windows/Engine.ini]
+[2020.05.02-14.26.47:553][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.05.02-14.26.47:553][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.05.02-14.26.47:553][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.05.02-14.26.47:553][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.05.02-14.26.47:553][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.05.02-14.26.47:553][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.05.02-14.26.47:553][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.05.02-14.26.47:553][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.05.02-14.26.47:553][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.05.02-14.26.47:553][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.05.02-14.26.47:553][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.05.02-14.26.47:553][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.05.02-14.26.47:553][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.05.02-14.26.47:553][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.05.02-14.26.47:553][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Config/Windows/Engine.ini]
+[2020.05.02-14.26.47:553][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.05.02-14.26.47:553][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.05.02-14.26.47:553][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.05.02-14.26.47:553][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.05.02-14.26.47:554][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.05.02-14.26.47:554][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.05.02-14.26.47:554][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.05.02-14.26.47:554][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.05.02-14.26.47:554][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.05.02-14.26.47:554][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.05.02-14.26.47:554][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.05.02-14.26.47:554][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.05.02-14.26.47:554][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.05.02-14.26.47:554][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Config/Windows/Engine.ini]
+[2020.05.02-14.26.47:554][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Config/Windows/Engine.ini]
+[2020.05.02-14.26.47:771][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Config/Windows/Scalability.ini]
+[2020.05.02-14.26.47:771][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.02-14.26.47:771][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.05.02-14.26.47:771][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Config/Windows/Scalability.ini]
+[2020.05.02-14.26.47:771][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.05.02-14.26.47:771][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Config/Windows/Scalability.ini]
+[2020.05.02-14.26.47:771][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.02-14.26.47:771][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.05.02-14.26.47:771][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.05.02-14.26.47:771][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.05.02-14.26.47:771][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.05.02-14.26.47:771][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.05.02-14.26.47:771][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.05.02-14.26.47:771][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.05.02-14.26.47:771][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.05.02-14.26.47:771][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.05.02-14.26.47:772][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.05.02-14.26.47:772][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.05.02-14.26.47:772][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.05.02-14.26.47:772][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.05.02-14.26.47:772][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.05.02-14.26.47:772][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.05.02-14.26.47:772][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.05.02-14.26.47:772][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.02-14.26.47:772][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Config/Windows/Scalability.ini]
+[2020.05.02-14.26.47:772][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.05.02-14.26.47:772][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.05.02-14.26.47:772][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.05.02-14.26.47:772][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.02-14.26.47:772][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.05.02-14.26.47:772][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.05.02-14.26.47:772][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.05.02-14.26.47:772][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.05.02-14.26.47:772][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.05.02-14.26.47:772][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.05.02-14.26.47:772][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.05.02-14.26.47:772][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.05.02-14.26.47:772][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.05.02-14.26.47:772][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.05.02-14.26.47:772][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.05.02-14.26.47:772][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.05.02-14.26.47:773][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.05.02-14.26.47:773][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.05.02-14.26.47:773][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.05.02-14.26.47:773][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.05.02-14.26.47:773][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.05.02-14.26.47:773][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.05.02-14.26.47:773][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.05.02-14.26.47:773][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.05.02-14.26.47:773][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.05.02-14.26.47:773][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.05.02-14.26.47:773][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.05.02-14.26.47:773][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.05.02-14.26.47:773][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.05.02-14.26.47:773][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.05.02-14.26.47:773][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Config/Windows/Scalability.ini]
+[2020.05.02-14.26.47:773][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.05.02-14.26.47:773][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.02-14.26.47:773][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.02-14.26.47:773][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.02-14.26.47:773][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.05.02-14.26.47:773][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.05.02-14.26.47:773][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.05.02-14.26.47:773][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.05.02-14.26.47:773][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.02-14.26.47:773][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Config/Windows/Scalability.ini]
+[2020.05.02-14.26.47:773][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.05.02-14.26.47:773][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.05.02-14.26.47:773][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.05.02-14.26.47:773][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.05.02-14.26.47:773][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.05.02-14.26.47:774][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.05.02-14.26.47:774][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.05.02-14.26.47:774][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.05.02-14.26.47:774][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.05.02-14.26.47:774][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.05.02-14.26.47:774][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.05.02-14.26.47:774][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.05.02-14.26.47:774][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.05.02-14.26.47:774][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.05.02-14.26.47:774][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.05.02-14.26.47:774][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.05.02-14.26.47:774][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.05.02-14.26.47:774][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.05.02-14.26.47:774][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.05.02-14.26.47:774][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.05.02-14.26.47:774][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.05.02-14.26.47:774][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.05.02-14.26.47:774][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.05.02-14.26.47:774][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.05.02-14.26.47:774][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.05.02-14.26.47:774][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.05.02-14.26.47:774][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Config/Windows/Scalability.ini]
+[2020.05.02-14.26.47:774][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.05.02-14.26.47:774][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.05.02-14.26.47:774][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Config/Windows/Scalability.ini]
+[2020.05.02-14.26.47:774][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.05.02-14.26.47:774][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.05.02-14.26.47:774][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.05.02-14.26.47:808][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.02-14.26.47:829][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.05.02-14.26.48:026][  0]LogHAL: Display: Platform has ~ 8 GB [8546504704 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.05.02-14.26.48:026][  0]LogInit: Going up to parent DeviceProfile []
+[2020.05.02-14.26.48:026][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@1] File [C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Config/Windows/Scalability.ini]
+[2020.05.02-14.26.48:026][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:1]]
+[2020.05.02-14.26.48:026][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.6]]
+[2020.05.02-14.26.48:026][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@1] File [C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Config/Windows/Scalability.ini]
+[2020.05.02-14.26.48:026][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:2]]
+[2020.05.02-14.26.48:027][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Config/Windows/Scalability.ini]
+[2020.05.02-14.26.48:027][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.02-14.26.48:027][  0]LogConfig: Setting CVar [[r.ShadowQuality:3]]
+[2020.05.02-14.26.48:027][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2020.05.02-14.26.48:027][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2020.05.02-14.26.48:027][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:1024]]
+[2020.05.02-14.26.48:027][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.05]]
+[2020.05.02-14.26.48:027][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.7]]
+[2020.05.02-14.26.48:027][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.25]]
+[2020.05.02-14.26.48:027][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2020.05.02-14.26.48:027][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2020.05.02-14.26.48:027][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2020.05.02-14.26.48:027][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2020.05.02-14.26.48:027][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:.5]]
+[2020.05.02-14.26.48:027][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.02-14.26.48:027][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@1] File [C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Config/Windows/Scalability.ini]
+[2020.05.02-14.26.48:027][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2020.05.02-14.26.48:027][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2020.05.02-14.26.48:027][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:60]]
+[2020.05.02-14.26.48:027][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.02-14.26.48:027][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2020.05.02-14.26.48:027][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:1]]
+[2020.05.02-14.26.48:027][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:350]]
+[2020.05.02-14.26.48:027][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2020.05.02-14.26.48:027][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2020.05.02-14.26.48:027][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2020.05.02-14.26.48:027][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2020.05.02-14.26.48:027][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:2]]
+[2020.05.02-14.26.48:027][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2020.05.02-14.26.48:027][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2020.05.02-14.26.48:027][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2020.05.02-14.26.48:027][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.7]]
+[2020.05.02-14.26.48:028][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:2]]
+[2020.05.02-14.26.48:028][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2020.05.02-14.26.48:028][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2020.05.02-14.26.48:028][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.05.02-14.26.48:028][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:3                 ; low number of samples when gathering]]
+[2020.05.02-14.26.48:028][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:0    ; no foreground scattering]]
+[2020.05.02-14.26.48:028][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:0    ; no foreground scattering]]
+[2020.05.02-14.26.48:028][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2020.05.02-14.26.48:028][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2020.05.02-14.26.48:028][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2020.05.02-14.26.48:028][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2020.05.02-14.26.48:028][  0]LogConfig: Applying CVar settings from Section [TextureQuality@1] File [C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Config/Windows/Scalability.ini]
+[2020.05.02-14.26.48:028][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:1]]
+[2020.05.02-14.26.48:028][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.02-14.26.48:028][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.02-14.26.48:028][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.02-14.26.48:028][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:2]]
+[2020.05.02-14.26.48:028][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
+[2020.05.02-14.26.48:028][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2020.05.02-14.26.48:028][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:600]]
+[2020.05.02-14.26.48:028][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.02-14.26.48:028][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Config/Windows/Scalability.ini]
+[2020.05.02-14.26.48:028][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:32]]
+[2020.05.02-14.26.48:028][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2020.05.02-14.26.48:028][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2020.05.02-14.26.48:028][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2020.05.02-14.26.48:028][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2020.05.02-14.26.48:028][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2020.05.02-14.26.48:028][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2020.05.02-14.26.48:028][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
+[2020.05.02-14.26.48:029][  0]LogConfig: Setting CVar [[r.SSS.Scale:0.75]]
+[2020.05.02-14.26.48:029][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2020.05.02-14.26.48:029][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2020.05.02-14.26.48:029][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.05.02-14.26.48:029][  0]LogConfig: Setting CVar [[r.SSGI.Quality:1]]
+[2020.05.02-14.26.48:029][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.25]]
+[2020.05.02-14.26.48:029][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2020.05.02-14.26.48:029][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.05.02-14.26.48:029][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.05.02-14.26.48:029][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.05.02-14.26.48:029][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.05.02-14.26.48:029][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.05.02-14.26.48:029][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.05.02-14.26.48:029][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.05.02-14.26.48:029][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.05.02-14.26.48:029][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.05.02-14.26.48:029][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.05.02-14.26.48:029][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.05.02-14.26.48:029][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@1] File [C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Config/Windows/Scalability.ini]
+[2020.05.02-14.26.48:029][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.4]]
+[2020.05.02-14.26.48:029][  0]LogConfig: Setting CVar [[grass.DensityScale:0.4]]
+[2020.05.02-14.26.48:029][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Config/Windows/Scalability.ini]
+[2020.05.02-14.26.48:029][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.05.02-14.26.48:029][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.05.02-14.26.48:029][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.05.02-14.26.48:029][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.05.02-14.26.48:045][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.05.02-14.26.48:045][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.05.02-14.26.48:045][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Config/Windows/Engine.ini]
+[2020.05.02-14.26.48:143][  0]LogInit: Computer: DESKTOP-M25UTED
+[2020.05.02-14.26.48:143][  0]LogInit: User: Delam
+[2020.05.02-14.26.48:143][  0]LogInit: CPU Page size=4096, Cores=3
+[2020.05.02-14.26.48:143][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.05.02-14.26.48:173][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2020.05.02-14.26.48:175][  0]LogMemory: Platform Memory Stats for Windows
+[2020.05.02-14.26.48:175][  0]LogMemory: Process Physical Memory: 110.14 MB used, 110.14 MB peak
+[2020.05.02-14.26.48:175][  0]LogMemory: Process Virtual Memory: 102.41 MB used, 102.41 MB peak
+[2020.05.02-14.26.48:175][  0]LogMemory: Physical Memory: 5626.52 MB used,  2524.07 MB free, 8150.58 MB total
+[2020.05.02-14.26.48:175][  0]LogMemory: Virtual Memory: 5165.02 MB used,  134212560.00 MB free, 134217728.00 MB total
+[2020.05.02-14.26.48:365][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.05.02-14.26.49:397][  0]LogInit: Using OS detected language (en-US).
+[2020.05.02-14.26.49:397][  0]LogInit: Using OS detected locale (en-US).
+[2020.05.02-14.26.49:460][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.05.02-14.26.50:802][  0]LogInit: Setting process to per monitor DPI aware
+[2020.05.02-14.26.52:110][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.05.02-14.26.52:110][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.05.02-14.26.55:854][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.05.02-14.26.55:854][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.05.02-14.26.55:854][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.05.02-14.26.55:854][  0]LogD3D11RHI: D3D11 adapters:
+[2020.05.02-14.26.56:279][  0]LogD3D11RHI:    0. 'Radeon(TM) RX 460 Graphics' (Feature Level 11_0)
+[2020.05.02-14.26.56:279][  0]LogD3D11RHI:       4041/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2020.05.02-14.26.56:319][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.05.02-14.26.56:319][  0]LogD3D11RHI:       0/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.05.02-14.26.56:319][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.05.02-14.26.56:350][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.05.02-14.26.56:351][  0]LogD3D11RHI:     GPU DeviceId: 0x67ef (for the marketing name, search the web for "GPU Device Id")
+[2020.05.02-14.26.56:351][  0]LogWindows: EnumDisplayDevices:
+[2020.05.02-14.26.56:351][  0]LogWindows:    0. 'Radeon(TM) RX 460 Graphics' (P:1 D:1)
+[2020.05.02-14.26.56:352][  0]LogWindows:    1. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
+[2020.05.02-14.26.56:353][  0]LogWindows:    2. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
+[2020.05.02-14.26.56:354][  0]LogWindows:    3. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
+[2020.05.02-14.26.56:355][  0]LogWindows:    4. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
+[2020.05.02-14.26.56:355][  0]LogWindows:    5. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
+[2020.05.02-14.26.56:356][  0]LogWindows:    6. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
+[2020.05.02-14.26.56:357][  0]LogWindows: DebugString: FoundDriverCount:7 
+[2020.05.02-14.26.56:357][  0]LogD3D11RHI:     Adapter Name: Radeon(TM) RX 460 Graphics
+[2020.05.02-14.26.56:357][  0]LogD3D11RHI:   Driver Version: Adrenalin 19.20 (internal:26.20.12028.2, unified:26.20.12028.2)
+[2020.05.02-14.26.56:357][  0]LogD3D11RHI:      Driver Date: 8-16-2019
+[2020.05.02-14.26.56:357][  0]LogRHI: Texture pool is 2828 MB (70% of 4041 MB)
+[2020.05.02-14.26.56:773][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.05.02-14.26.56:773][  0]LogD3D11RHI: Async texture creation enabled
+[2020.05.02-14.26.57:329][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2020.05.02-14.26.58:244][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.05.02-14.26.58:350][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.05.02-14.26.58:350][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.05.02-14.26.58:350][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.05.02-14.26.58:350][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.05.02-14.26.58:350][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.05.02-14.26.58:350][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.05.02-14.26.58:350][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.05.02-14.26.58:350][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.05.02-14.26.58:350][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.05.02-14.26.58:350][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.05.02-14.26.58:350][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.05.02-14.26.58:350][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.05.02-14.26.58:350][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.05.02-14.26.58:350][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.05.02-14.26.58:350][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.05.02-14.26.58:350][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.05.02-14.26.58:350][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.05.02-14.26.58:350][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.05.02-14.26.58:490][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.05.02-14.26.58:490][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.05.02-14.26.58:557][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.05.02-14.26.58:589][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.05.02-14.26.58:615][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.05.02-14.26.58:647][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.05.02-14.26.58:676][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.05.02-14.26.58:732][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.05.02-14.26.58:790][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.05.02-14.26.58:790][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.05.02-14.26.58:825][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.05.02-14.26.58:825][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.05.02-14.26.58:857][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.05.02-14.26.58:882][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.05.02-14.26.58:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.05.02-14.26.58:932][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.05.02-14.26.58:932][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.05.02-14.26.59:140][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.05.02-14.27.00:383][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Intermediate/Shaders/WorkingDirectory/12720/).
+[2020.05.02-14.27.00:384][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Delam/AppData/Local/Temp/UnrealShaderWorkingDir/112A048F45F33995A7BFB9AD93B7F147/'.
+[2020.05.02-14.27.00:395][  0]LogXGEController: Cleaning working directory: C:/Users/Delam/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.05.02-14.27.00:396][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.05.02-14.27.00:396][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.05.02-14.27.00:396][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.05.02-14.27.08:914][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.05.02-14.27.09:835][  0]LogDerivedDataCache: Loaded boot cache 0.91s 82MB C:/Users/Delam/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.05.02-14.27.09:835][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Delam/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.05.02-14.27.09:835][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.05.02-14.27.09:835][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.05.02-14.27.09:835][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.02-14.27.09:835][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.05.02-14.27.09:972][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.05.02-14.27.09:973][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.02-14.27.09:973][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.05.02-14.27.09:999][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Delam/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.05.02-14.27.09:999][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.05.02-14.27.09:999][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.05.02-14.27.10:241][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.05.02-14.27.10:377][  0]LogSlate: Using FreeType 2.10.0
+[2020.05.02-14.27.10:645][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.05.02-14.27.12:260][  0]LogAssetRegistry: FAssetRegistry took 0.0340 seconds to start up
+[2020.05.02-14.27.30:801][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.02-14.27.36:273][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.05.02-14.27.36:274][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.05.02-14.27.36:274][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.05.02-14.27.36:274][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.05.02-14.27.36:274][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.05.02-14.27.37:407][  0]LogNetVersion: CGXJam 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2130632310)
+[2020.05.02-14.28.27:598][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.349641 seconds
+[2020.05.02-14.28.27:684][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.05.02-14.28.27:684][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.05.02-14.28.27:684][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.05.02-14.28.33:677][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.05.02-14.28.33:715][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.05.02-14.28.37:194][  0]SourceControl: Source control is disabled
+[2020.05.02-14.28.37:208][  0]SourceControl: Source control is disabled
+[2020.05.02-14.28.37:659][  0]SourceControl: Source control is disabled
+[2020.05.02-14.28.37:677][  0]SourceControl: Source control is disabled
+[2020.05.02-14.28.37:743][  0]SourceControl: Source control is disabled
+[2020.05.02-14.28.39:592][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.05.02-14.28.39:889][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.02-14.28.39:889][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.02-14.28.40:593][  0]LogOcInput: OculusInput pre-init called
+[2020.05.02-14.28.40:702][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.05.02-14.28.40:702][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.05.02-14.28.42:132][  0]LogEngine: Initializing Engine...
+[2020.05.02-14.28.42:149][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.05.02-14.28.42:183][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.018 s
+[2020.05.02-14.28.43:169][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.05.02-14.28.44:180][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.05.02-14.28.44:566][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.02-14.28.44:567][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.02-14.28.44:567][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.02-14.28.44:567][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.02-14.28.44:567][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.02-14.28.44:567][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.02-14.28.44:567][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.02-14.28.44:567][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.02-14.28.44:592][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.02-14.28.44:593][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.02-14.28.44:698][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.02-14.28.44:698][  0]LogAudioMixer: Display: Name: Speakers (2- Sennheiser USB headset)
+[2020.05.02-14.28.44:698][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.05.02-14.28.44:698][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.02-14.28.44:698][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.02-14.28.44:699][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.02-14.28.44:699][  0]LogAudioMixer: Display: Channel Order:
+[2020.05.02-14.28.44:699][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.02-14.28.44:699][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.05.02-14.28.44:816][  0]LogAudioMixer: Display: Using Audio Device Speakers (2- Sennheiser USB headset)
+[2020.05.02-14.28.44:883][  0]LogInit: FAudioDevice initialized.
+[2020.05.02-14.28.44:912][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.05.02-14.28.45:170][  0]LogDerivedDataCache: Saved boot cache 0.26s 82MB C:/Users/Delam/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.05.02-14.28.45:198][  0]LogInit: Texture streaming: Enabled
+[2020.05.02-14.28.45:478][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.05.02-14.28.45:496][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={CBE8FE23-46B6-CDE8-1011-37A2D418A5B3}
+[2020.05.02-14.28.45:512][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.05.02-14.28.45:532][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.05.02-14.28.46:762][  0]LogInit: Transaction tracking system initialized
+[2020.05.02-14.28.49:837][  0]BlueprintLog: New page: Editor Load
+[2020.05.02-14.28.55:837][  0]LocalizationService: Localization service is disabled
+[2020.05.02-14.29.08:525][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/' took 0.16s
+[2020.05.02-14.29.08:525][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.05.02-14.29.08:525][  0]LogCook: Display: Mobile HDR setting 1
+[2020.05.02-14.29.24:497][  0]SourceControl: Source control is disabled
+[2020.05.02-14.29.24:753][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.05.02-14.29.24:817][  0]LightingResults: New page: Lighting Build
+[2020.05.02-14.29.25:391][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.05.02-14.29.25:482][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-14.29.25:648][  0]MapCheck: New page: Map Check
+[2020.05.02-14.29.25:649][  0]LightingResults: New page: Lighting Build
+[2020.05.02-14.29.28:325][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.80ms
+[2020.05.02-14.29.32:268][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.05.02-14.29.36:446][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.05.02-14.29.37:162][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
+[2020.05.02-14.29.37:209][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.05.02-14.29.37:286][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 29.744ms to complete.
+[2020.05.02-14.29.37:322][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 12.615
+[2020.05.02-14.29.46:727][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.02-14.29.46:767][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.02-14.29.46:777][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.02-14.29.46:787][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.02-14.29.47:677][  0]LogCollectionManager: Loaded 0 collections in 0.003827 seconds
+[2020.05.02-14.29.48:459][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Collections/' took 0.00s
+[2020.05.02-14.29.48:459][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/Developers/Delam/Collections/' took 0.00s
+[2020.05.02-14.29.48:459][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/Collections/' took 0.00s
+[2020.05.02-14.29.48:459][  0]LogContentBrowser: Native class hierarchy populated in 0.1468 seconds. Added 3018 classes and 719 folders.
+[2020.05.02-14.29.49:025][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.05.02-14.29.56:510][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2020.05.02-14.29.57:010][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 2 classes and 3 folders.
+[2020.05.02-14.30.16:273][  0]LogSlate: Took 0.053576 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.05.02-14.30.16:677][  0]LogSlate: Took 0.095714 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.05.02-14.30.17:107][  0]LogSlate: Took 0.040561 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.05.02-14.30.20:080][  0]LogRenderer: Reallocating scene render targets to support 1056x556 Format 9 NumSamples 1 (Frame:1).
+[2020.05.02-14.30.24:898][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2020.05.02-14.30.24:900][  0]LogLoad: (Engine Initialization) Total time: 390.93 seconds
+[2020.05.02-14.30.24:900][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.05.02-14.30.25:589][  0]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall9)
+[2020.05.02-14.30.28:999][  0]LogContentStreaming: Texture pool size now 600 MB
+[2020.05.02-14.30.29:843][  0]LogSlate: Took 0.034985 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.05.02-14.30.31:647][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/' took 3.72s
+[2020.05.02-14.30.33:044][  3]LogAssetRegistry: Asset discovery search completed in 200.8075 seconds
+[2020.05.02-14.30.33:096][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000731 seconds (updated 0 objects)
+[2020.05.02-14.30.33:600][  4]LogSlate: Took 0.000289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.05.02-14.30.44:831][801]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.02-14.30.45:014][801]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.05.02-14.30.45:354][801]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.02-14.30.45:674][801]PIE: New page: PIE session: ThirdPersonExampleMap (May 2, 2020, 6:30:45 AM)
+[2020.05.02-14.30.45:972][801]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.05.02-14.30.46:006][801]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.05.02-14.30.46:127][801]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.05.02-14.30.46:411][801]LogPlayLevel: PIE: StaticDuplicateObject took: (0.282521s)
+[2020.05.02-14.30.46:425][801]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.05.02-14.30.46:449][801]LogPlayLevel: PIE: World Init took: (0.038304s)
+[2020.05.02-14.30.46:533][801]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.405628s)
+[2020.05.02-14.30.46:672][801]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2020.05.02-14.30.46:844][801]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.02-14.30.46:844][801]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.02-14.30.46:844][801]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.02-14.30.46:844][801]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.02-14.30.46:844][801]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.02-14.30.46:844][801]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.02-14.30.46:844][801]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.02-14.30.46:844][801]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.02-14.30.46:845][801]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.02-14.30.46:845][801]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.02-14.30.46:883][801]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.02-14.30.46:883][801]LogAudioMixer: Display: Name: Speakers (2- Sennheiser USB headset)
+[2020.05.02-14.30.46:883][801]LogAudioMixer: Display: Is Default: Yes
+[2020.05.02-14.30.46:883][801]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.02-14.30.46:883][801]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.02-14.30.46:884][801]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.02-14.30.46:884][801]LogAudioMixer: Display: Channel Order:
+[2020.05.02-14.30.46:884][801]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.02-14.30.46:884][801]LogAudioMixer: Display: 1: FrontRight
+[2020.05.02-14.30.46:951][801]LogAudioMixer: Display: Using Audio Device Speakers (2- Sennheiser USB headset)
+[2020.05.02-14.30.47:036][801]LogInit: FAudioDevice initialized.
+[2020.05.02-14.30.47:220][801]LogLoad: Game class is 'CGXJamGameMode'
+[2020.05.02-14.30.47:755][801]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.05.02-10.30.47
+[2020.05.02-14.30.47:895][801]LogWorld: Bringing up level for play took: 0.219190
+[2020.05.02-14.30.47:931][801]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.05.02-14.30.49:003][801]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0074 seconds. Added 20 classes and 0 folders.
+[2020.05.02-14.30.49:611][801]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 3.743
+[2020.05.02-14.30.49:611][801]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.05.02-14.31.07:332][629]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.02-14.31.07:332][629]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.02-14.31.07:361][629]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.05.02-14.31.08:462][629]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.02-14.31.08:462][629]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.05.02-14.31.08:714][629]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.02-14.31.08:859][629]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.02-14.31.08:962][629]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-14.31.09:177][629]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.02-14.31.09:197][629]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.05.02-14.31.09:288][629]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-14.31.09:524][629]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.02-14.31.09:773][629]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.02-14.31.10:217][629]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2020.05.02-14.31.10:603][630]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.05.02-14.33.56:267][379]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BuildingSystem/BluePrints/BP_MasterBuildingStatManager.BP_MasterBuildingStatManager
+[2020.05.02-14.33.57:133][379]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 121 classes and 0 folders.
+[2020.05.02-14.33.59:745][379]LogSlate: Took 0.012227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.05.02-14.34.06:619][824]LogSlate: Took 0.013576 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.05.02-14.34.15:284][447]LogSlate: Window 'BP_MasterBuildingStatManager' being destroyed
+[2020.05.02-14.34.15:405][447]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.05.02-14.34.15:405][447]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-14.34.16:795][545]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BuildingSystem/BluePrints/BP_Building_Manager.BP_Building_Manager
+[2020.05.02-14.34.20:190][762]LogSlate: Window 'BP_Building_Manager' being destroyed
+[2020.05.02-14.34.20:214][762]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.05.02-14.34.20:215][762]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-14.34.27:024][416]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BuildingSystem/BluePrints/BP_PlayerStats.BP_PlayerStats
+[2020.05.02-14.34.36:293][ 85]LogSlate: Window 'BP_PlayerStats' being destroyed
+[2020.05.02-14.34.36:315][ 85]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.05.02-14.34.36:315][ 85]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-14.35.28:864][745]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.02-14.35.28:877][745]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.05.02-14.35.28:877][745]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.02-14.35.28:877][745]PIE: New page: PIE session: ThirdPersonExampleMap (May 2, 2020, 6:35:28 AM)
+[2020.05.02-14.35.28:877][745]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.05.02-14.35.28:898][745]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020849s)
+[2020.05.02-14.35.28:901][745]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.05.02-14.35.28:901][745]LogPlayLevel: PIE: World Init took: (0.002456s)
+[2020.05.02-14.35.28:901][745]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023583s)
+[2020.05.02-14.35.29:058][745]LogUObjectHash: Compacting FUObjectHashTables data took   7.16ms
+[2020.05.02-14.35.29:066][745]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.02-14.35.29:066][745]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.02-14.35.29:066][745]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.02-14.35.29:066][745]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.02-14.35.29:066][745]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.02-14.35.29:066][745]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.02-14.35.29:066][745]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.02-14.35.29:066][745]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.02-14.35.29:067][745]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.02-14.35.29:067][745]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.02-14.35.29:101][745]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.02-14.35.29:101][745]LogAudioMixer: Display: Name: Speakers (2- Sennheiser USB headset)
+[2020.05.02-14.35.29:101][745]LogAudioMixer: Display: Is Default: Yes
+[2020.05.02-14.35.29:101][745]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.02-14.35.29:101][745]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.02-14.35.29:101][745]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.02-14.35.29:101][745]LogAudioMixer: Display: Channel Order:
+[2020.05.02-14.35.29:101][745]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.02-14.35.29:101][745]LogAudioMixer: Display: 1: FrontRight
+[2020.05.02-14.35.29:128][745]LogAudioMixer: Display: Using Audio Device Speakers (2- Sennheiser USB headset)
+[2020.05.02-14.35.29:131][745]LogInit: FAudioDevice initialized.
+[2020.05.02-14.35.29:165][745]LogLoad: Game class is 'CGXJamGameMode'
+[2020.05.02-14.35.29:168][745]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.05.02-10.35.29
+[2020.05.02-14.35.29:168][745]LogWorld: Bringing up level for play took: 0.002424
+[2020.05.02-14.35.29:169][745]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.05.02-14.35.29:181][745]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.686
+[2020.05.02-14.35.29:181][745]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.05.02-14.35.43:086][366]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.02-14.35.43:086][366]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.02-14.35.43:086][366]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.05.02-14.35.43:087][366]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.02-14.35.43:087][366]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.05.02-14.35.43:087][366]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.02-14.35.43:087][366]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.02-14.35.43:088][366]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-14.35.43:097][366]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.02-14.35.43:098][366]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.05.02-14.35.43:104][366]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-14.35.43:189][366]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.02-14.35.43:195][366]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.02-14.35.43:203][366]LogUObjectHash: Compacting FUObjectHashTables data took   6.19ms
+[2020.05.02-14.35.43:228][367]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.05.02-14.35.52:496][291]LogMaterial: Display: Missing cached shader map for material M_GhostTile, compiling. 
+[2020.05.02-14.35.52:885][291]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 31
+[2020.05.02-14.35.52:885][291]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 21
+[2020.05.02-14.36.05:605][ 60]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 11
+[2020.05.02-14.36.07:059][159]Cmd: DELETE
+[2020.05.02-14.36.07:059][159]Cmd: ACTOR DELETE
+[2020.05.02-14.36.07:497][159]LogEditorActor: Deleted Actor: BP_Master_Tile_C
+[2020.05.02-14.36.07:599][159]LogUObjectHash: Compacting FUObjectHashTables data took   8.53ms
+[2020.05.02-14.36.07:608][159]LogEditorActor: Deleted 1 Actors (0.147 secs)
+[2020.05.02-14.36.10:533][311]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.05.02-14.36.10:732][325]Cmd: DELETE
+[2020.05.02-14.36.10:732][325]Cmd: ACTOR DELETE
+[2020.05.02-14.36.10:736][325]LogEditorActor: Deleted Actor: Tile_Stair_C
+[2020.05.02-14.36.10:850][325]LogUObjectHash: Compacting FUObjectHashTables data took   6.21ms
+[2020.05.02-14.36.10:851][325]LogEditorActor: Deleted 1 Actors (0.119 secs)
+[2020.05.02-14.36.14:000][417]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2020.05.02-14.37.09:544][715]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BuildingSystem/BluePrints/BP_Building_Manager.BP_Building_Manager
+[2020.05.02-14.37.15:721][140]LogSlate: Window 'BP_Building_Manager' being destroyed
+[2020.05.02-14.37.15:737][140]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.05.02-14.37.15:737][140]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-14.37.32:166][682]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/BuildingSystem/Widgets/W_StatBar.W_StatBar
+[2020.05.02-14.37.38:358][949]LogSlate: Window 'W_StatBar' being destroyed
+[2020.05.02-14.37.38:643][949]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.05.02-14.37.38:643][949]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-14.37.38:658][949]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.05.02-14.37.38:658][949]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-14.37.39:967][ 57]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/BuildingSystem/Widgets/W_Main.W_Main
+[2020.05.02-14.38.05:495][ 20]LogSlate: Window 'W_Main' being destroyed
+[2020.05.02-14.38.05:512][ 20]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.05.02-14.38.05:512][ 20]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-14.38.05:540][ 20]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.05.02-14.38.05:540][ 20]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-14.38.06:905][136]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/BuildingSystem/Widgets/W_StatBar.W_StatBar
+[2020.05.02-14.38.34:317][591]LogSlate: Window 'W_StatBar' being destroyed
+[2020.05.02-14.38.34:341][591]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2020.05.02-14.38.34:341][591]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-14.38.34:362][591]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.05.02-14.38.34:362][591]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-14.38.41:614][320]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/BuildingSystem/Widgets/W_Main.W_Main
+[2020.05.02-14.39.04:992][232]LogSlate: Window 'W_Main' being destroyed
+[2020.05.02-14.40.18:990][725]LogUObjectHash: Compacting FUObjectHashTables data took   9.40ms
+[2020.05.02-14.40.20:978][725]LogSlate: Window 'Save Content' being destroyed
+[2020.05.02-14.40.21:279][725]LogSlate: Window 'CGXJam - Unreal Editor' being destroyed
+[2020.05.02-14.40.22:021][725]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2020.05.02-14.40.22:021][725]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-14.40.22:029][725]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.05.02-14.40.22:029][725]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-14.40.23:023][726]Cmd: QUIT_EDITOR
+[2020.05.02-14.40.23:023][726]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.05.02-14.40.23:160][726]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.05.02-14.40.23:296][726]LogAudioMixer: Display: No commands were queued while flushing the source manager.
