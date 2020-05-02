@@ -21,10 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeCGXJam_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-
 				0xBB3A13DC,
 				0x5737E95F,
-
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
