@@ -1,0 +1,3 @@
+C:\Users\Brand\Desktop\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\Definitions.CGXJam.h
+E:\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+E:\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
