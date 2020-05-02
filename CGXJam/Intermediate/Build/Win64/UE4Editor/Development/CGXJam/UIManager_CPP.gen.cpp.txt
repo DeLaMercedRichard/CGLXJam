@@ -1,0 +1,5 @@
+C:\Users\Delam\OneDrive\Documents\GitHub\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\Definitions.CGXJam.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\Delam\OneDrive\Documents\GitHub\CGLXJam\CGXJam\Source\CGXJam/UIManager_CPP.h
+c:\users\delam\onedrive\documents\github\cglxjam\cgxjam\intermediate\build\win64\ue4editor\inc\cgxjam\UIManager_CPP.generated.h
