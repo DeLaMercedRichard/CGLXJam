@@ -32,6 +32,7 @@
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
+
 "C:\Users\Delam\OneDrive\Documents\GitHub\CGLXJam\CGXJam\Intermediate\Build\Win64\CGXJamEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
 "C:\Users\Delam\OneDrive\Documents\GitHub\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\CGXJam.cpp.obj"
 "C:\Users\Delam\OneDrive\Documents\GitHub\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\CGXJamCharacter.cpp.obj"
@@ -42,6 +43,7 @@
 "C:\Users\Delam\OneDrive\Documents\GitHub\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\CGXJamGameMode.gen.cpp.obj"
 "C:\Users\Delam\OneDrive\Documents\GitHub\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\UIManager_CPP.gen.cpp.obj"
 "C:\Users\Delam\OneDrive\Documents\GitHub\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\Default.rc2.res"
+
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"
@@ -66,6 +68,7 @@
 "setupapi.lib"
 "dwmapi.lib"
 "imm32.lib"
+
 "C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
 "C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
 "C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
@@ -74,5 +77,6 @@
 /OUT:"C:\Users\Delam\OneDrive\Documents\GitHub\CGLXJam\CGXJam\Binaries\Win64\UE4Editor-CGXJam.dll"
 /IMPLIB:"C:\Users\Delam\OneDrive\Documents\GitHub\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\UE4Editor-CGXJam.suppressed.lib"
 /PDB:"C:\Users\Delam\OneDrive\Documents\GitHub\CGLXJam\CGXJam\Binaries\Win64\UE4Editor-CGXJam.pdb"
+
 /ignore:4078
 /INCLUDE:IMPLEMENT_MODULE_CGXJam
