@@ -17,128 +17,11 @@ void EmptyLinkFunctionForGeneratedCodeCGXJamCharacter() {}
 	CGXJAM_API UClass* Z_Construct_UClass_ACGXJamCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_CGXJam();
-	CGXJAM_API UFunction* Z_Construct_UFunction_ACGXJamCharacter_SelectFloor();
-	CGXJAM_API UFunction* Z_Construct_UFunction_ACGXJamCharacter_SelectJumpPad();
-	CGXJAM_API UFunction* Z_Construct_UFunction_ACGXJamCharacter_SelectStairs();
-	CGXJAM_API UFunction* Z_Construct_UFunction_ACGXJamCharacter_UseBuild();
-	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 // End Cross Module References
-	static FName NAME_ACGXJamCharacter_SelectFloor = FName(TEXT("SelectFloor"));
-	void ACGXJamCharacter::SelectFloor()
-	{
-		ProcessEvent(FindFunctionChecked(NAME_ACGXJamCharacter_SelectFloor),NULL);
-	}
-	static FName NAME_ACGXJamCharacter_SelectJumpPad = FName(TEXT("SelectJumpPad"));
-	void ACGXJamCharacter::SelectJumpPad()
-	{
-		ProcessEvent(FindFunctionChecked(NAME_ACGXJamCharacter_SelectJumpPad),NULL);
-	}
-	static FName NAME_ACGXJamCharacter_SelectStairs = FName(TEXT("SelectStairs"));
-	void ACGXJamCharacter::SelectStairs()
-	{
-		ProcessEvent(FindFunctionChecked(NAME_ACGXJamCharacter_SelectStairs),NULL);
-	}
-	static FName NAME_ACGXJamCharacter_UseBuild = FName(TEXT("UseBuild"));
-	void ACGXJamCharacter::UseBuild()
-	{
-		ProcessEvent(FindFunctionChecked(NAME_ACGXJamCharacter_UseBuild),NULL);
-	}
 	void ACGXJamCharacter::StaticRegisterNativesACGXJamCharacter()
 	{
-	}
-	struct Z_Construct_UFunction_ACGXJamCharacter_SelectFloor_Statics
-	{
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACGXJamCharacter_SelectFloor_Statics::Function_MetaDataParams[] = {
-		{ "Category", "Build" },
-		{ "ModuleRelativePath", "CGXJamCharacter.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ACGXJamCharacter_SelectFloor_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACGXJamCharacter, nullptr, "SelectFloor", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACGXJamCharacter_SelectFloor_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ACGXJamCharacter_SelectFloor_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_ACGXJamCharacter_SelectFloor()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ACGXJamCharacter_SelectFloor_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
-	struct Z_Construct_UFunction_ACGXJamCharacter_SelectJumpPad_Statics
-	{
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACGXJamCharacter_SelectJumpPad_Statics::Function_MetaDataParams[] = {
-		{ "Category", "Build" },
-		{ "ModuleRelativePath", "CGXJamCharacter.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ACGXJamCharacter_SelectJumpPad_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACGXJamCharacter, nullptr, "SelectJumpPad", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACGXJamCharacter_SelectJumpPad_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ACGXJamCharacter_SelectJumpPad_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_ACGXJamCharacter_SelectJumpPad()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ACGXJamCharacter_SelectJumpPad_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
-	struct Z_Construct_UFunction_ACGXJamCharacter_SelectStairs_Statics
-	{
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACGXJamCharacter_SelectStairs_Statics::Function_MetaDataParams[] = {
-		{ "Category", "Build" },
-		{ "ModuleRelativePath", "CGXJamCharacter.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ACGXJamCharacter_SelectStairs_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACGXJamCharacter, nullptr, "SelectStairs", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACGXJamCharacter_SelectStairs_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ACGXJamCharacter_SelectStairs_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_ACGXJamCharacter_SelectStairs()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ACGXJamCharacter_SelectStairs_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
-	struct Z_Construct_UFunction_ACGXJamCharacter_UseBuild_Statics
-	{
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACGXJamCharacter_UseBuild_Statics::Function_MetaDataParams[] = {
-		{ "Category", "Build" },
-		{ "ModuleRelativePath", "CGXJamCharacter.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ACGXJamCharacter_UseBuild_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACGXJamCharacter, nullptr, "UseBuild", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACGXJamCharacter_UseBuild_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ACGXJamCharacter_UseBuild_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_ACGXJamCharacter_UseBuild()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ACGXJamCharacter_UseBuild_Statics::FuncParams);
-		}
-		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_ACGXJamCharacter_NoRegister()
 	{
@@ -147,14 +30,9 @@ void EmptyLinkFunctionForGeneratedCodeCGXJamCharacter() {}
 	struct Z_Construct_UClass_ACGXJamCharacter_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
-		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BuildActor_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BuildActor;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseLookUpRate_MetaData[];
 #endif
@@ -179,12 +57,6 @@ void EmptyLinkFunctionForGeneratedCodeCGXJamCharacter() {}
 		(UObject* (*)())Z_Construct_UClass_ACharacter,
 		(UObject* (*)())Z_Construct_UPackage__Script_CGXJam,
 	};
-	const FClassFunctionLinkInfo Z_Construct_UClass_ACGXJamCharacter_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_ACGXJamCharacter_SelectFloor, "SelectFloor" }, // 865194373
-		{ &Z_Construct_UFunction_ACGXJamCharacter_SelectJumpPad, "SelectJumpPad" }, // 300678728
-		{ &Z_Construct_UFunction_ACGXJamCharacter_SelectStairs, "SelectStairs" }, // 2423728810
-		{ &Z_Construct_UFunction_ACGXJamCharacter_UseBuild, "UseBuild" }, // 85947487
-	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACGXJamCharacter_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Navigation" },
@@ -192,13 +64,6 @@ void EmptyLinkFunctionForGeneratedCodeCGXJamCharacter() {}
 		{ "ModuleRelativePath", "CGXJamCharacter.h" },
 	};
 #endif
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACGXJamCharacter_Statics::NewProp_BuildActor_MetaData[] = {
-		{ "Category", "Build" },
-		{ "ModuleRelativePath", "CGXJamCharacter.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACGXJamCharacter_Statics::NewProp_BuildActor = { "BuildActor", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACGXJamCharacter, BuildActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACGXJamCharacter_Statics::NewProp_BuildActor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACGXJamCharacter_Statics::NewProp_BuildActor_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACGXJamCharacter_Statics::NewProp_BaseLookUpRate_MetaData[] = {
 		{ "Category", "Camera" },
@@ -240,7 +105,6 @@ void EmptyLinkFunctionForGeneratedCodeCGXJamCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACGXJamCharacter_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACGXJamCharacter, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACGXJamCharacter_Statics::NewProp_CameraBoom_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACGXJamCharacter_Statics::NewProp_CameraBoom_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACGXJamCharacter_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACGXJamCharacter_Statics::NewProp_BuildActor,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACGXJamCharacter_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACGXJamCharacter_Statics::NewProp_BaseTurnRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACGXJamCharacter_Statics::NewProp_FollowCamera,
@@ -254,11 +118,11 @@ void EmptyLinkFunctionForGeneratedCodeCGXJamCharacter() {}
 		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		FuncInfo,
+		nullptr,
 		Z_Construct_UClass_ACGXJamCharacter_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		UE_ARRAY_COUNT(FuncInfo),
+		0,
 		UE_ARRAY_COUNT(Z_Construct_UClass_ACGXJamCharacter_Statics::PropPointers),
 		0,
 		0x008000A4u,
@@ -273,7 +137,7 @@ void EmptyLinkFunctionForGeneratedCodeCGXJamCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACGXJamCharacter, 1404780313);
+	IMPLEMENT_CLASS(ACGXJamCharacter, 381679146);
 	template<> CGXJAM_API UClass* StaticClass<ACGXJamCharacter>()
 	{
 		return ACGXJamCharacter::StaticClass();

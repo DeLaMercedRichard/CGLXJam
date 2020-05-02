@@ -8,7 +8,6 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
-#include "Engine.h"
 
 //////////////////////////////////////////////////////////////////////////
 // ACGXJamCharacter
@@ -69,43 +68,29 @@ void ACGXJamCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerIn
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &ACGXJamCharacter::LookUpAtRate);
 
-	PlayerInputComponent->BindAction("Build", IE_Pressed, this, &ACGXJamCharacter::UseBuild);
-	PlayerInputComponent->BindAction("Floor", IE_Pressed, this, &ACGXJamCharacter::SelectFloor);
-	PlayerInputComponent->BindAction("Stairs", IE_Pressed, this, &ACGXJamCharacter::SelectStairs);
-	PlayerInputComponent->BindAction("JumpPad", IE_Pressed, this, &ACGXJamCharacter::SelectJumpPad);
-	/*FInputActionHandlerSignature ActionHandler;
-	ActionHandler.BindUFunction(this, TEXT("PlaceBuild"), BuildActor);
+	// handle touch devices
+	PlayerInputComponent->BindTouch(IE_Pressed, this, &ACGXJamCharacter::TouchStarted);
+	PlayerInputComponent->BindTouch(IE_Released, this, &ACGXJamCharacter::TouchStopped);
 
-	FInputActionBinding ActionBinding;
-
-
-	//ActionBinding.ActionName = TEXT("UseBuild");
-	ActionBinding.GetActionName = TEXT("UseBuild");
-	ActionBinding.KeyEvent = IE_Pressed;
-
-	ActionBinding.ActionDelegate = ActionHandler;
-	PlayerInputComponent->AddActionBinding(ActionBinding);*/
+	// VR headset functionality
+	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &ACGXJamCharacter::OnResetVR);
 }
 
-/*void ACGXJamCharacter::UseBuild()
+
+void ACGXJamCharacter::OnResetVR()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, TEXT("BUILDING"));
+	UHeadMountedDisplayFunctionLibrary::ResetOrientationAndPosition();
 }
 
-void ACGXJamCharacter::SelectFloor()
+void ACGXJamCharacter::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)
 {
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, TEXT("Select Floor"));
+		Jump();
 }
 
-void ACGXJamCharacter::SelectStairs()
+void ACGXJamCharacter::TouchStopped(ETouchIndex::Type FingerIndex, FVector Location)
 {
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, TEXT("Select Stairs"));
+		StopJumping();
 }
-
-void ACGXJamCharacter::SelectJumpPad()
-{
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, TEXT("Select JumpPad"));
-}*/
 
 void ACGXJamCharacter::TurnAtRate(float Rate)
 {
@@ -135,12 +120,12 @@ void ACGXJamCharacter::MoveForward(float Value)
 
 void ACGXJamCharacter::MoveRight(float Value)
 {
-	if ((Controller != NULL) && (Value != 0.0f))
+	if ( (Controller != NULL) && (Value != 0.0f) )
 	{
 		// find out which way is right
 		const FRotator Rotation = Controller->GetControlRotation();
 		const FRotator YawRotation(0, Rotation.Yaw, 0);
-
+	
 		// get right vector 
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
 		// add movement in that direction

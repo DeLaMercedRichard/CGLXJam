@@ -16,8 +16,6 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define CGXJam_Source_CGXJam_CGXJamCharacter_h_12_SPARSE_DATA
 #define CGXJam_Source_CGXJam_CGXJamCharacter_h_12_RPC_WRAPPERS
 #define CGXJam_Source_CGXJam_CGXJamCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define CGXJam_Source_CGXJam_CGXJamCharacter_h_12_EVENT_PARMS
-#define CGXJam_Source_CGXJam_CGXJamCharacter_h_12_CALLBACK_WRAPPERS
 #define CGXJam_Source_CGXJam_CGXJamCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACGXJamCharacter(); \
@@ -65,17 +63,13 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACGXJamCharacter); \
 	FORCEINLINE static uint32 __PPO__FollowCamera() { return STRUCT_OFFSET(ACGXJamCharacter, FollowCamera); }
 
 
-#define CGXJam_Source_CGXJam_CGXJamCharacter_h_9_PROLOG \
-	CGXJam_Source_CGXJam_CGXJamCharacter_h_12_EVENT_PARMS
-
-
+#define CGXJam_Source_CGXJam_CGXJamCharacter_h_9_PROLOG
 #define CGXJam_Source_CGXJam_CGXJamCharacter_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	CGXJam_Source_CGXJam_CGXJamCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
 	CGXJam_Source_CGXJam_CGXJamCharacter_h_12_SPARSE_DATA \
 	CGXJam_Source_CGXJam_CGXJamCharacter_h_12_RPC_WRAPPERS \
-	CGXJam_Source_CGXJam_CGXJamCharacter_h_12_CALLBACK_WRAPPERS \
 	CGXJam_Source_CGXJam_CGXJamCharacter_h_12_INCLASS \
 	CGXJam_Source_CGXJam_CGXJamCharacter_h_12_STANDARD_CONSTRUCTORS \
 public: \
@@ -88,7 +82,6 @@ public: \
 	CGXJam_Source_CGXJam_CGXJamCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
 	CGXJam_Source_CGXJam_CGXJamCharacter_h_12_SPARSE_DATA \
 	CGXJam_Source_CGXJam_CGXJamCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	CGXJam_Source_CGXJam_CGXJamCharacter_h_12_CALLBACK_WRAPPERS \
 	CGXJam_Source_CGXJam_CGXJamCharacter_h_12_INCLASS_NO_PURE_DECLS \
 	CGXJam_Source_CGXJam_CGXJamCharacter_h_12_ENHANCED_CONSTRUCTORS \
 private: \
