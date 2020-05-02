@@ -896,3 +896,140 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.01-22.15.50:616][846]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/ThirdPersonExampleMap_Auto166EF4E0847A2DABB24B9BD9CE7E7DBE1.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto1.umap'
 [2020.05.01-22.15.50:636][846]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 5.734
 [2020.05.01-22.15.50:636][846]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 5.734
+[2020.05.01-22.45.27:734][  4]LogUObjectHash: Compacting FUObjectHashTables data took  12.19ms
+[2020.05.01-22.45.28:083][  4]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/ThirdPersonExampleMap_Auto22AFBBC43443740C369A208A0E0A5C6BA.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2020.05.01-22.45.28:089][  4]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.497
+[2020.05.01-22.45.28:089][  4]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.497
+[2020.05.01-22.55.06:558][133]LogSlate: Window 'Color Picker' being destroyed
+[2020.05.01-23.22.24:328][ 39]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.05.01-23.22.36:382][ 12]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BuildingSystem/Meshes/RampStairs.RampStairs
+[2020.05.01-23.22.38:760][ 12]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0848 seconds. Added 121 classes and 0 folders.
+[2020.05.01-23.22.45:950][ 13]LogRenderer: Reallocating scene render targets to support 1056x624 Format 9 NumSamples 1 (Frame:1).
+[2020.05.01-23.23.23:731][298]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.05.01-23.32.25:381][141]LogUObjectHash: Compacting FUObjectHashTables data took 103.37ms
+[2020.05.01-23.32.25:474][141]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.461
+[2020.05.01-23.32.25:488][141]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BuildingSystem/Meshes/RampStairs] ([1] browsable assets)...
+[2020.05.01-23.32.25:488][141]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingSystem/Meshes/RampStairs]
+[2020.05.01-23.32.25:805][141]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/RampStairs_Auto39DED78DF4A0D69CC5C4BD9A2B9D00DAB.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/BuildingSystem/Meshes/RampStairs_Auto3.uasset'
+[2020.05.01-23.32.25:811][141]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BuildingSystem/Meshes/Platform] ([1] browsable assets)...
+[2020.05.01-23.32.25:811][141]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingSystem/Meshes/Platform]
+[2020.05.01-23.32.25:862][141]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Platform_Auto36BDAFED046138542F341F7A07749F7ED.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/BuildingSystem/Meshes/Platform_Auto3.uasset'
+[2020.05.01-23.32.25:867][141]LogFileHelpers: Auto-saving content packages took 0.391
+[2020.05.02-00.00.53:596][382]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.05.02-00.01.07:713][183]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BuildingSystem/BluePrints/BP_Building_Manager.BP_Building_Manager
+[2020.05.02-00.01.08:440][183]LogSlate: Took 0.049711 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.05.02-00.04.08:319][550]LogSlate: Took 0.034558 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.05.02-00.04.47:610][746]BlueprintLog: New page: Compile BP_Building_Manager
+[2020.05.02-00.04.47:875][746]LogUObjectHash: Compacting FUObjectHashTables data took   8.45ms
+[2020.05.02-00.10.54:100][835]LogUObjectHash: Compacting FUObjectHashTables data took   6.63ms
+[2020.05.02-00.10.54:101][835]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.137
+[2020.05.02-00.10.54:102][835]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BuildingSystem/BluePrints/BP_Building_Manager] ([1] browsable assets)...
+[2020.05.02-00.10.54:102][835]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingSystem/BluePrints/BP_Building_Manager]
+[2020.05.02-00.10.54:573][835]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/BP_Building_Manager_Auto441786D2E4D8B53C53FAFAB9FD58B8CF4.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/BuildingSystem/BluePrints/BP_Building_Manager_Auto4.uasset'
+[2020.05.02-00.10.54:578][835]LogFileHelpers: Auto-saving content packages took 0.476
+[2020.05.02-00.12.09:293][ 92]LogRenderer: Reallocating scene render targets to support 1056x688 Format 9 NumSamples 1 (Frame:1526).
+[2020.05.02-00.12.17:664][496]LogSlate: Window 'BP_Building_Manager' being destroyed
+[2020.05.02-00.12.18:633][566]LogSlate: Window 'RampStairs' being destroyed
+[2020.05.02-00.12.31:153][615]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.05.02-00.12.31:153][615]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.05.02-00.13.07:109][193]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.05.02-00.13.27:735][629]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.05.02-00.15.10:163][575]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.05.02-00.15.24:607][108]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.05.02-00.15.53:113][253]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.05.02-00.15.53:113][253]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.05.02-00.15.59:939][729]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.05.02-00.16.01:203][812]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedEnum /Game/BuildingSystem/BluePrints/Enums/BP_BuildingStats.BP_BuildingStats
+[2020.05.02-00.17.05:892][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2020.05.02-00.17.07:874][ 14]LogSlate: Window 'Delete Assets' being destroyed
+[2020.05.02-00.17.08:204][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.05.02-00.17.29:610][506]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/BuildingSystem/BluePrints/Enums/F_BP_BuildingStats.F_BP_BuildingStats
+[2020.05.02-00.18.10:583][972]LogSlate: Took 0.017799 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.05.02-00.21.12:671][ 22]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/F_BP_BuildingStatsA9D53D2D418466DDF8A2569983643630.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/BluePrints/Enums/F_BP_BuildingStats.uasset'
+[2020.05.02-00.21.12:756][ 22]AssetCheck: New page: Asset Save: F_BP_BuildingStats
+[2020.05.02-00.21.12:756][ 22]LogContentValidation: Display: Validating UserDefinedStruct /Game/BuildingSystem/BluePrints/Enums/F_BP_BuildingStats.F_BP_BuildingStats
+[2020.05.02-00.23.03:684][206]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.05.02-00.23.19:855][493]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BuildingSystem/BluePrints/BP_MasterBuildingStatManager.BP_MasterBuildingStatManager
+[2020.05.02-00.25.40:046][856]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedEnum /Game/BuildingSystem/BluePrints/Enums/E_BP_BuildingStats.E_BP_BuildingStats
+[2020.05.02-00.26.40:997][746]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/E_BP_BuildingStatsB8D82AD64FC5CF46CCD93CB4705B9044.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/BluePrints/Enums/E_BP_BuildingStats.uasset'
+[2020.05.02-00.26.41:042][746]AssetCheck: New page: Asset Save: E_BP_BuildingStats
+[2020.05.02-00.26.41:042][746]LogContentValidation: Display: Validating UserDefinedEnum /Game/BuildingSystem/BluePrints/Enums/E_BP_BuildingStats.E_BP_BuildingStats
+[2020.05.02-00.29.58:957][214]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.05.02-00.30.38:999][697]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.05.02-00.30.39:337][698]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.05.02-00.30.40:333][700]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ramp_StaticMesh)
+[2020.05.02-00.31.02:301][122]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (1M_Cube_Chamfer)
+[2020.05.02-00.31.02:677][143]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (1M_Cube_Chamfer)
+[2020.05.02-00.31.38:945][749]LogUObjectHash: Compacting FUObjectHashTables data took  19.06ms
+[2020.05.02-00.31.39:404][749]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/ThirdPersonExampleMap_Auto5D83C4CBA43DBA7EDBD12D3AE9EFFFE47.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto5.umap'
+[2020.05.02-00.31.39:410][749]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.621
+[2020.05.02-00.31.39:410][749]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.621
+[2020.05.02-00.31.39:411][749]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BuildingSystem/BluePrints/BP_MasterBuildingStatManager] ([1] browsable assets)...
+[2020.05.02-00.31.39:411][749]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingSystem/BluePrints/BP_MasterBuildingStatManager]
+[2020.05.02-00.31.39:606][749]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/BP_MasterBuildingStatManager_AutEF63E6564B345D812D09908850FF7B40.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/BuildingSystem/BluePrints/BP_MasterBuildingStatManager_Auto5.uasset'
+[2020.05.02-00.31.39:610][749]LogFileHelpers: Auto-saving content packages took 0.200
+[2020.05.02-00.32.50:861][870]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.05.02-00.44.53:184][331]LogEditorTransaction: Undo Add In Parameter
+[2020.05.02-00.45.36:164][550]BlueprintLog: New page: Compile BP_MasterBuildingStatManager
+[2020.05.02-00.45.36:345][550]LogUObjectHash: Compacting FUObjectHashTables data took   7.25ms
+[2020.05.02-00.46.07:422][815]LogUObjectHash: Compacting FUObjectHashTables data took   5.99ms
+[2020.05.02-00.46.07:424][815]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.116
+[2020.05.02-00.46.07:425][815]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BuildingSystem/BluePrints/BP_MasterBuildingStatManager] ([1] browsable assets)...
+[2020.05.02-00.46.07:425][815]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingSystem/BluePrints/BP_MasterBuildingStatManager]
+[2020.05.02-00.46.07:752][815]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/BP_MasterBuildingStatManager_Aut0BF65F604BEBCDA295C0FE90063D08A7.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/BuildingSystem/BluePrints/BP_MasterBuildingStatManager_Auto6.uasset'
+[2020.05.02-00.46.07:759][815]LogFileHelpers: Auto-saving content packages took 0.336
+[2020.05.02-00.46.12:875][406]BlueprintLog: New page: Compile BP_MasterBuildingStatManager
+[2020.05.02-00.46.12:979][406]LogUObjectHash: Compacting FUObjectHashTables data took   7.27ms
+[2020.05.02-00.56.49:944][177]BlueprintLog: New page: Compile BP_MasterBuildingStatManager
+[2020.05.02-00.56.50:083][177]LogUObjectHash: Compacting FUObjectHashTables data took   7.37ms
+[2020.05.02-00.56.51:266][260]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/BP_MasterBuildingStatManager978033C3423CD9E24E233782C9B7332A.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/BluePrints/BP_MasterBuildingStatManager.uasset'
+[2020.05.02-00.56.51:331][260]AssetCheck: New page: Asset Save: BP_MasterBuildingStatManager
+[2020.05.02-00.56.51:331][260]LogContentValidation: Display: Validating Blueprint /Game/BuildingSystem/BluePrints/BP_MasterBuildingStatManager.BP_MasterBuildingStatManager
+[2020.05.02-01.04.50:554][337]BlueprintLog: New page: Compile BP_MasterBuildingStatManager
+[2020.05.02-01.04.50:767][337]LogUObjectHash: Compacting FUObjectHashTables data took   7.45ms
+[2020.05.02-01.06.54:668][834]LogUObjectHash: Compacting FUObjectHashTables data took   7.33ms
+[2020.05.02-01.06.54:669][834]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.108
+[2020.05.02-01.06.54:670][834]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BuildingSystem/BluePrints/BP_MasterBuildingStatManager] ([1] browsable assets)...
+[2020.05.02-01.06.54:670][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingSystem/BluePrints/BP_MasterBuildingStatManager]
+[2020.05.02-01.06.54:904][834]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/BP_MasterBuildingStatManager_Aut17F438AE4442C0BF75C8FFB811F49079.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/BuildingSystem/BluePrints/BP_MasterBuildingStatManager_Auto7.uasset'
+[2020.05.02-01.06.54:908][834]LogFileHelpers: Auto-saving content packages took 0.239
+[2020.05.02-01.12.01:737][976]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/BP_MasterBuildingStatManager29DA9CAC4ECDE75B6AD4CC93E1A849F9.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/BluePrints/BP_MasterBuildingStatManager.uasset'
+[2020.05.02-01.12.01:761][976]AssetCheck: New page: Asset Save: BP_MasterBuildingStatManager
+[2020.05.02-01.12.01:761][976]LogContentValidation: Display: Validating Blueprint /Game/BuildingSystem/BluePrints/BP_MasterBuildingStatManager.BP_MasterBuildingStatManager
+[2020.05.02-02.07.14:575][556]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.05.02-02.07.15:153][594]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.05.02-02.07.20:537][919]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2020.05.02-02.09.55:525][126]AssetReimport: New page: Outstanding source content changes 6:09:55 PM
+[2020.05.02-02.09.55:923][127]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/A_Test_Stairs.obj)
+[2020.05.02-02.09.56:470][127]LogFbx: Loading FBX Scene from C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/A_Test_Stairs.obj
+[2020.05.02-02.09.56:669][127]LogFbx: FBX Scene Loaded Succesfully
+[2020.05.02-02.10.07:282][127]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.05.02-02.10.18:597][127]LogStaticMesh: Building static mesh A_Test_Stairs...
+[2020.05.02-02.10.18:927][127]LogStaticMesh: Built static mesh [0.37s] /Game/BuildingSystem/Meshes/A_Test_Stairs.A_Test_Stairs
+[2020.05.02-02.10.20:794][128]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/A_Test_Stairs3A27091C46164D4F7E9A309350057E2E.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/A_Test_Stairs.uasset'
+[2020.05.02-02.10.20:890][129]AssetCheck: New page: Asset Save: A_Test_Stairs
+[2020.05.02-02.10.20:890][129]LogContentValidation: Display: Validating StaticMesh /Game/BuildingSystem/Meshes/A_Test_Stairs.A_Test_Stairs
+[2020.05.02-02.10.23:818][458]AssetReimport: Importing new asset /Game/BuildingSystem/Meshes/A_Test_Stairs.
+[2020.05.02-02.10.31:555][934]LogActorFactory: Actor Factory created A_Test_Stairs
+[2020.05.02-02.10.34:394][ 14]LogActorFactory: Actor Factory created A_Test_Stairs
+[2020.05.02-02.11.18:828][892]LogUObjectHash: Compacting FUObjectHashTables data took  22.15ms
+[2020.05.02-02.11.21:862][892]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/ThirdPersonExampleMap_Auto816B42BAB4C9575F7011F7CB45DEBE548.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto8.umap'
+[2020.05.02-02.11.21:869][892]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 3.339
+[2020.05.02-02.11.21:891][892]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.339
+[2020.05.02-02.11.21:891][892]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BuildingSystem/Meshes/polySurface11Mat] ([1] browsable assets)...
+[2020.05.02-02.11.21:914][892]OBJ SavePackage:     Rendered thumbnail for [Material /Game/BuildingSystem/Meshes/polySurface11Mat.polySurface11Mat]
+[2020.05.02-02.11.21:914][892]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingSystem/Meshes/polySurface11Mat]
+[2020.05.02-02.11.22:111][892]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/polySurface11Mat_Auto8CBDDC4134B7DC4B59A2455BB25A4FFA1.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/BuildingSystem/Meshes/polySurface11Mat_Auto8.uasset'
+[2020.05.02-02.11.22:116][892]LogFileHelpers: Auto-saving content packages took 0.225
+[2020.05.02-02.13.14:366][717]LogUObjectHash: Compacting FUObjectHashTables data took   5.34ms
+[2020.05.02-02.13.14:760][717]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/ThirdPersonExampleMap209F25174EB925E48DAC43868BD9C786.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2020.05.02-02.13.16:012][717]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/ThirdPersonExampleMap_BuiltDataB6B35B7E4F6770ECC2A80F83E366D02D.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.05.02-02.13.16:072][717]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.02-02.13.16:072][717]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.05.02-02.13.16:072][717]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.05.02-02.13.26:235][821]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/RampStairsC69A9BF0495DC24D07669C87D4C5A9C1.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/RampStairs.uasset'
+[2020.05.02-02.13.26:307][821]AssetCheck: New page: Asset Save: RampStairs
+[2020.05.02-02.13.26:307][821]LogContentValidation: Display: Validating Blueprint /Game/BuildingSystem/Meshes/RampStairs.RampStairs
+[2020.05.02-02.13.28:278][ 23]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/BP_Building_Manager42E598F6427962B00705AC84E167982D.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/BluePrints/BP_Building_Manager.uasset'
+[2020.05.02-02.13.28:302][ 23]AssetCheck: New page: Asset Save: BP_Building_Manager
+[2020.05.02-02.13.28:302][ 23]LogContentValidation: Display: Validating Blueprint /Game/BuildingSystem/BluePrints/BP_Building_Manager.BP_Building_Manager
