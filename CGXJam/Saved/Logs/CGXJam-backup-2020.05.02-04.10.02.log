@@ -1,0 +1,875 @@
+﻿Log file open, 05/01/20 22:33:28
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: CGXJam
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.093379
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -4:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Program Files/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.05.02-02.33.29:158][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.05.02-02.33.29:158][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.05.02-02.33.29:158][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Saved/Config/Windows/Engine.ini]
+[2020.05.02-02.33.29:158][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.05.02-02.33.29:158][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Saved/Config/Windows/Engine.ini]
+[2020.05.02-02.33.29:158][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Saved/Config/Windows/Engine.ini]
+[2020.05.02-02.33.29:159][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.05.02-02.33.29:159][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.05.02-02.33.29:159][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.05.02-02.33.29:159][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.05.02-02.33.29:159][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.05.02-02.33.29:159][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.05.02-02.33.29:159][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.05.02-02.33.29:159][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.05.02-02.33.29:159][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.05.02-02.33.29:159][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.05.02-02.33.29:159][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.05.02-02.33.29:159][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.05.02-02.33.29:159][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.05.02-02.33.29:159][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.05.02-02.33.29:159][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Saved/Config/Windows/Engine.ini]
+[2020.05.02-02.33.29:159][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.05.02-02.33.29:159][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.05.02-02.33.29:159][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.05.02-02.33.29:159][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.05.02-02.33.29:159][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.05.02-02.33.29:159][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.05.02-02.33.29:159][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.05.02-02.33.29:159][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.05.02-02.33.29:159][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.05.02-02.33.29:159][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.05.02-02.33.29:159][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.05.02-02.33.29:159][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.05.02-02.33.29:159][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.05.02-02.33.29:159][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Saved/Config/Windows/Engine.ini]
+[2020.05.02-02.33.29:159][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Saved/Config/Windows/Engine.ini]
+[2020.05.02-02.33.29:167][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Saved/Config/Windows/Scalability.ini]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Saved/Config/Windows/Scalability.ini]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Saved/Config/Windows/Scalability.ini]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Saved/Config/Windows/Scalability.ini]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Saved/Config/Windows/Scalability.ini]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.05.02-02.33.29:167][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Saved/Config/Windows/Scalability.ini]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Saved/Config/Windows/Scalability.ini]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Saved/Config/Windows/Scalability.ini]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.05.02-02.33.29:168][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.05.02-02.33.29:168][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.02-02.33.29:168][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.05.02-02.33.29:170][  0]LogHAL: Display: Platform has ~ 16 GB [16983642112 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.05.02-02.33.29:170][  0]LogInit: Going up to parent DeviceProfile []
+[2020.05.02-02.33.29:170][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Saved/Config/Windows/Scalability.ini]
+[2020.05.02-02.33.29:170][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.02-02.33.29:170][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.05.02-02.33.29:170][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Saved/Config/Windows/Scalability.ini]
+[2020.05.02-02.33.29:170][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.05.02-02.33.29:170][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Saved/Config/Windows/Scalability.ini]
+[2020.05.02-02.33.29:170][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.02-02.33.29:170][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.05.02-02.33.29:170][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Saved/Config/Windows/Scalability.ini]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Saved/Config/Windows/Scalability.ini]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Saved/Config/Windows/Scalability.ini]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.05.02-02.33.29:171][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.05.02-02.33.29:172][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.05.02-02.33.29:172][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.05.02-02.33.29:172][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.05.02-02.33.29:172][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.05.02-02.33.29:172][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.05.02-02.33.29:172][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.05.02-02.33.29:172][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.05.02-02.33.29:172][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.05.02-02.33.29:172][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.05.02-02.33.29:172][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.05.02-02.33.29:172][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.05.02-02.33.29:172][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.05.02-02.33.29:172][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Saved/Config/Windows/Scalability.ini]
+[2020.05.02-02.33.29:172][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.05.02-02.33.29:172][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.05.02-02.33.29:172][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Saved/Config/Windows/Scalability.ini]
+[2020.05.02-02.33.29:172][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.05.02-02.33.29:172][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.05.02-02.33.29:172][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.05.02-02.33.29:172][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.05.02-02.33.29:172][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.05.02-02.33.29:172][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.05.02-02.33.29:172][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Saved/Config/Windows/Engine.ini]
+[2020.05.02-02.33.29:172][  0]LogInit: Computer: DESKTOP-4FNJ0VM
+[2020.05.02-02.33.29:172][  0]LogInit: User: jose
+[2020.05.02-02.33.29:172][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.05.02-02.33.29:172][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.05.02-02.33.29:172][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2020.05.02-02.33.29:172][  0]LogMemory: Platform Memory Stats for Windows
+[2020.05.02-02.33.29:172][  0]LogMemory: Process Physical Memory: 105.86 MB used, 105.87 MB peak
+[2020.05.02-02.33.29:172][  0]LogMemory: Process Virtual Memory: 101.71 MB used, 101.71 MB peak
+[2020.05.02-02.33.29:172][  0]LogMemory: Physical Memory: 7742.28 MB used,  8454.58 MB free, 16196.86 MB total
+[2020.05.02-02.33.29:172][  0]LogMemory: Virtual Memory: 5159.32 MB used,  134212568.00 MB free, 134217728.00 MB total
+[2020.05.02-02.33.29:335][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.05.02-02.33.29:366][  0]LogInit: Using OS detected language (en-US).
+[2020.05.02-02.33.29:366][  0]LogInit: Using OS detected locale (en-US).
+[2020.05.02-02.33.29:367][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.05.02-02.33.29:584][  0]LogInit: Setting process to per monitor DPI aware
+[2020.05.02-02.33.29:627][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.05.02-02.33.29:627][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.05.02-02.33.29:926][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.05.02-02.33.29:926][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.05.02-02.33.29:926][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.05.02-02.33.29:926][  0]LogD3D11RHI: D3D11 adapters:
+[2020.05.02-02.33.30:029][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060' (Feature Level 11_0)
+[2020.05.02-02.33.30:029][  0]LogD3D11RHI:       5980/0/8098 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.05.02-02.33.30:068][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2020.05.02-02.33.30:068][  0]LogD3D11RHI:       128/0/8098 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.05.02-02.33.30:072][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.05.02-02.33.30:072][  0]LogD3D11RHI:       0/0/8098 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.05.02-02.33.30:072][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.05.02-02.33.30:130][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.05.02-02.33.30:130][  0]LogD3D11RHI:     GPU DeviceId: 0x1f11 (for the marketing name, search the web for "GPU Device Id")
+[2020.05.02-02.33.30:130][  0]LogWindows: EnumDisplayDevices:
+[2020.05.02-02.33.30:130][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2020.05.02-02.33.30:130][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.05.02-02.33.30:131][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.05.02-02.33.30:131][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:0 D:1)
+[2020.05.02-02.33.30:131][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2020.05.02-02.33.30:131][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2020.05.02-02.33.30:132][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2020.05.02-02.33.30:132][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.05.02-02.33.30:132][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060
+[2020.05.02-02.33.30:132][  0]LogD3D11RHI:   Driver Version: 445.87 (internal:26.21.14.4587, unified:445.87)
+[2020.05.02-02.33.30:132][  0]LogD3D11RHI:      Driver Date: 4-3-2020
+[2020.05.02-02.33.30:132][  0]LogRHI: Texture pool is 4186 MB (70% of 5980 MB)
+[2020.05.02-02.33.30:194][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.05.02-02.33.30:195][  0]LogD3D11RHI: Async texture creation enabled
+[2020.05.02-02.33.30:213][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.05.02-02.33.30:723][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.05.02-02.33.30:785][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.05.02-02.33.30:785][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.05.02-02.33.30:785][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.05.02-02.33.30:785][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.05.02-02.33.30:785][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.05.02-02.33.30:785][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.05.02-02.33.30:785][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.05.02-02.33.30:785][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.05.02-02.33.30:785][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.05.02-02.33.30:785][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.05.02-02.33.30:785][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.05.02-02.33.30:785][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.05.02-02.33.30:785][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.05.02-02.33.30:785][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.05.02-02.33.30:786][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.05.02-02.33.30:786][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.05.02-02.33.30:786][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.05.02-02.33.30:786][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.05.02-02.33.30:809][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.05.02-02.33.30:809][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.05.02-02.33.30:816][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.05.02-02.33.30:826][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.05.02-02.33.30:835][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.05.02-02.33.30:844][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.05.02-02.33.30:853][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.05.02-02.33.30:860][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.05.02-02.33.30:886][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.05.02-02.33.30:886][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.05.02-02.33.30:901][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.05.02-02.33.30:901][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.05.02-02.33.30:908][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.05.02-02.33.30:919][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.05.02-02.33.30:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.05.02-02.33.30:935][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.05.02-02.33.30:935][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.05.02-02.33.30:938][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.05.02-02.33.30:965][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Intermediate/Shaders/WorkingDirectory/11712/).
+[2020.05.02-02.33.30:966][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jose_/AppData/Local/Temp/UnrealShaderWorkingDir/2FE0D14B453E87D9BEFE668F0BBC1FB8/'.
+[2020.05.02-02.33.30:966][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.05.02-02.33.30:966][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.05.02-02.33.30:966][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.05.02-02.33.31:725][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.05.02-02.33.31:779][  0]LogDerivedDataCache: Loaded boot cache 0.05s 82MB C:/Users/jose_/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.05.02-02.33.31:779][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jose_/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.05.02-02.33.31:779][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.05.02-02.33.31:779][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.05.02-02.33.31:779][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.02-02.33.31:779][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.05.02-02.33.31:789][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.05.02-02.33.31:789][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.02-02.33.31:789][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.05.02-02.33.31:790][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jose_/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.05.02-02.33.31:790][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.05.02-02.33.31:790][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.05.02-02.33.31:815][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.05.02-02.33.31:817][  0]LogSlate: Using FreeType 2.10.0
+[2020.05.02-02.33.31:818][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.05.02-02.33.31:882][  0]LogAssetRegistry: FAssetRegistry took 0.0025 seconds to start up
+[2020.05.02-02.33.32:193][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.02-02.33.32:346][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.05.02-02.33.32:346][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.05.02-02.33.32:346][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.05.02-02.33.32:346][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.05.02-02.33.32:346][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.05.02-02.33.32:360][  0]LogNetVersion: CGXJam 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2130632310)
+[2020.05.02-02.33.33:544][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.034538 seconds
+[2020.05.02-02.33.33:551][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.05.02-02.33.33:551][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.05.02-02.33.33:551][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.05.02-02.33.33:953][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.05.02-02.33.33:956][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.05.02-02.33.35:210][  0]SourceControl: Source control is disabled
+[2020.05.02-02.33.35:210][  0]SourceControl: Source control is disabled
+[2020.05.02-02.33.35:211][  0]SourceControl: Source control is disabled
+[2020.05.02-02.33.35:213][  0]SourceControl: Source control is disabled
+[2020.05.02-02.33.35:214][  0]SourceControl: Source control is disabled
+[2020.05.02-02.33.35:301][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.05.02-02.33.35:311][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.02-02.33.35:311][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.02-02.33.35:401][  0]LogOcInput: OculusInput pre-init called
+[2020.05.02-02.33.35:409][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.05.02-02.33.35:409][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.05.02-02.33.35:476][  0]LogEngine: Initializing Engine...
+[2020.05.02-02.33.35:477][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.05.02-02.33.35:478][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.05.02-02.33.35:817][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.05.02-02.33.35:823][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.05.02-02.33.35:840][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.02-02.33.35:840][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.02-02.33.35:840][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.02-02.33.35:840][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.02-02.33.35:840][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.02-02.33.35:840][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.02-02.33.35:840][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.02-02.33.35:840][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.02-02.33.35:840][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.02-02.33.35:840][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.02-02.33.35:975][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.02-02.33.35:975][  0]LogAudioMixer: Display: Name: Speakers/Headphones (Realtek(R) Audio)
+[2020.05.02-02.33.35:976][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.05.02-02.33.35:976][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.02-02.33.35:976][  0]LogAudioMixer: Display: Channel Count Used: 8
+[2020.05.02-02.33.35:976][  0]LogAudioMixer: Display: Device Channel Count: 8
+[2020.05.02-02.33.35:976][  0]LogAudioMixer: Display: Channel Order:
+[2020.05.02-02.33.35:976][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.02-02.33.35:976][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.05.02-02.33.35:976][  0]LogAudioMixer: Display: 2: FrontCenter
+[2020.05.02-02.33.35:976][  0]LogAudioMixer: Display: 3: LowFrequency
+[2020.05.02-02.33.35:976][  0]LogAudioMixer: Display: 4: BackLeft
+[2020.05.02-02.33.35:976][  0]LogAudioMixer: Display: 5: BackRight
+[2020.05.02-02.33.35:976][  0]LogAudioMixer: Display: 6: SideLeft
+[2020.05.02-02.33.35:976][  0]LogAudioMixer: Display: 7: SideRight
+[2020.05.02-02.33.36:642][  0]LogAudioMixer: Display: Using Audio Device Speakers/Headphones (Realtek(R) Audio)
+[2020.05.02-02.33.36:647][  0]LogInit: FAudioDevice initialized.
+[2020.05.02-02.33.36:648][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.05.02-02.33.37:828][  0]LogDerivedDataCache: Saved boot cache 1.18s 82MB C:/Users/jose_/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.05.02-02.33.37:831][  0]LogInit: Texture streaming: Enabled
+[2020.05.02-02.33.37:843][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.05.02-02.33.37:843][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.05.02-02.33.37:850][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.05.02-02.33.37:923][  0]LogInit: Transaction tracking system initialized
+[2020.05.02-02.33.37:932][  0]BlueprintLog: New page: Editor Load
+[2020.05.02-02.33.37:963][  0]LocalizationService: Localization service is disabled
+[2020.05.02-02.33.38:250][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Content/' took 0.01s
+[2020.05.02-02.33.38:250][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.05.02-02.33.38:250][  0]LogCook: Display: Mobile HDR setting 1
+[2020.05.02-02.33.39:034][  0]SourceControl: Source control is disabled
+[2020.05.02-02.33.39:034][  0]Cmd: MAP LOAD FILE="../../../../../Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.05.02-02.33.39:034][  0]LightingResults: New page: Lighting Build
+[2020.05.02-02.33.39:035][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.05.02-02.33.39:035][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-02.33.39:035][  0]MapCheck: New page: Map Check
+[2020.05.02-02.33.39:035][  0]LightingResults: New page: Lighting Build
+[2020.05.02-02.33.39:065][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2020.05.02-02.33.39:294][  0]LogLinker: Warning: While loading '../../../../../Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
+[2020.05.02-02.33.39:294][  0]LogLinker: Warning: While loading '../../../../../Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
+[2020.05.02-02.33.40:678][  0]LogLinker: Warning: While loading '../../../../../Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
+[2020.05.02-02.33.40:678][  0]LogLinker: Warning: While loading '../../../../../Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
+[2020.05.02-02.33.40:680][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
+[2020.05.02-02.33.40:680][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
+[2020.05.02-02.33.40:680][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
+[2020.05.02-02.33.40:680][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
+[2020.05.02-02.33.40:682][  0]LogLinker: Warning: While loading '../../../../../Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
+[2020.05.02-02.33.40:682][  0]LoadErrors: Failed to load /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData Referenced by PersistentLevel
+[2020.05.02-02.33.40:682][  0]LogLinker: Warning: While loading '../../../../../Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
+[2020.05.02-02.33.40:683][  0]LoadErrors: Failed to load /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData Referenced by PersistentLevel
+[2020.05.02-02.33.41:062][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.05.02-02.33.41:125][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.05.02-02.33.41:152][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2020.05.02-02.33.41:153][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.05.02-02.33.41:153][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.091ms to complete.
+[2020.05.02-02.33.41:153][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.119
+[2020.05.02-02.33.42:062][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.02-02.33.42:068][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.02-02.33.42:074][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.02-02.33.42:080][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.02-02.33.42:173][  0]LogCollectionManager: Loaded 0 collections in 0.001036 seconds
+[2020.05.02-02.33.42:223][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Saved/Collections/' took 0.00s
+[2020.05.02-02.33.42:223][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Content/Developers/jose/Collections/' took 0.00s
+[2020.05.02-02.33.42:223][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Content/Collections/' took 0.00s
+[2020.05.02-02.33.42:223][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 3017 classes and 719 folders.
+[2020.05.02-02.33.42:257][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.05.02-02.33.43:152][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.05.02-02.33.43:196][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 3 folders.
+[2020.05.02-02.33.44:491][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.05.02-02.33.44:492][  0]LogLoad: (Engine Initialization) Total time: 17.33 seconds
+[2020.05.02-02.33.44:492][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.05.02-02.33.44:722][  0]LogRenderer: Reallocating scene render targets to support 64x64 Format 10 NumSamples 1 (Frame:1).
+[2020.05.02-02.33.44:722][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.05.02-02.33.44:795][  0]LogSlate: Took 0.000244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.05.02-02.33.44:797][  0]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.05.02-02.33.44:820][  0]LogSlate: Took 0.017335 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.05.02-02.33.45:091][  0]LogRenderer: Reallocating scene render targets to support 804x360 Format 10 NumSamples 1 (Frame:1).
+[2020.05.02-02.33.45:091][  0]LogSlate: Took 0.048242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.05.02-02.33.45:356][  3]LogAssetRegistry: Asset discovery search completed in 13.4742 seconds
+[2020.05.02-02.33.45:361][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000007 seconds (updated 0 objects)
+[2020.05.02-02.33.54:053][524]LogSlate: Window 'Project Settings' being destroyed
+[2020.05.02-02.33.54:059][524]LogSlate: Window 'Project Settings' being destroyed
+[2020.05.02-02.33.55:554][613]LogSlate: Window 'Message Log' being destroyed
+[2020.05.02-02.33.55:561][613]LogSlate: Window 'Message Log' being destroyed
+[2020.05.02-02.33.59:873][825]LogRenderer: Reallocating scene render targets to support 964x432 Format 10 NumSamples 1 (Frame:806).
+[2020.05.02-02.34.07:284][118]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.05.02-02.34.07:303][118]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/CGXJam.CGXJamCharacter
+[2020.05.02-03.00.11:746][855]Candidate modules for hot reload:
+[2020.05.02-03.00.11:746][855]  CGXJam
+[2020.05.02-03.00.11:746][855]Launching UnrealBuildTool... [D:/Program Files/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CGXJam,7999 Win64 Development -TargetType=Editor -Project="D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/CGXJam.uproject" "D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/CGXJam.uproject"  -IgnoreJunk]
+[2020.05.02-03.00.11:747][855]Warning: Starting HotReload took  0.4s.
+[2020.05.02-03.00.22:378][380]CompilerResultsLog: New page: Compilation - May 1, 2020, 7:00:21 PM
+[2020.05.02-03.00.22:391][380]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam).
+[2020.05.02-03.00.22:391][380]CompilerResultsLog: Creating makefile for CGXJamEditor (no existing makefile)
+[2020.05.02-03.00.22:391][380]CompilerResultsLog: Parsing headers for CGXJamEditor
+[2020.05.02-03.00.22:391][380]CompilerResultsLog:   Running UnrealHeaderTool "D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\CGXJam.uproject" "D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\Intermediate\Build\Win64\CGXJamEditor\Development\CGXJamEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.02-03.00.22:391][380]CompilerResultsLog: Error: D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Source/CGXJam/CGXJamCharacter.h(66)  : Error: Unrecognized type 'FInputActionHandlerSignature' - type must be a UCLASS, USTRUCT or UENUM
+[2020.05.02-03.00.22:391][380]LogMainFrame: MainFrame: Module compiling took 10.780 seconds
+[2020.05.02-03.00.22:410][380]Warning: HotReload failed, recompile failed
+[2020.05.02-03.05.31:384][848]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/CGXJam.CGXJamCharacter
+[2020.05.02-03.05.54:325][155]Candidate modules for hot reload:
+[2020.05.02-03.05.54:325][155]  CGXJam
+[2020.05.02-03.05.54:326][155]Launching UnrealBuildTool... [D:/Program Files/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CGXJam,5480 Win64 Development -TargetType=Editor -Project="D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/CGXJam.uproject" "D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/CGXJam.uproject"  -IgnoreJunk]
+[2020.05.02-03.05.54:328][155]Warning: Starting HotReload took  0.3s.
+[2020.05.02-03.06.06:036][570]CompilerResultsLog: New page: Compilation - May 1, 2020, 7:06:06 PM
+[2020.05.02-03.06.06:037][570]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam).
+[2020.05.02-03.06.06:037][570]CompilerResultsLog: Creating makefile for CGXJamEditor (no existing makefile)
+[2020.05.02-03.06.06:037][570]CompilerResultsLog: Parsing headers for CGXJamEditor
+[2020.05.02-03.06.06:037][570]CompilerResultsLog:   Running UnrealHeaderTool "D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\CGXJam.uproject" "D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\Intermediate\Build\Win64\CGXJamEditor\Development\CGXJamEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.02-03.06.06:037][570]CompilerResultsLog: Error: D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/Source/CGXJam/CGXJamCharacter.h(66)  : Error: Unrecognized type 'FInputActionHandlerSignature' - type must be a UCLASS, USTRUCT or UENUM
+[2020.05.02-03.06.06:037][570]LogMainFrame: MainFrame: Module compiling took 11.725 seconds
+[2020.05.02-03.06.06:037][570]Warning: HotReload failed, recompile failed
+[2020.05.02-03.06.47:097][127]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{9a894b20-1376-4b2c-9095-eea45328cf8a}.
+[2020.05.02-03.06.47:098][127]LogTemp: Resetting audio stream to device id 
+[2020.05.02-03.06.47:135][127]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.02-03.06.47:135][127]LogAudioMixer: Display: Name: Headset Earphone (ROG Strix HS)
+[2020.05.02-03.06.47:135][127]LogAudioMixer: Display: Is Default: Yes
+[2020.05.02-03.06.47:135][127]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.02-03.06.47:135][127]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.02-03.06.47:135][127]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.02-03.06.47:135][127]LogAudioMixer: Display: Channel Order:
+[2020.05.02-03.06.47:135][127]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.02-03.06.47:135][127]LogAudioMixer: Display: 1: FrontRight
+[2020.05.02-03.34.48:368][187]LogSlate: Window 'Message Log' being destroyed
+[2020.05.02-03.34.48:388][187]LogSlate: Window 'Message Log' being destroyed
+[2020.05.02-03.36.01:677][718]LogSlate: Window 'Project Settings' being destroyed
+[2020.05.02-03.36.01:684][718]LogSlate: Window 'Project Settings' being destroyed
+[2020.05.02-03.36.04:230][788]Candidate modules for hot reload:
+[2020.05.02-03.36.04:230][788]  CGXJam
+[2020.05.02-03.36.04:230][788]Launching UnrealBuildTool... [D:/Program Files/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CGXJam,8938 Win64 Development -TargetType=Editor -Project="D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/CGXJam.uproject" "D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/CGXJam.uproject"  -IgnoreJunk]
+[2020.05.02-03.36.04:255][788]Warning: Starting HotReload took  0.1s.
+[2020.05.02-03.37.33:427][126]CompilerResultsLog: New page: Compilation - May 1, 2020, 7:37:33 PM
+[2020.05.02-03.37.33:445][126]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam).
+[2020.05.02-03.37.33:445][126]CompilerResultsLog: Creating makefile for CGXJamEditor (no existing makefile)
+[2020.05.02-03.37.33:445][126]CompilerResultsLog: Parsing headers for CGXJamEditor
+[2020.05.02-03.37.33:445][126]CompilerResultsLog:   Running UnrealHeaderTool "D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\CGXJam.uproject" "D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\Intermediate\Build\Win64\CGXJamEditor\Development\CGXJamEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.02-03.37.33:445][126]CompilerResultsLog: Reflection code generated for CGXJamEditor in 20.1422374 seconds
+[2020.05.02-03.37.33:445][126]CompilerResultsLog: Building CGXJamEditor...
+[2020.05.02-03.37.33:445][126]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.02-03.37.33:445][126]CompilerResultsLog: Building 11 actions with 12 processes...
+[2020.05.02-03.37.33:445][126]CompilerResultsLog:   [1/11] Default.rc2
+[2020.05.02-03.37.33:445][126]CompilerResultsLog:   [2/11] SharedPCH.Engine.ShadowErrors.cpp
+[2020.05.02-03.37.33:445][126]CompilerResultsLog:   [3/11] CGXJam.cpp
+[2020.05.02-03.37.33:445][126]CompilerResultsLog:   [4/11] CGXJam.init.gen.cpp
+[2020.05.02-03.37.33:445][126]CompilerResultsLog:   [5/11] CGXJamGameMode.cpp
+[2020.05.02-03.37.33:445][126]CompilerResultsLog:   [6/11] CGXJamGameMode.gen.cpp
+[2020.05.02-03.37.33:445][126]CompilerResultsLog:   [7/11] CGXJamCharacter.gen.cpp
+[2020.05.02-03.37.33:445][126]CompilerResultsLog:   [8/11] CGXJamCharacter.cpp
+[2020.05.02-03.37.33:445][126]CompilerResultsLog:   [9/11] UE4Editor-CGXJam-8938.lib
+[2020.05.02-03.37.33:445][126]CompilerResultsLog:      Creating library D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\UE4Editor-CGXJam-8938.lib and object D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\UE4Editor-CGXJam-8938.exp
+[2020.05.02-03.37.33:445][126]CompilerResultsLog:   [10/11] UE4Editor-CGXJam-8938.dll
+[2020.05.02-03.37.33:445][126]CompilerResultsLog:      Creating library D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\UE4Editor-CGXJam-8938.suppressed.lib and object D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\UE4Editor-CGXJam-8938.suppressed.exp
+[2020.05.02-03.37.33:445][126]CompilerResultsLog: Error:   CGXJamCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl ACGXJamCharacter::BeginPlay(void)" (?BeginPlay@ACGXJamCharacter@@UEAAXXZ)
+[2020.05.02-03.37.33:445][126]CompilerResultsLog: Error:   CGXJamCharacter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl ACGXJamCharacter::BeginPlay(void)" (?BeginPlay@ACGXJamCharacter@@UEAAXXZ)
+[2020.05.02-03.37.33:445][126]CompilerResultsLog: Error:   D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\Binaries\Win64\UE4Editor-CGXJam-8938.dll : fatal error LNK1120: 1 unresolved externals
+[2020.05.02-03.37.33:445][126]LogMainFrame: MainFrame: Module compiling took 89.270 seconds
+[2020.05.02-03.37.33:457][126]Warning: HotReload failed, recompile failed
+[2020.05.02-03.41.08:830][ 69]LogSlate: Window 'Message Log' being destroyed
+[2020.05.02-03.41.08:836][ 69]LogSlate: Window 'Message Log' being destroyed
+[2020.05.02-03.41.43:196][ 40]LogSlate: Window 'Editor Preferences' being destroyed
+[2020.05.02-03.41.43:202][ 40]LogSlate: Window 'Editor Preferences' being destroyed
+[2020.05.02-03.43.35:076][882]LogSlate: Window 'Project Settings' being destroyed
+[2020.05.02-03.43.35:083][882]LogSlate: Window 'Project Settings' being destroyed
+[2020.05.02-03.47.09:385][667]Candidate modules for hot reload:
+[2020.05.02-03.47.09:385][667]  CGXJam
+[2020.05.02-03.47.09:386][667]Launching UnrealBuildTool... [D:/Program Files/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CGXJam,5783 Win64 Development -TargetType=Editor -Project="D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/CGXJam.uproject" "D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/CGXJam.uproject"  -IgnoreJunk]
+[2020.05.02-03.47.09:388][667]Warning: Starting HotReload took  0.0s.
+[2020.05.02-03.47.10:085][702]CompilerResultsLog: New page: Compilation - May 1, 2020, 7:47:10 PM
+[2020.05.02-03.47.10:185][702]CompilerResultsLog: ERROR: A conflicting instance of UnrealBuildTool is already running.
+[2020.05.02-03.47.10:185][702]LogMainFrame: MainFrame: Module compiling took 0.811 seconds
+[2020.05.02-03.47.10:185][702]Warning: HotReload failed, recompile failed
+[2020.05.02-03.47.24:752][562]LogSlate: Window 'Message Log' being destroyed
+[2020.05.02-03.47.24:758][562]LogSlate: Window 'Message Log' being destroyed
+[2020.05.02-03.49.22:813][272]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/CGXJam.CGXJamCharacter
+[2020.05.02-03.51.51:157][860]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.05.02-03.51.51:169][860]Candidate modules for hot reload:
+[2020.05.02-03.51.51:169][860]  CGXJam
+[2020.05.02-03.51.51:169][860]Launching UnrealBuildTool... [D:/Program Files/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CGXJam,7345 Win64 Development -TargetType=Editor -Project="D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/CGXJam.uproject" "D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/CGXJam.uproject"  -IgnoreJunk]
+[2020.05.02-03.51.51:171][860]Warning: Starting HotReload took  0.0s.
+[2020.05.02-03.53.14:731][866]CompilerResultsLog: New page: Compilation - May 1, 2020, 7:53:14 PM
+[2020.05.02-03.53.14:731][866]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam).
+[2020.05.02-03.53.14:731][866]CompilerResultsLog: Building CGXJamEditor...
+[2020.05.02-03.53.14:731][866]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.02-03.53.14:731][866]CompilerResultsLog: Building 6 actions with 12 processes...
+[2020.05.02-03.53.14:731][866]CompilerResultsLog:   [1/6] CGXJamCharacter.gen.cpp
+[2020.05.02-03.53.14:731][866]CompilerResultsLog:   [2/6] CGXJamGameMode.cpp
+[2020.05.02-03.53.14:731][866]LogMainFrame: MainFrame: Module compiling took 83.575 seconds
+[2020.05.02-03.53.14:731][866]Warning: HotReload failed, recompile failed
+[2020.05.02-03.53.36:284][157]LogSlate: Window 'Message Log' being destroyed
+[2020.05.02-03.53.36:290][157]LogSlate: Window 'Message Log' being destroyed
+[2020.05.02-03.53.38:687][301]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.05.02-03.53.38:700][301]Candidate modules for hot reload:
+[2020.05.02-03.53.38:700][301]  CGXJam
+[2020.05.02-03.53.38:700][301]Launching UnrealBuildTool... [D:/Program Files/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CGXJam,7031 Win64 Development -TargetType=Editor -Project="D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/CGXJam.uproject" "D:/Projects/Unreal/Unreal Engine/GameJams/CGLXJam/CGXJam/CGXJam.uproject"  -IgnoreJunk]
+[2020.05.02-03.53.38:701][301]Warning: Starting HotReload took  0.0s.
+[2020.05.02-03.53.55:055][255]CompilerResultsLog: New page: Compilation - May 1, 2020, 7:53:55 PM
+[2020.05.02-03.53.55:055][255]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam).
+[2020.05.02-03.53.55:055][255]CompilerResultsLog: Building CGXJamEditor...
+[2020.05.02-03.53.55:055][255]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.02-03.53.55:055][255]CompilerResultsLog: Building 4 actions with 12 processes...
+[2020.05.02-03.53.55:055][255]CompilerResultsLog:   [1/4] CGXJamCharacter.cpp
+[2020.05.02-03.53.55:055][255]CompilerResultsLog:   [2/4] UE4Editor-CGXJam-7031.lib
+[2020.05.02-03.53.55:056][255]CompilerResultsLog:      Creating library D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\UE4Editor-CGXJam-7031.lib and object D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\UE4Editor-CGXJam-7031.exp
+[2020.05.02-03.53.55:056][255]CompilerResultsLog:   [3/4] UE4Editor-CGXJam-7031.dll
+[2020.05.02-03.53.55:056][255]CompilerResultsLog:      Creating library D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\UE4Editor-CGXJam-7031.suppressed.lib and object D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\UE4Editor-CGXJam-7031.suppressed.exp
+[2020.05.02-03.53.55:056][255]CompilerResultsLog:   [4/4] CGXJamEditor.target
+[2020.05.02-03.53.55:056][255]CompilerResultsLog: Total time in Parallel executor: 14.70 seconds
+[2020.05.02-03.53.55:056][255]CompilerResultsLog: Total execution time: 15.76 seconds
+[2020.05.02-03.53.55:056][255]LogMainFrame: MainFrame: Module compiling took 16.368 seconds
+[2020.05.02-03.53.56:317][255]LogUObjectHash: Compacting FUObjectHashTables data took  18.03ms
+[2020.05.02-03.54.01:383][255]LogClass: Could not find existing class CGXJamCharacter in package /Script/CGXJam for HotReload, assuming new class
+[2020.05.02-03.54.01:800][255]LogHotReload: Re-instancing CGXJamCharacter after hot-reload.
+[2020.05.02-03.54.05:025][255]LogContentBrowser: Native class hierarchy updated for 'CGXJam' in 0.0591 seconds. Added 2 classes and 2 folders.
+[2020.05.02-03.54.05:053][255]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.05.02-03.54.05:238][255]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2020.05.02-03.54.05:392][255]LogContentBrowser: Native class hierarchy populated in 0.0123 seconds. Added 3019 classes and 722 folders.
+[2020.05.02-03.54.05:426][255]Display: HotReload took 26.7s.
+[2020.05.02-03.54.10:753][558]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.02-03.54.11:394][558]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.05.02-03.54.11:486][558]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.02-03.54.11:486][558]PIE: New page: PIE session: ThirdPersonExampleMap (May 1, 2020, 7:54:11 PM)
+[2020.05.02-03.54.11:677][558]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.05.02-03.54.11:737][558]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.05.02-03.54.11:783][558]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.05.02-03.54.12:237][558]LogPlayLevel: PIE: StaticDuplicateObject took: (0.452364s)
+[2020.05.02-03.54.12:503][558]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.05.02-03.54.12:570][558]LogPlayLevel: PIE: World Init took: (0.332957s)
+[2020.05.02-03.54.12:571][558]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.801113s)
+[2020.05.02-03.54.12:599][558]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2020.05.02-03.54.12:786][558]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.02-03.54.12:787][558]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.02-03.54.12:787][558]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.02-03.54.12:787][558]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.02-03.54.12:787][558]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.02-03.54.12:787][558]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.02-03.54.12:787][558]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.02-03.54.12:787][558]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.02-03.54.12:789][558]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.02-03.54.12:801][558]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.02-03.54.12:840][558]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.02-03.54.12:840][558]LogAudioMixer: Display: Name: Headset Earphone (ROG Strix HS)
+[2020.05.02-03.54.12:840][558]LogAudioMixer: Display: Is Default: Yes
+[2020.05.02-03.54.12:840][558]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.02-03.54.12:840][558]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.02-03.54.12:840][558]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.02-03.54.12:840][558]LogAudioMixer: Display: Channel Order:
+[2020.05.02-03.54.12:840][558]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.02-03.54.12:840][558]LogAudioMixer: Display: 1: FrontRight
+[2020.05.02-03.54.12:853][558]LogAudioMixer: Display: Using Audio Device Headset Earphone (ROG Strix HS)
+[2020.05.02-03.54.12:903][558]LogInit: FAudioDevice initialized.
+[2020.05.02-03.54.13:095][558]LogLoad: Game class is 'CGXJamGameMode'
+[2020.05.02-03.54.13:296][558]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2020.05.01-23.54.13
+[2020.05.02-03.54.13:310][558]LogWorld: Bringing up level for play took: 0.142346
+[2020.05.02-03.54.13:337][558]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2020.05.02-03.54.13:557][558]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2020.05.02-03.54.13:577][558]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.486
+[2020.05.02-03.54.13:577][558]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.05.02-03.54.25:897][274]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.02-03.54.25:898][274]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.02-03.54.25:941][274]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.05.02-03.54.25:967][274]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.02-03.54.25:968][274]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.05.02-03.54.25:978][274]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.02-03.54.26:305][274]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.02-03.54.26:305][274]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-03.54.26:345][274]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.02-03.54.26:346][274]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.05.02-03.54.26:375][274]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-03.54.26:418][274]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.02-03.54.26:435][274]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.02-03.54.26:493][274]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2020.05.02-03.54.26:560][275]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2020.05.02-03.54.52:884][416]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.02-03.54.52:891][416]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.05.02-03.54.52:891][416]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.02-03.54.52:892][416]PIE: New page: PIE session: ThirdPersonExampleMap (May 1, 2020, 7:54:52 PM)
+[2020.05.02-03.54.52:892][416]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.05.02-03.54.52:905][416]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013422s)
+[2020.05.02-03.54.52:906][416]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.05.02-03.54.52:908][416]LogPlayLevel: PIE: World Init took: (0.002734s)
+[2020.05.02-03.54.52:908][416]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016370s)
+[2020.05.02-03.54.52:940][416]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2020.05.02-03.54.52:941][416]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.02-03.54.52:941][416]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.02-03.54.52:941][416]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.02-03.54.52:941][416]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.02-03.54.52:941][416]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.02-03.54.52:941][416]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.02-03.54.52:941][416]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.02-03.54.52:941][416]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.02-03.54.52:941][416]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.02-03.54.52:941][416]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.02-03.54.52:962][416]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.02-03.54.52:962][416]LogAudioMixer: Display: Name: Headset Earphone (ROG Strix HS)
+[2020.05.02-03.54.52:962][416]LogAudioMixer: Display: Is Default: Yes
+[2020.05.02-03.54.52:962][416]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.02-03.54.52:962][416]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.02-03.54.52:962][416]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.02-03.54.52:962][416]LogAudioMixer: Display: Channel Order:
+[2020.05.02-03.54.52:962][416]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.02-03.54.52:962][416]LogAudioMixer: Display: 1: FrontRight
+[2020.05.02-03.54.52:973][416]LogAudioMixer: Display: Using Audio Device Headset Earphone (ROG Strix HS)
+[2020.05.02-03.54.52:975][416]LogInit: FAudioDevice initialized.
+[2020.05.02-03.54.53:357][416]LogLoad: Game class is 'CGXJamGameMode'
+[2020.05.02-03.54.53:359][416]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2020.05.01-23.54.53
+[2020.05.02-03.54.53:359][416]LogWorld: Bringing up level for play took: 0.001263
+[2020.05.02-03.54.53:359][416]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.05.02-03.54.53:361][416]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.27
+[2020.05.02-03.54.53:362][416]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.05.02-03.55.45:654][495]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.02-03.55.45:655][495]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.02-03.55.45:655][495]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.05.02-03.55.45:655][495]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.02-03.55.45:655][495]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.05.02-03.55.45:655][495]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.02-03.55.45:655][495]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.02-03.55.45:655][495]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-03.55.45:661][495]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.02-03.55.45:661][495]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.05.02-03.55.45:664][495]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-03.55.45:689][495]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.02-03.55.45:692][495]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.02-03.55.45:695][495]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2020.05.02-03.55.45:759][499]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.05.02-04.10.02:308][807]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/CGXJam.CGXJamCharacter

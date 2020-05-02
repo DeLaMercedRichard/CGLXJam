@@ -1,0 +1,18 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-CGXJam-0003.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\Intermediate\Build\Win64\CGXJamEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\CGXJam.cpp.obj"
+"D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\CGXJamCharacter.cpp.obj"
+"D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\CGXJamGameMode.cpp.obj"
+"D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\CGXJam.init.gen.cpp.obj"
+"D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\CGXJamCharacter.gen.cpp.obj"
+"D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\CGXJamGameMode.gen.cpp.obj"
+"D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\Default.rc2.res"
+/OUT:"D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\UE4Editor-CGXJam-0003.lib"
+/INCLUDE:IMPLEMENT_MODULE_CGXJam
