@@ -632,3 +632,179 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.02-14.29.49:025][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
 [2020.05.02-14.29.56:510][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
 [2020.05.02-14.29.57:010][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 2 classes and 3 folders.
+[2020.05.02-14.30.16:273][  0]LogSlate: Took 0.053576 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.05.02-14.30.16:677][  0]LogSlate: Took 0.095714 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.05.02-14.30.17:107][  0]LogSlate: Took 0.040561 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.05.02-14.30.20:080][  0]LogRenderer: Reallocating scene render targets to support 1056x556 Format 9 NumSamples 1 (Frame:1).
+[2020.05.02-14.30.24:898][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2020.05.02-14.30.24:900][  0]LogLoad: (Engine Initialization) Total time: 390.93 seconds
+[2020.05.02-14.30.24:900][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.05.02-14.30.25:589][  0]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall9)
+[2020.05.02-14.30.28:999][  0]LogContentStreaming: Texture pool size now 600 MB
+[2020.05.02-14.30.29:843][  0]LogSlate: Took 0.034985 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.05.02-14.30.31:647][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/' took 3.72s
+[2020.05.02-14.30.33:044][  3]LogAssetRegistry: Asset discovery search completed in 200.8075 seconds
+[2020.05.02-14.30.33:096][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000731 seconds (updated 0 objects)
+[2020.05.02-14.30.33:600][  4]LogSlate: Took 0.000289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.05.02-14.30.44:831][801]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.02-14.30.45:014][801]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.05.02-14.30.45:354][801]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.02-14.30.45:674][801]PIE: New page: PIE session: ThirdPersonExampleMap (May 2, 2020, 6:30:45 AM)
+[2020.05.02-14.30.45:972][801]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.05.02-14.30.46:006][801]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.05.02-14.30.46:127][801]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.05.02-14.30.46:411][801]LogPlayLevel: PIE: StaticDuplicateObject took: (0.282521s)
+[2020.05.02-14.30.46:425][801]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.05.02-14.30.46:449][801]LogPlayLevel: PIE: World Init took: (0.038304s)
+[2020.05.02-14.30.46:533][801]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.405628s)
+[2020.05.02-14.30.46:672][801]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2020.05.02-14.30.46:844][801]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.02-14.30.46:844][801]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.02-14.30.46:844][801]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.02-14.30.46:844][801]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.02-14.30.46:844][801]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.02-14.30.46:844][801]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.02-14.30.46:844][801]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.02-14.30.46:844][801]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.02-14.30.46:845][801]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.02-14.30.46:845][801]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.02-14.30.46:883][801]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.02-14.30.46:883][801]LogAudioMixer: Display: Name: Speakers (2- Sennheiser USB headset)
+[2020.05.02-14.30.46:883][801]LogAudioMixer: Display: Is Default: Yes
+[2020.05.02-14.30.46:883][801]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.02-14.30.46:883][801]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.02-14.30.46:884][801]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.02-14.30.46:884][801]LogAudioMixer: Display: Channel Order:
+[2020.05.02-14.30.46:884][801]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.02-14.30.46:884][801]LogAudioMixer: Display: 1: FrontRight
+[2020.05.02-14.30.46:951][801]LogAudioMixer: Display: Using Audio Device Speakers (2- Sennheiser USB headset)
+[2020.05.02-14.30.47:036][801]LogInit: FAudioDevice initialized.
+[2020.05.02-14.30.47:220][801]LogLoad: Game class is 'CGXJamGameMode'
+[2020.05.02-14.30.47:755][801]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.05.02-10.30.47
+[2020.05.02-14.30.47:895][801]LogWorld: Bringing up level for play took: 0.219190
+[2020.05.02-14.30.47:931][801]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.05.02-14.30.49:003][801]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0074 seconds. Added 20 classes and 0 folders.
+[2020.05.02-14.30.49:611][801]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 3.743
+[2020.05.02-14.30.49:611][801]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.05.02-14.31.07:332][629]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.02-14.31.07:332][629]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.02-14.31.07:361][629]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.05.02-14.31.08:462][629]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.02-14.31.08:462][629]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.05.02-14.31.08:714][629]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.02-14.31.08:859][629]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.02-14.31.08:962][629]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-14.31.09:177][629]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.02-14.31.09:197][629]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.05.02-14.31.09:288][629]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-14.31.09:524][629]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.02-14.31.09:773][629]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.02-14.31.10:217][629]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2020.05.02-14.31.10:603][630]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.05.02-14.33.56:267][379]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BuildingSystem/BluePrints/BP_MasterBuildingStatManager.BP_MasterBuildingStatManager
+[2020.05.02-14.33.57:133][379]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 121 classes and 0 folders.
+[2020.05.02-14.33.59:745][379]LogSlate: Took 0.012227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.05.02-14.34.06:619][824]LogSlate: Took 0.013576 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.05.02-14.34.15:284][447]LogSlate: Window 'BP_MasterBuildingStatManager' being destroyed
+[2020.05.02-14.34.15:405][447]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.05.02-14.34.15:405][447]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-14.34.16:795][545]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BuildingSystem/BluePrints/BP_Building_Manager.BP_Building_Manager
+[2020.05.02-14.34.20:190][762]LogSlate: Window 'BP_Building_Manager' being destroyed
+[2020.05.02-14.34.20:214][762]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.05.02-14.34.20:215][762]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-14.34.27:024][416]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BuildingSystem/BluePrints/BP_PlayerStats.BP_PlayerStats
+[2020.05.02-14.34.36:293][ 85]LogSlate: Window 'BP_PlayerStats' being destroyed
+[2020.05.02-14.34.36:315][ 85]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.05.02-14.34.36:315][ 85]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-14.35.28:864][745]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.02-14.35.28:877][745]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.05.02-14.35.28:877][745]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.02-14.35.28:877][745]PIE: New page: PIE session: ThirdPersonExampleMap (May 2, 2020, 6:35:28 AM)
+[2020.05.02-14.35.28:877][745]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.05.02-14.35.28:898][745]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020849s)
+[2020.05.02-14.35.28:901][745]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.05.02-14.35.28:901][745]LogPlayLevel: PIE: World Init took: (0.002456s)
+[2020.05.02-14.35.28:901][745]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023583s)
+[2020.05.02-14.35.29:058][745]LogUObjectHash: Compacting FUObjectHashTables data took   7.16ms
+[2020.05.02-14.35.29:066][745]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.02-14.35.29:066][745]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.02-14.35.29:066][745]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.02-14.35.29:066][745]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.02-14.35.29:066][745]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.02-14.35.29:066][745]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.02-14.35.29:066][745]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.02-14.35.29:066][745]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.02-14.35.29:067][745]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.02-14.35.29:067][745]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.02-14.35.29:101][745]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.02-14.35.29:101][745]LogAudioMixer: Display: Name: Speakers (2- Sennheiser USB headset)
+[2020.05.02-14.35.29:101][745]LogAudioMixer: Display: Is Default: Yes
+[2020.05.02-14.35.29:101][745]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.02-14.35.29:101][745]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.02-14.35.29:101][745]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.02-14.35.29:101][745]LogAudioMixer: Display: Channel Order:
+[2020.05.02-14.35.29:101][745]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.02-14.35.29:101][745]LogAudioMixer: Display: 1: FrontRight
+[2020.05.02-14.35.29:128][745]LogAudioMixer: Display: Using Audio Device Speakers (2- Sennheiser USB headset)
+[2020.05.02-14.35.29:131][745]LogInit: FAudioDevice initialized.
+[2020.05.02-14.35.29:165][745]LogLoad: Game class is 'CGXJamGameMode'
+[2020.05.02-14.35.29:168][745]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.05.02-10.35.29
+[2020.05.02-14.35.29:168][745]LogWorld: Bringing up level for play took: 0.002424
+[2020.05.02-14.35.29:169][745]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.05.02-14.35.29:181][745]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.686
+[2020.05.02-14.35.29:181][745]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.05.02-14.35.43:086][366]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.02-14.35.43:086][366]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.02-14.35.43:086][366]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.05.02-14.35.43:087][366]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.02-14.35.43:087][366]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.05.02-14.35.43:087][366]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.02-14.35.43:087][366]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.02-14.35.43:088][366]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-14.35.43:097][366]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.02-14.35.43:098][366]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.05.02-14.35.43:104][366]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-14.35.43:189][366]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.02-14.35.43:195][366]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.02-14.35.43:203][366]LogUObjectHash: Compacting FUObjectHashTables data took   6.19ms
+[2020.05.02-14.35.43:228][367]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.05.02-14.35.52:496][291]LogMaterial: Display: Missing cached shader map for material M_GhostTile, compiling. 
+[2020.05.02-14.35.52:885][291]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 31
+[2020.05.02-14.35.52:885][291]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 21
+[2020.05.02-14.36.05:605][ 60]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 11
+[2020.05.02-14.36.07:059][159]Cmd: DELETE
+[2020.05.02-14.36.07:059][159]Cmd: ACTOR DELETE
+[2020.05.02-14.36.07:497][159]LogEditorActor: Deleted Actor: BP_Master_Tile_C
+[2020.05.02-14.36.07:599][159]LogUObjectHash: Compacting FUObjectHashTables data took   8.53ms
+[2020.05.02-14.36.07:608][159]LogEditorActor: Deleted 1 Actors (0.147 secs)
+[2020.05.02-14.36.10:533][311]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.05.02-14.36.10:732][325]Cmd: DELETE
+[2020.05.02-14.36.10:732][325]Cmd: ACTOR DELETE
+[2020.05.02-14.36.10:736][325]LogEditorActor: Deleted Actor: Tile_Stair_C
+[2020.05.02-14.36.10:850][325]LogUObjectHash: Compacting FUObjectHashTables data took   6.21ms
+[2020.05.02-14.36.10:851][325]LogEditorActor: Deleted 1 Actors (0.119 secs)
+[2020.05.02-14.36.14:000][417]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2020.05.02-14.37.09:544][715]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BuildingSystem/BluePrints/BP_Building_Manager.BP_Building_Manager
+[2020.05.02-14.37.15:721][140]LogSlate: Window 'BP_Building_Manager' being destroyed
+[2020.05.02-14.37.15:737][140]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.05.02-14.37.15:737][140]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-14.37.32:166][682]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/BuildingSystem/Widgets/W_StatBar.W_StatBar
+[2020.05.02-14.37.38:358][949]LogSlate: Window 'W_StatBar' being destroyed
+[2020.05.02-14.37.38:643][949]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.05.02-14.37.38:643][949]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-14.37.38:658][949]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.05.02-14.37.38:658][949]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-14.37.39:967][ 57]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/BuildingSystem/Widgets/W_Main.W_Main
+[2020.05.02-14.38.05:495][ 20]LogSlate: Window 'W_Main' being destroyed
+[2020.05.02-14.38.05:512][ 20]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.05.02-14.38.05:512][ 20]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-14.38.05:540][ 20]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.05.02-14.38.05:540][ 20]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-14.38.06:905][136]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/BuildingSystem/Widgets/W_StatBar.W_StatBar
+[2020.05.02-14.38.34:317][591]LogSlate: Window 'W_StatBar' being destroyed
+[2020.05.02-14.38.34:341][591]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2020.05.02-14.38.34:341][591]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-14.38.34:362][591]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.05.02-14.38.34:362][591]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-14.38.41:614][320]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/BuildingSystem/Widgets/W_Main.W_Main
+[2020.05.02-14.39.04:992][232]LogSlate: Window 'W_Main' being destroyed
