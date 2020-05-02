@@ -17,11 +17,54 @@ void EmptyLinkFunctionForGeneratedCodeCGXJamCharacter() {}
 	CGXJAM_API UClass* Z_Construct_UClass_ACGXJamCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_CGXJam();
+	CGXJAM_API UFunction* Z_Construct_UFunction_ACGXJamCharacter_CheckValue();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 // End Cross Module References
 	void ACGXJamCharacter::StaticRegisterNativesACGXJamCharacter()
 	{
+		UClass* Class = ACGXJamCharacter::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "CheckValue", &ACGXJamCharacter::execCheckValue },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_ACGXJamCharacter_CheckValue_Statics
+	{
+		struct CGXJamCharacter_eventCheckValue_Parms
+		{
+			int32 i_;
+			int32 ReturnValue;
+		};
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_i_;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_ACGXJamCharacter_CheckValue_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(CGXJamCharacter_eventCheckValue_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_ACGXJamCharacter_CheckValue_Statics::NewProp_i_ = { "i_", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(CGXJamCharacter_eventCheckValue_Parms, i_), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ACGXJamCharacter_CheckValue_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ACGXJamCharacter_CheckValue_Statics::NewProp_ReturnValue,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ACGXJamCharacter_CheckValue_Statics::NewProp_i_,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACGXJamCharacter_CheckValue_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Item Value" },
+		{ "ModuleRelativePath", "CGXJamCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ACGXJamCharacter_CheckValue_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACGXJamCharacter, nullptr, "CheckValue", nullptr, nullptr, sizeof(CGXJamCharacter_eventCheckValue_Parms), Z_Construct_UFunction_ACGXJamCharacter_CheckValue_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ACGXJamCharacter_CheckValue_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACGXJamCharacter_CheckValue_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ACGXJamCharacter_CheckValue_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ACGXJamCharacter_CheckValue()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ACGXJamCharacter_CheckValue_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_ACGXJamCharacter_NoRegister()
 	{
@@ -30,9 +73,14 @@ void EmptyLinkFunctionForGeneratedCodeCGXJamCharacter() {}
 	struct Z_Construct_UClass_ACGXJamCharacter_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_i_maxSlots_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_i_maxSlots;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseLookUpRate_MetaData[];
 #endif
@@ -57,6 +105,9 @@ void EmptyLinkFunctionForGeneratedCodeCGXJamCharacter() {}
 		(UObject* (*)())Z_Construct_UClass_ACharacter,
 		(UObject* (*)())Z_Construct_UPackage__Script_CGXJam,
 	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_ACGXJamCharacter_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ACGXJamCharacter_CheckValue, "CheckValue" }, // 3048793130
+	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACGXJamCharacter_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Navigation" },
@@ -64,6 +115,13 @@ void EmptyLinkFunctionForGeneratedCodeCGXJamCharacter() {}
 		{ "ModuleRelativePath", "CGXJamCharacter.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACGXJamCharacter_Statics::NewProp_i_maxSlots_MetaData[] = {
+		{ "Category", "Item Value" },
+		{ "ModuleRelativePath", "CGXJamCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ACGXJamCharacter_Statics::NewProp_i_maxSlots = { "i_maxSlots", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACGXJamCharacter, i_maxSlots), METADATA_PARAMS(Z_Construct_UClass_ACGXJamCharacter_Statics::NewProp_i_maxSlots_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACGXJamCharacter_Statics::NewProp_i_maxSlots_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACGXJamCharacter_Statics::NewProp_BaseLookUpRate_MetaData[] = {
 		{ "Category", "Camera" },
@@ -105,6 +163,7 @@ void EmptyLinkFunctionForGeneratedCodeCGXJamCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACGXJamCharacter_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACGXJamCharacter, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACGXJamCharacter_Statics::NewProp_CameraBoom_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACGXJamCharacter_Statics::NewProp_CameraBoom_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACGXJamCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACGXJamCharacter_Statics::NewProp_i_maxSlots,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACGXJamCharacter_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACGXJamCharacter_Statics::NewProp_BaseTurnRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACGXJamCharacter_Statics::NewProp_FollowCamera,
@@ -118,11 +177,11 @@ void EmptyLinkFunctionForGeneratedCodeCGXJamCharacter() {}
 		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_ACGXJamCharacter_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_ACGXJamCharacter_Statics::PropPointers),
 		0,
 		0x008000A4u,
@@ -137,7 +196,7 @@ void EmptyLinkFunctionForGeneratedCodeCGXJamCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACGXJamCharacter, 381679146);
+	IMPLEMENT_CLASS(ACGXJamCharacter, 435727445);
 	template<> CGXJAM_API UClass* StaticClass<ACGXJamCharacter>()
 	{
 		return ACGXJamCharacter::StaticClass();

@@ -132,3 +132,15 @@ void ACGXJamCharacter::MoveRight(float Value)
 		AddMovementInput(Direction, Value);
 	}
 }
+
+int ACGXJamCharacter::CheckValue(int i_)
+{
+	int i = i_;
+	i++;
+	if (i > i_maxSlots - 1)
+	{
+		i = 0;
+	}
+	return i;
+
+}

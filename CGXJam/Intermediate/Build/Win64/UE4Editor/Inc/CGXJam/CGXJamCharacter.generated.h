@@ -14,8 +14,30 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define CGXJAM_CGXJamCharacter_generated_h
 
 #define CGXJam_Source_CGXJam_CGXJamCharacter_h_12_SPARSE_DATA
-#define CGXJam_Source_CGXJam_CGXJamCharacter_h_12_RPC_WRAPPERS
-#define CGXJam_Source_CGXJam_CGXJamCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define CGXJam_Source_CGXJam_CGXJamCharacter_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execCheckValue) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_i_); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->CheckValue(Z_Param_i_); \
+		P_NATIVE_END; \
+	}
+
+
+#define CGXJam_Source_CGXJam_CGXJamCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execCheckValue) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_i_); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->CheckValue(Z_Param_i_); \
+		P_NATIVE_END; \
+	}
+
+
 #define CGXJam_Source_CGXJam_CGXJamCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACGXJamCharacter(); \
