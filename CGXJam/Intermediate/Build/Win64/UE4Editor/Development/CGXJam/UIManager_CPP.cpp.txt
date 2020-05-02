@@ -1,3 +1,3 @@
-C:\Users\Delam\OneDrive\Documents\GitHub\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\Definitions.CGXJam.h
-c:\users\delam\onedrive\documents\github\cglxjam\cgxjam\source\cgxjam\UIManager_CPP.h
-C:\Users\Delam\OneDrive\Documents\GitHub\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Inc\CGXJam\UIManager_CPP.generated.h
+D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\Definitions.CGXJam.h
+D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\Source\CGXJam\UIManager_CPP.h
+D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Inc\CGXJam\UIManager_CPP.generated.h
