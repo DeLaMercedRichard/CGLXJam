@@ -68,5 +68,10 @@ public:
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	/** Returns FollowCamera subobject **/
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
+	UFUNCTION(BlueprintCallable, Category = "Item Value")
+		int CheckValue(int i_);
+
+	UPROPERTY(EditAnywhere, Category = "Item Value")
+		int i_maxSlots;
 };
 
