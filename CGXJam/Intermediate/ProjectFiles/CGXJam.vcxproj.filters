@@ -3,7 +3,11 @@
   <ItemGroup>
     <None Include="..\..\CGXJam.uproject" />
     <Filter Include="Source">
+<<<<<<< Updated upstream
       <UniqueIdentifier>{C20CC1E1-8CA3-426E-81C4-4AFE67FA9BC1}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{886CB746-B700-4864-BCE3-222B7584FF69}</UniqueIdentifier>
+>>>>>>> Stashed changes
     </Filter>
     <None Include="..\..\Source\CGXJam.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +16,11 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
+<<<<<<< Updated upstream
       <UniqueIdentifier>{81FB7E10-75BB-40B1-9AB8-E75211893D59}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{B13142BD-17C6-46A7-AD9C-0CA0E2831D08}</UniqueIdentifier>
+>>>>>>> Stashed changes
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +38,11 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\CGXJam">
+<<<<<<< Updated upstream
       <UniqueIdentifier>{0F74732E-1688-416D-A910-90C7A34E6421}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{98EEEF64-D59E-43CF-BE51-AEA21944F5B4}</UniqueIdentifier>
+>>>>>>> Stashed changes
     </Filter>
     <None Include="..\..\Source\CGXJam\CGXJam.Build.cs">
       <Filter>Source\CGXJam</Filter>
