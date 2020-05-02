@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeCGXJam_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x129E2034,
+				0xF0804F51,
 				0x7E7C0ACF,
 				METADATA_PARAMS(nullptr, 0)
 			};
