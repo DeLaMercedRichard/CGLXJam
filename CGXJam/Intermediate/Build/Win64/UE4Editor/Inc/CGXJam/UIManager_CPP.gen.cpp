@@ -233,9 +233,9 @@ void EmptyLinkFunctionForGeneratedCodeUIManager_CPP() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AUIManager_CPP_SetMenuHidden_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Build Menu" },
-		{ "Comment", "//Build Menu Properties\n" },
+		{ "Comment", "//get the max budget of the stage\n//Build Menu Properties\n" },
 		{ "ModuleRelativePath", "UIManager_CPP.h" },
-		{ "ToolTip", "Build Menu Properties" },
+		{ "ToolTip", "get the max budget of the stage\nBuild Menu Properties" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AUIManager_CPP_SetMenuHidden_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AUIManager_CPP, nullptr, "SetMenuHidden", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AUIManager_CPP_SetMenuHidden_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AUIManager_CPP_SetMenuHidden_Statics::Function_MetaDataParams)) };
@@ -400,7 +400,7 @@ void EmptyLinkFunctionForGeneratedCodeUIManager_CPP() {}
 		{ &Z_Construct_UFunction_AUIManager_CPP_GetMenuHidden, "GetMenuHidden" }, // 1853998486
 		{ &Z_Construct_UFunction_AUIManager_CPP_GetTimer, "GetTimer" }, // 3697720180
 		{ &Z_Construct_UFunction_AUIManager_CPP_GetUsedBudget, "GetUsedBudget" }, // 217118593
-		{ &Z_Construct_UFunction_AUIManager_CPP_SetMenuHidden, "SetMenuHidden" }, // 401990361
+		{ &Z_Construct_UFunction_AUIManager_CPP_SetMenuHidden, "SetMenuHidden" }, // 2241690503
 		{ &Z_Construct_UFunction_AUIManager_CPP_SetStageBuildLimit, "SetStageBuildLimit" }, // 3499102606
 		{ &Z_Construct_UFunction_AUIManager_CPP_SetTimer, "SetTimer" }, // 1331309388
 		{ &Z_Construct_UFunction_AUIManager_CPP_SubtractFromStageBudget, "SubtractFromStageBudget" }, // 3435750508
@@ -414,9 +414,9 @@ void EmptyLinkFunctionForGeneratedCodeUIManager_CPP() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_isHidden_MetaData[] = {
 		{ "Category", "Build Menu" },
-		{ "Comment", "//Build Menu Properties\n" },
+		{ "Comment", "//the amount of budget the player has used on the stage;\n//Build Menu Properties\n" },
 		{ "ModuleRelativePath", "UIManager_CPP.h" },
-		{ "ToolTip", "Build Menu Properties" },
+		{ "ToolTip", "the amount of budget the player has used on the stage;\nBuild Menu Properties" },
 	};
 #endif
 	void Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_isHidden_SetBit(void* Obj)
@@ -498,7 +498,7 @@ void EmptyLinkFunctionForGeneratedCodeUIManager_CPP() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AUIManager_CPP, 1007400238);
+	IMPLEMENT_CLASS(AUIManager_CPP, 251448491);
 	template<> CGXJAM_API UClass* StaticClass<AUIManager_CPP>()
 	{
 		return AUIManager_CPP::StaticClass();
