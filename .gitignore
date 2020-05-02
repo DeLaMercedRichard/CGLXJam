@@ -72,3 +72,8 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+*.uasset
+CGXJam/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+CGXJam/Saved/Logs/UnrealVersionSelector-2020.05.02-12.10.54.log
+CGXJam/Saved/Logs/CGXJam-backup-2020.05.02-16.08.06.log
+CGXJam/Saved/Logs/CGXJam.log

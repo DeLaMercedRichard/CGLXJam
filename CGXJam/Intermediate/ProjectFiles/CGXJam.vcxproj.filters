@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\CGXJam.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{52E00F25-728C-4A2C-9350-4EF1DCA09C3E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CGXJam.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CGXJamEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{B97EEA20-DCE0-4B6A-8D26-5B5F71D4211D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\CGXJam">
+      <UniqueIdentifier>{AC18AD48-33B9-40CE-92E6-10C18312B539}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CGXJam\CGXJam.Build.cs">
+      <Filter>Source\CGXJam</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\CGXJam\CGXJam.cpp">
+      <Filter>Source\CGXJam</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CGXJam\CGXJam.h">
+      <Filter>Source\CGXJam</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CGXJam\CGXJamCharacter.cpp">
+      <Filter>Source\CGXJam</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CGXJam\CGXJamCharacter.h">
+      <Filter>Source\CGXJam</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CGXJam\CGXJamGameMode.cpp">
+      <Filter>Source\CGXJam</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CGXJam\CGXJamGameMode.h">
+      <Filter>Source\CGXJam</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CGXJam\UIManager_CPP.cpp">
+      <Filter>Source\CGXJam</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CGXJam\UIManager_CPP.h">
+      <Filter>Source\CGXJam</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
