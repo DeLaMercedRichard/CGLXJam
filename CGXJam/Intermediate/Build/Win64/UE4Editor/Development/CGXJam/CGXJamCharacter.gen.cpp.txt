@@ -1,9 +1,0 @@
-C:\Users\Brand\Desktop\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\Definitions.CGXJam.h
-E:\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-E:\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\Brand\Desktop\CGLXJam\CGXJam\Source\CGXJam/CGXJamCharacter.h
-E:\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
-E:\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
-E:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
-E:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-C:\Users\Brand\Desktop\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Inc\CGXJam\CGXJamCharacter.generated.h
