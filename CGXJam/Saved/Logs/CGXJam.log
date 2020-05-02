@@ -808,3 +808,14 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.02-14.38.34:362][591]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2020.05.02-14.38.41:614][320]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/BuildingSystem/Widgets/W_Main.W_Main
 [2020.05.02-14.39.04:992][232]LogSlate: Window 'W_Main' being destroyed
+[2020.05.02-14.40.18:990][725]LogUObjectHash: Compacting FUObjectHashTables data took   9.40ms
+[2020.05.02-14.40.20:978][725]LogSlate: Window 'Save Content' being destroyed
+[2020.05.02-14.40.21:279][725]LogSlate: Window 'CGXJam - Unreal Editor' being destroyed
+[2020.05.02-14.40.22:021][725]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2020.05.02-14.40.22:021][725]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-14.40.22:029][725]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.05.02-14.40.22:029][725]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.02-14.40.23:023][726]Cmd: QUIT_EDITOR
+[2020.05.02-14.40.23:023][726]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.05.02-14.40.23:160][726]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.05.02-14.40.23:296][726]LogAudioMixer: Display: No commands were queued while flushing the source manager.
