@@ -118,7 +118,7 @@ bool AUIManager_CPP::GetMenuHidden()
 
 void AUIManager_CPP::SetDefaults() //default throwaway values
 {
-		f_timer = 300.0f;
+		f_timer = 120.0f;
 		b_isTimerActive = true;
 		i_buildLimit = 10;
 		i_usedBudget = 0;
