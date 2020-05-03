@@ -514,3 +514,100 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.03-02.13.25:179][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
 [2020.05.03-02.13.42:727][  0]LogTcpMessaging: Initializing TcpMessaging bridge
 [2020.05.03-02.13.43:005][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.05.03-02.13.53:979][  0]SourceControl: Source control is disabled
+[2020.05.03-02.13.53:980][  0]SourceControl: Source control is disabled
+[2020.05.03-02.13.54:591][  0]SourceControl: Source control is disabled
+[2020.05.03-02.13.54:763][  0]SourceControl: Source control is disabled
+[2020.05.03-02.13.54:810][  0]SourceControl: Source control is disabled
+[2020.05.03-02.13.58:184][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.05.03-02.13.58:690][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.03-02.13.58:690][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.03-02.14.00:312][  0]LogOcInput: OculusInput pre-init called
+[2020.05.03-02.14.00:506][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.05.03-02.14.00:506][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.05.03-02.14.02:484][  0]LogEngine: Initializing Engine...
+[2020.05.03-02.14.02:516][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.05.03-02.14.02:574][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.026 s
+[2020.05.03-02.14.04:953][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.05.03-02.14.05:320][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.05.03-02.14.05:403][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.03-02.14.05:403][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.03-02.14.05:403][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.03-02.14.05:403][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.03-02.14.05:403][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.03-02.14.05:403][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.03-02.14.05:403][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.03-02.14.05:417][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.03-02.14.05:417][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.03-02.14.05:418][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.03-02.14.05:608][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.03-02.14.05:608][  0]LogAudioMixer: Display: Name: Speakers (2- Sennheiser USB headset)
+[2020.05.03-02.14.05:608][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.05.03-02.14.05:608][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.03-02.14.05:608][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.03-02.14.05:608][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.03-02.14.05:608][  0]LogAudioMixer: Display: Channel Order:
+[2020.05.03-02.14.05:608][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.03-02.14.05:608][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.05.03-02.14.05:677][  0]LogAudioMixer: Display: Using Audio Device Speakers (2- Sennheiser USB headset)
+[2020.05.03-02.14.05:825][  0]LogInit: FAudioDevice initialized.
+[2020.05.03-02.14.05:843][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.05.03-02.14.07:141][  0]LogDerivedDataCache: Saved boot cache 1.30s 82MB C:/Users/Delam/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.05.03-02.14.07:143][  0]LogInit: Texture streaming: Enabled
+[2020.05.03-02.14.07:520][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.05.03-02.14.07:520][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.05.03-02.14.07:523][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.05.03-02.14.08:502][  0]LogInit: Transaction tracking system initialized
+[2020.05.03-02.14.10:062][  0]BlueprintLog: New page: Editor Load
+[2020.05.03-02.14.12:245][  0]LocalizationService: Localization service is disabled
+[2020.05.03-02.14.19:854][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.05.03-02.14.19:854][  0]LogCook: Display: Mobile HDR setting 1
+[2020.05.03-02.14.21:063][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/' took 0.34s
+[2020.05.03-02.14.26:897][  0]SourceControl: Source control is disabled
+[2020.05.03-02.14.26:909][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.05.03-02.14.26:918][  0]LightingResults: New page: Lighting Build
+[2020.05.03-02.14.26:965][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.05.03-02.14.26:965][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.03-02.14.26:965][  0]MapCheck: New page: Map Check
+[2020.05.03-02.14.26:965][  0]LightingResults: New page: Lighting Build
+[2020.05.03-02.14.27:068][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2020.05.03-02.14.31:127][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.05.03-02.14.31:661][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.05.03-02.14.31:932][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.53ms
+[2020.05.03-02.14.31:932][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.05.03-02.14.31:933][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.3ms to complete.
+[2020.05.03-02.14.31:933][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 5.024
+[2020.05.03-02.14.32:705][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.03-02.14.32:722][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.03-02.14.32:738][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.03-02.14.32:750][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.03-02.14.33:368][  0]LogCollectionManager: Loaded 0 collections in 0.004899 seconds
+[2020.05.03-02.14.33:657][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Collections/' took 0.00s
+[2020.05.03-02.14.33:657][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/Developers/Delam/Collections/' took 0.00s
+[2020.05.03-02.14.33:657][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/Collections/' took 0.00s
+[2020.05.03-02.14.33:657][  0]LogContentBrowser: Native class hierarchy populated in 0.0418 seconds. Added 3018 classes and 719 folders.
+[2020.05.03-02.14.33:778][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2020.05.03-02.14.36:311][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2020.05.03-02.14.36:643][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 2 classes and 3 folders.
+[2020.05.03-02.14.41:382][  0]LogSlate: Took 0.016549 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.05.03-02.14.41:405][  0]LogSlate: Took 0.020252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.05.03-02.14.41:427][  0]LogSlate: Took 0.015478 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.05.03-02.14.41:999][  0]LogRenderer: Reallocating scene render targets to support 1056x556 Format 9 NumSamples 1 (Frame:1).
+[2020.05.03-02.14.42:714][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0017 seconds. Added 0 classes and 0 folders.
+[2020.05.03-02.14.42:715][  0]LogLoad: (Engine Initialization) Total time: 278.31 seconds
+[2020.05.03-02.14.42:715][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.05.03-02.14.43:235][  0]LogContentStreaming: Texture pool size now 600 MB
+[2020.05.03-02.14.43:618][  0]LogSlate: Took 0.044505 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.05.03-02.14.43:733][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/' took 0.84s
+[2020.05.03-02.14.44:065][  3]LogSlate: Took 0.000288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.05.03-02.14.46:599][ 33]LogAssetRegistry: Asset discovery search completed in 180.4739 seconds
+[2020.05.03-02.14.46:606][ 33]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000014 seconds (updated 0 objects)
+[2020.05.03-02.15.24:567][149]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.05.03-02.15.31:495][701]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2020.05.03-02.15.32:390][749]Cmd: DELETE
+[2020.05.03-02.15.32:391][749]Cmd: ACTOR DELETE
+[2020.05.03-02.15.32:520][749]LogAIModule: Creating AISystem for world Level_04_Draft
+[2020.05.03-02.15.32:592][749]LogEditorActor: Deleted Actor: PointLight
+[2020.05.03-02.15.32:702][749]LogUObjectHash: Compacting FUObjectHashTables data took   5.29ms
+[2020.05.03-02.15.32:706][749]LogEditorActor: Deleted 1 Actors (0.315 secs)
+[2020.05.03-02.15.33:230][787]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
