@@ -64,6 +64,8 @@ public:
 
 		UFUNCTION(BlueprintCallable, Category = "Player State")
 			bool GetPlayerDead();
+		UFUNCTION(BlueprintCallable, Category = "Player State")
+			void SetStageComplete();
 private:
 	//Timer Functionallity
 	UPROPERTY(VisibleAnywhere, Category = "Stage Timer")
@@ -85,7 +87,7 @@ private:
 	bool b_isDead;
 
 	//debug functions
-
+	bool b_stageComplete;
 	void SetDefaults();
 
 };

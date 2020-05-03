@@ -16,6 +16,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define CGXJam_Source_CGXJam_UIManager_CPP_h_12_SPARSE_DATA
 #define CGXJam_Source_CGXJam_UIManager_CPP_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execSetStageComplete) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetStageComplete(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execGetPlayerDead) \
 	{ \
 		P_FINISH; \
@@ -110,6 +118,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define CGXJam_Source_CGXJam_UIManager_CPP_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetStageComplete) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetStageComplete(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execGetPlayerDead) \
 	{ \

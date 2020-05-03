@@ -26,7 +26,7 @@ void AUIManager_CPP::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	if (b_isTimerActive) //if the timer is active, progress time in the stage
+	if (b_isTimerActive && !b_stageComplete) //if the timer is active, progress time in the stage
 		ProgressTime(DeltaTime);
 }
 
@@ -34,7 +34,7 @@ void AUIManager_CPP::Tick(float DeltaTime)
 void AUIManager_CPP::ProgressTime(float DeltaTime)
 {
 	f_timer -= DeltaTime; //count down the stage timer
-
+	
 	if (f_timer <= 0)
 	{
 		f_timer = 0; //set timer to equal 0
@@ -124,6 +124,7 @@ void AUIManager_CPP::SetDefaults() //default throwaway values
 		i_usedBudget = 0;
 		b_isHidden = true;
 		b_isDead = false;
+		b_stageComplete = false;
 }
 
 void AUIManager_CPP::SetPlayerDead()
@@ -133,4 +134,8 @@ void AUIManager_CPP::SetPlayerDead()
 bool AUIManager_CPP::GetPlayerDead()
 {
 	return b_isDead;
+}
+void AUIManager_CPP::SetStageComplete()
+{
+	b_stageComplete = true;
 }

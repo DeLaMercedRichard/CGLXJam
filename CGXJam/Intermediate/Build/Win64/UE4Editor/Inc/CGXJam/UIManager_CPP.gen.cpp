@@ -25,6 +25,7 @@ void EmptyLinkFunctionForGeneratedCodeUIManager_CPP() {}
 	CGXJAM_API UFunction* Z_Construct_UFunction_AUIManager_CPP_SetMenuHidden();
 	CGXJAM_API UFunction* Z_Construct_UFunction_AUIManager_CPP_SetPlayerDead();
 	CGXJAM_API UFunction* Z_Construct_UFunction_AUIManager_CPP_SetStageBuildLimit();
+	CGXJAM_API UFunction* Z_Construct_UFunction_AUIManager_CPP_SetStageComplete();
 	CGXJAM_API UFunction* Z_Construct_UFunction_AUIManager_CPP_SetTimer();
 	CGXJAM_API UFunction* Z_Construct_UFunction_AUIManager_CPP_SubtractFromStageBudget();
 	CGXJAM_API UFunction* Z_Construct_UFunction_AUIManager_CPP_TryAddToStageBudget();
@@ -41,6 +42,7 @@ void EmptyLinkFunctionForGeneratedCodeUIManager_CPP() {}
 			{ "SetMenuHidden", &AUIManager_CPP::execSetMenuHidden },
 			{ "SetPlayerDead", &AUIManager_CPP::execSetPlayerDead },
 			{ "SetStageBuildLimit", &AUIManager_CPP::execSetStageBuildLimit },
+			{ "SetStageComplete", &AUIManager_CPP::execSetStageComplete },
 			{ "SetTimer", &AUIManager_CPP::execSetTimer },
 			{ "SubtractFromStageBudget", &AUIManager_CPP::execSubtractFromStageBudget },
 			{ "TryAddToStageBudget", &AUIManager_CPP::execTryAddToStageBudget },
@@ -315,6 +317,29 @@ void EmptyLinkFunctionForGeneratedCodeUIManager_CPP() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AUIManager_CPP_SetStageComplete_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AUIManager_CPP_SetStageComplete_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Player State" },
+		{ "ModuleRelativePath", "UIManager_CPP.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AUIManager_CPP_SetStageComplete_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AUIManager_CPP, nullptr, "SetStageComplete", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AUIManager_CPP_SetStageComplete_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AUIManager_CPP_SetStageComplete_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AUIManager_CPP_SetStageComplete()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AUIManager_CPP_SetStageComplete_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_AUIManager_CPP_SetTimer_Statics
 	{
 		struct UIManager_CPP_eventSetTimer_Parms
@@ -484,6 +509,7 @@ void EmptyLinkFunctionForGeneratedCodeUIManager_CPP() {}
 		{ &Z_Construct_UFunction_AUIManager_CPP_SetMenuHidden, "SetMenuHidden" }, // 401990361
 		{ &Z_Construct_UFunction_AUIManager_CPP_SetPlayerDead, "SetPlayerDead" }, // 925121244
 		{ &Z_Construct_UFunction_AUIManager_CPP_SetStageBuildLimit, "SetStageBuildLimit" }, // 3499102606
+		{ &Z_Construct_UFunction_AUIManager_CPP_SetStageComplete, "SetStageComplete" }, // 3844598111
 		{ &Z_Construct_UFunction_AUIManager_CPP_SetTimer, "SetTimer" }, // 1331309388
 		{ &Z_Construct_UFunction_AUIManager_CPP_SubtractFromStageBudget, "SubtractFromStageBudget" }, // 3435750508
 		{ &Z_Construct_UFunction_AUIManager_CPP_TryAddToStageBudget, "TryAddToStageBudget" }, // 3417521969
@@ -595,7 +621,7 @@ void EmptyLinkFunctionForGeneratedCodeUIManager_CPP() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AUIManager_CPP, 1229418036);
+	IMPLEMENT_CLASS(AUIManager_CPP, 2563637853);
 	template<> CGXJAM_API UClass* StaticClass<AUIManager_CPP>()
 	{
 		return AUIManager_CPP::StaticClass();
