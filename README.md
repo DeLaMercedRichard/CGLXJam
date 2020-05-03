@@ -18,7 +18,7 @@ Misha, [Mohamed Bouchenafa](https://www.linkedin.com/in/mohamed-bouchenafa-30385
 # Level Design
 [DongHyeong Lee](https://dlee4428.github.io/), [Jose Gutierrez](https://www.linkedin.com/in/jose-gutierrez-munzon-636771196/)
 
-# Mechanics/UI/ Programmers:
+# Mechanics/UI/ Programmer:
 [Brandon Gale](https://brandongale142.wixsite.com/mysite)
 
 # Music:
@@ -30,6 +30,6 @@ Misha, [Mohamed Bouchenafa](https://www.linkedin.com/in/mohamed-bouchenafa-30385
 # Sound Effects
 Mason Victoria
 
-# *Programs Used Used*
+# *Programs Used*
 Maya, CC2019 Photoshop, Substance Painter, Unreal Engine 4.24.3, Visual Studio 2017
 
