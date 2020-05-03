@@ -139,3 +139,7 @@ void AUIManager_CPP::SetStageComplete()
 {
 	b_stageComplete = true;
 }
+bool AUIManager_CPP::GetStageComplete()
+{
+	return b_stageComplete;
+}
