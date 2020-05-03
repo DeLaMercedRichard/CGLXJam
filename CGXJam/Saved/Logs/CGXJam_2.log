@@ -1363,3 +1363,1262 @@ Make sure 'ThirdPersonCharacter' has been compiled for  Invalid Message Node
 [2020.05.03-03.04.04:927][234]LogSlate: Window 'M_Wall' being destroyed
 [2020.05.03-03.04.04:985][234]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
 [2020.05.03-03.04.04:985][234]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.03-03.04.38:463][681]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/BuildingSystem/Meshes/M_PlayerPlatformFlat.M_PlayerPlatformFlat
+[2020.05.03-03.04.38:471][681]LogMaterial: Display: Missing cached shader map for material M_PlayerPlatformFlat, compiling. 
+[2020.05.03-03.04.38:648][681]LogMaterial: Display: Missing cached shader map for material M_PlayerPlatformFlat, compiling. 
+[2020.05.03-03.04.38:670][681]LogMaterial: Display: Missing cached shader map for material M_PlayerPlatformFlat, compiling. 
+[2020.05.03-03.04.38:690][681]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.03-03.04.38:690][681]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.03-03.04.40:452][748]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 7
+[2020.05.03-03.04.40:484][749]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 6
+[2020.05.03-03.04.40:936][762]LogSlate: Window 'M_PlayerPlatformFlat' being destroyed
+[2020.05.03-03.04.41:267][772]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.05.03-03.04.41:870][800]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2020.05.03-03.04.42:795][840]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2020.05.03-03.04.42:813][841]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
+[2020.05.03-03.04.44:343][908]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.05.03-03.04.45:127][943]MaterialEditorStats: Base pass shader: 117 instructions
+[2020.05.03-03.04.45:127][943]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2020.05.03-03.04.45:127][943]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.05.03-03.04.45:127][943]MaterialEditorStats: Texture samplers: 2/16
+[2020.05.03-03.04.46:838][ 48]LogMaterial: Display: Missing cached shader map for material M_PlayerPlatformFlat, compiling. 
+[2020.05.03-03.04.46:858][ 48]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.05.03-03.04.46:877][ 48]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.03-03.04.46:877][ 48]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.03-03.04.46:913][ 48]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.05.03-03.04.48:179][100]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 11
+[2020.05.03-03.04.48:279][105]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 10
+[2020.05.03-03.04.49:121][143]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.03-03.04.49:734][171]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.03-03.04.50:357][202]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 7
+[2020.05.03-03.04.50:399][205]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 6
+[2020.05.03-03.04.50:738][224]LogMaterial: Display: Missing cached shader map for material M_PlayerPlatformFlat, compiling. 
+[2020.05.03-03.04.50:767][224]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.05.03-03.04.51:490][246]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 13
+[2020.05.03-03.04.51:609][250]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 12
+[2020.05.03-03.04.52:830][310]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 11
+[2020.05.03-03.04.52:845][311]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 10
+[2020.05.03-03.04.53:605][352]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.03-03.04.53:731][355]LogMaterial: Display: Missing cached shader map for material M_PlayerPlatformFlat, compiling. 
+[2020.05.03-03.04.53:766][355]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.05.03-03.04.53:865][355]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.05.03-03.04.53:903][355]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.05.03-03.04.53:966][356]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 17
+[2020.05.03-03.04.54:872][392]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 16
+[2020.05.03-03.04.55:299][413]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 15
+[2020.05.03-03.04.56:071][451]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 14
+[2020.05.03-03.04.56:091][452]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 13
+[2020.05.03-03.04.57:158][506]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 12
+[2020.05.03-03.04.57:194][506]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 11
+[2020.05.03-03.04.57:607][530]LogMaterial: Display: Missing cached shader map for material M_PlayerPlatformFlat, compiling. 
+[2020.05.03-03.04.57:658][530]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.05.03-03.04.58:008][542]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 17
+[2020.05.03-03.04.58:303][553]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 16
+[2020.05.03-03.04.59:174][587]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 15
+[2020.05.03-03.04.59:398][596]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 14
+[2020.05.03-03.05.00:119][628]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 13
+[2020.05.03-03.05.00:253][635]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 12
+[2020.05.03-03.05.01:108][671]LogMaterial: Display: Missing cached shader map for material M_PlayerPlatformFlat, compiling. 
+[2020.05.03-03.05.01:136][671]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2020.05.03-03.05.01:166][671]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.05.03-03.05.01:188][671]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.05.03-03.05.01:188][671]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.05.03-03.05.01:260][671]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2020.05.03-03.05.01:321][672]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 20
+[2020.05.03-03.05.02:551][721]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 19
+[2020.05.03-03.05.02:800][731]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 18
+[2020.05.03-03.05.03:397][760]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 17
+[2020.05.03-03.05.03:836][782]LogMaterial: Display: Missing cached shader map for material M_PlayerPlatformFlat, compiling. 
+[2020.05.03-03.05.03:965][782]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 17
+[2020.05.03-03.05.03:965][782]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2020.05.03-03.05.04:617][804]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 20
+[2020.05.03-03.05.05:195][824]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 19
+[2020.05.03-03.05.05:823][847]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 18
+[2020.05.03-03.05.06:209][859]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 17
+[2020.05.03-03.05.06:738][876]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 16
+[2020.05.03-03.05.07:298][903]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2020.05.03-03.05.07:680][921]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 14
+[2020.05.03-03.05.08:049][939]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 13
+[2020.05.03-03.05.08:261][947]LogMaterial: Display: Missing cached shader map for material M_PlayerPlatformFlat, compiling. 
+[2020.05.03-03.05.08:288][947]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2020.05.03-03.05.08:366][947]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.05.03-03.05.08:389][947]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.05.03-03.05.08:411][947]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2020.05.03-03.05.08:431][947]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2020.05.03-03.05.08:538][949]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 25
+[2020.05.03-03.05.09:495][987]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 24
+[2020.05.03-03.05.09:988][  7]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 23
+[2020.05.03-03.05.10:683][ 37]LogMaterial: Display: Missing cached shader map for material M_PlayerPlatformFlat, compiling. 
+[2020.05.03-03.05.10:723][ 37]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2020.05.03-03.05.10:942][ 44]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 25
+[2020.05.03-03.05.11:332][ 60]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 24
+[2020.05.03-03.05.12:190][ 93]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 23
+[2020.05.03-03.05.12:710][116]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 22
+[2020.05.03-03.05.13:222][138]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 21
+[2020.05.03-03.05.13:676][158]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 20
+[2020.05.03-03.05.13:816][164]LogMaterialEditor: Saving and Compiling material M_PlayerPlatformFlat
+[2020.05.03-03.05.15:038][164]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 19
+[2020.05.03-03.05.15:038][164]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 18
+[2020.05.03-03.05.15:038][164]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 17
+[2020.05.03-03.05.15:038][164]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 16
+[2020.05.03-03.05.15:137][164]LogMaterial: Display: Missing cached shader map for material M_PlayerPlatformFlat, compiling. 
+[2020.05.03-03.05.15:365][164]LogMaterial: Display: Missing cached shader map for material M_PlayerPlatformFlat, compiling. 
+[2020.05.03-03.05.15:470][164]LogUObjectHash: Compacting FUObjectHashTables data took   4.97ms
+[2020.05.03-03.05.15:494][164]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.05.03-03.05.20:950][164]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 32
+[2020.05.03-03.05.20:950][164]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 31
+[2020.05.03-03.05.20:950][164]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 30
+[2020.05.03-03.05.20:950][164]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 29
+[2020.05.03-03.05.20:950][164]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 28
+[2020.05.03-03.05.20:950][164]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 27
+[2020.05.03-03.05.20:950][164]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 26
+[2020.05.03-03.05.20:951][164]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 25
+[2020.05.03-03.05.20:951][164]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 24
+[2020.05.03-03.05.20:951][164]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 23
+[2020.05.03-03.05.20:951][164]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 22
+[2020.05.03-03.05.20:951][164]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 21
+[2020.05.03-03.05.20:951][164]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 20
+[2020.05.03-03.05.20:951][164]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 19
+[2020.05.03-03.05.20:951][164]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 18
+[2020.05.03-03.05.20:951][164]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 17
+[2020.05.03-03.05.20:951][164]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 16
+[2020.05.03-03.05.20:951][164]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 15
+[2020.05.03-03.05.20:951][164]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 7
+[2020.05.03-03.05.20:955][164]TextureStreamingBuild: Display: Compiling optional shaders took 5.481 seconds.
+[2020.05.03-03.05.21:066][164]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2020.05.03-03.05.25:082][164]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2020.05.03-03.05.25:082][164]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.05.03-03.05.25:182][164]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/M_PlayerPlatformFlat2D3A2AD64C415ABD2658678425C82923.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/M_PlayerPlatformFlat.uasset'
+[2020.05.03-03.05.25:235][164]AssetCheck: New page: Asset Save: M_PlayerPlatformFlat
+[2020.05.03-03.05.25:235][164]LogContentValidation: Display: Validating Material /Game/BuildingSystem/Meshes/M_PlayerPlatformFlat.M_PlayerPlatformFlat
+[2020.05.03-03.05.25:237][164]MaterialEditorStats: Base pass shader: 130 instructions
+[2020.05.03-03.05.25:237][164]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 204 instructions
+[2020.05.03-03.05.25:237][164]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.03-03.05.25:237][164]MaterialEditorStats: Texture samplers: 7/16
+[2020.05.03-03.05.25:237][164]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2020.05.03-03.05.25:238][164]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.03-03.05.27:312][265]LogActorFactory: Actor Factory created A_Player_Flat
+[2020.05.03-03.05.28:977][337]LogActorFactory: Actor Factory created A_Player_Flat
+[2020.05.03-03.05.33:541][577]LogSlate: Window 'M_PlayerPlatformFlat' being destroyed
+[2020.05.03-03.05.33:555][577]LogSlate: Window 'M_PlayerPlatformFlat' being destroyed
+[2020.05.03-03.05.33:575][577]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.05.03-03.05.33:575][577]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.03-03.07.08:243][354]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/A_Player_platform_flat_Texture_BB9262D364E702F8EEC372AAC8070FE61.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Textures/A_Player_platform_flat_Texture_BaseColor.uasset'
+[2020.05.03-03.07.08:269][354]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/A_Player_platform_flat_Texture_E356F9C5B41DADC8D7A5D9DBA86810BE6.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Textures/A_Player_platform_flat_Texture_Emissive.uasset'
+[2020.05.03-03.07.08:399][354]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/A_Player_platform_flat_Texture_N5DDADAAE4B0C57E9808659AEFCA1ACD8.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Textures/A_Player_platform_flat_Texture_Normal.uasset'
+[2020.05.03-03.07.08:471][354]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/A_Player_platform_flat_Texture_O4CC9EA4A45F585A1CED4699F3BA27CF0.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Textures/A_Player_platform_flat_Texture_OcclusionRoughnessMetallic.uasset'
+[2020.05.03-03.07.09:043][354]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2020.05.03-03.07.09:129][354]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2020.05.03-03.07.09:228][354]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2020.05.03-03.07.09:326][354]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2020.05.03-03.07.09:439][354]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2020.05.03-03.07.09:542][354]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2020.05.03-03.07.09:632][354]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/M_PlayerPlatformFlat52217C4E487CC641836F65BAE792861F.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/M_PlayerPlatformFlat.uasset'
+[2020.05.03-03.07.09:846][354]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.03-03.07.09:846][354]LogContentValidation: Display: Validating Texture2D /Game/BuildingSystem/Textures/A_Player_platform_flat_Texture_BaseColor.A_Player_platform_flat_Texture_BaseColor
+[2020.05.03-03.07.09:846][354]LogContentValidation: Display: Validating Texture2D /Game/BuildingSystem/Textures/A_Player_platform_flat_Texture_Emissive.A_Player_platform_flat_Texture_Emissive
+[2020.05.03-03.07.09:846][354]LogContentValidation: Display: Validating Texture2D /Game/BuildingSystem/Textures/A_Player_platform_flat_Texture_Normal.A_Player_platform_flat_Texture_Normal
+[2020.05.03-03.07.09:846][354]LogContentValidation: Display: Validating Texture2D /Game/BuildingSystem/Textures/A_Player_platform_flat_Texture_OcclusionRoughnessMetallic.A_Player_platform_flat_Texture_OcclusionRoughnessMetallic
+[2020.05.03-03.07.09:846][354]LogContentValidation: Display: Validating Material /Game/BuildingSystem/Meshes/M_PlayerPlatformFlat.M_PlayerPlatformFlat
+[2020.05.03-03.07.19:843][135]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/M_PlayerPlatformFlat9564AC9A45E485EF615C1390C58B7F52.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Materials/M_PlayerPlatformFlat.uasset'
+[2020.05.03-03.07.20:109][135]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2020.05.03-03.07.20:229][135]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2020.05.03-03.07.20:340][135]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2020.05.03-03.07.20:424][135]AssetCheck: New page: Asset Save: M_PlayerPlatformFlat
+[2020.05.03-03.07.20:425][135]LogContentValidation: Display: Validating Material /Game/BuildingSystem/Materials/M_PlayerPlatformFlat.M_PlayerPlatformFlat
+[2020.05.03-03.07.23:573][326]LogActorFactory: Actor Factory created A_Player_platform_Incline
+[2020.05.03-03.07.24:519][399]LogActorFactory: Actor Factory created A_Player_platform_Incline
+[2020.05.03-03.07.32:155][ 50]Cmd: TRANSACTION UNDO
+[2020.05.03-03.07.32:155][ 50]LogEditorTransaction: Undo Rotate Actors
+[2020.05.03-03.07.45:434][147]Cmd: TRANSACTION UNDO
+[2020.05.03-03.07.45:434][147]LogEditorTransaction: Undo Rotate Actors
+[2020.05.03-03.07.45:888][156]Cmd: TRANSACTION UNDO
+[2020.05.03-03.07.45:888][156]LogEditorTransaction: Undo Rotate Actors
+[2020.05.03-03.07.46:865][237]Cmd: TRANSACTION UNDO
+[2020.05.03-03.07.46:865][237]LogEditorTransaction: Undo Move Actors
+[2020.05.03-03.07.53:662][813]Cmd: TRANSACTION UNDO
+[2020.05.03-03.07.53:662][813]LogEditorTransaction: Undo Scale Actors
+[2020.05.03-03.08.48:771][157]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/BuildingSystem/Meshes/M_PlayerPlatformInclination.M_PlayerPlatformInclination
+[2020.05.03-03.08.48:779][157]LogMaterial: Display: Missing cached shader map for material M_PlayerPlatformInclination, compiling. 
+[2020.05.03-03.08.49:013][157]LogMaterial: Display: Missing cached shader map for material M_PlayerPlatformInclination, compiling. 
+[2020.05.03-03.08.49:031][157]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.03-03.08.49:031][157]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.03-03.08.49:092][157]LogMaterial: Display: Missing cached shader map for material M_PlayerPlatformInclination, compiling. 
+[2020.05.03-03.08.51:005][198]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.05.03-03.08.51:306][211]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2020.05.03-03.08.52:651][247]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 7
+[2020.05.03-03.08.53:045][256]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 6
+[2020.05.03-03.08.53:519][265]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.05.03-03.08.54:290][282]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2020.05.03-03.08.54:935][305]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.05.03-03.08.55:430][323]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2020.05.03-03.08.57:636][403]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.05.03-03.08.58:859][455]MaterialEditorStats: Base pass shader: 117 instructions
+[2020.05.03-03.08.58:859][455]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2020.05.03-03.08.58:859][455]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.05.03-03.08.58:859][455]MaterialEditorStats: Texture samplers: 2/16
+[2020.05.03-03.09.04:707][648]LogSlate: Window 'M_PlayerPlatformInclination' being destroyed
+[2020.05.03-03.09.13:572][125]LogMaterial: Display: Missing cached shader map for material M_PlayerPlatformInclination, compiling. 
+[2020.05.03-03.09.13:642][125]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.03-03.09.13:642][125]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.03-03.09.13:642][125]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.05.03-03.09.13:684][125]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.05.03-03.09.13:719][125]LogMaterial: Display: Missing cached shader map for material M_PlayerPlatformInclination, compiling. 
+[2020.05.03-03.09.13:745][125]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.05.03-03.09.13:826][125]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.05.03-03.09.13:902][125]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.05.03-03.09.13:977][125]LogMaterial: Display: Missing cached shader map for material M_PlayerPlatformInclination, compiling. 
+[2020.05.03-03.09.14:006][125]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2020.05.03-03.09.14:036][125]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.05.03-03.09.14:146][125]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.05.03-03.09.14:170][125]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2020.05.03-03.09.14:238][125]LogMaterial: Display: Missing cached shader map for material M_PlayerPlatformInclination, compiling. 
+[2020.05.03-03.09.14:295][125]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2020.05.03-03.09.14:328][125]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.05.03-03.09.14:415][125]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.05.03-03.09.14:437][125]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2020.05.03-03.09.14:469][125]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2020.05.03-03.09.14:563][127]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 25
+[2020.05.03-03.09.14:759][135]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 24
+[2020.05.03-03.09.17:038][223]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 23
+[2020.05.03-03.09.17:045][223]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 22
+[2020.05.03-03.09.17:118][225]LogEditorTransaction: Undo Material Editor: New Expression
+[2020.05.03-03.09.17:128][225]LogMaterial: Display: Missing cached shader map for material M_PlayerPlatformInclination, compiling. 
+[2020.05.03-03.09.17:249][225]LogMaterial: Display: Missing cached shader map for material M_PlayerPlatformInclination, compiling. 
+[2020.05.03-03.09.17:910][238]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 25
+[2020.05.03-03.09.18:660][261]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 24
+[2020.05.03-03.09.19:475][293]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 23
+[2020.05.03-03.09.20:143][314]LogMaterial: Display: Missing cached shader map for material M_PlayerPlatformInclination, compiling. 
+[2020.05.03-03.09.20:286][316]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 22
+[2020.05.03-03.09.20:838][340]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 21
+[2020.05.03-03.09.22:152][385]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 20
+[2020.05.03-03.09.22:408][396]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 19
+[2020.05.03-03.09.22:917][422]LogMaterial: Display: Missing cached shader map for material M_PlayerPlatformInclination, compiling. 
+[2020.05.03-03.09.22:947][422]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2020.05.03-03.09.23:015][422]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2020.05.03-03.09.23:230][427]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 13
+[2020.05.03-03.09.23:468][436]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 12
+[2020.05.03-03.09.24:569][470]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 11
+[2020.05.03-03.09.25:209][502]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 10
+[2020.05.03-03.09.25:591][524]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.03-03.09.26:027][545]LogMaterial: Display: Missing cached shader map for material M_PlayerPlatformInclination, compiling. 
+[2020.05.03-03.09.26:080][545]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2020.05.03-03.09.26:651][571]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 13
+[2020.05.03-03.09.27:487][609]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 12
+[2020.05.03-03.09.28:652][664]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 11
+[2020.05.03-03.09.29:426][689]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 10
+[2020.05.03-03.09.29:653][691]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.05.03-03.09.30:707][725]LogMaterial: Display: Missing cached shader map for material M_PlayerPlatformInclination, compiling. 
+[2020.05.03-03.09.30:739][725]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2020.05.03-03.09.30:764][725]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 13
+[2020.05.03-03.09.30:780][725]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2020.05.03-03.09.30:806][725]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2020.05.03-03.09.31:077][731]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 17
+[2020.05.03-03.09.31:864][760]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 16
+[2020.05.03-03.09.32:511][785]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 15
+[2020.05.03-03.09.33:607][826]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 14
+[2020.05.03-03.09.33:811][836]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 13
+[2020.05.03-03.09.34:846][885]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 12
+[2020.05.03-03.09.35:023][893]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 11
+[2020.05.03-03.09.35:395][913]LogMaterial: Display: Missing cached shader map for material M_PlayerPlatformInclination, compiling. 
+[2020.05.03-03.09.35:433][913]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2020.05.03-03.09.35:641][921]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 17
+[2020.05.03-03.09.36:120][945]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 16
+[2020.05.03-03.09.36:691][972]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2020.05.03-03.09.37:208][990]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 14
+[2020.05.03-03.09.37:700][  6]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 13
+[2020.05.03-03.09.38:057][ 21]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 12
+[2020.05.03-03.09.38:981][ 63]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 11
+[2020.05.03-03.09.39:524][ 88]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 10
+[2020.05.03-03.09.39:784][102]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.03-03.09.40:772][143]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.03-03.09.40:907][146]LogMaterial: Display: Missing cached shader map for material M_PlayerPlatformInclination, compiling. 
+[2020.05.03-03.09.40:935][146]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2020.05.03-03.09.40:955][146]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 13
+[2020.05.03-03.09.40:968][146]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2020.05.03-03.09.40:987][146]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2020.05.03-03.09.41:006][146]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2020.05.03-03.09.41:481][163]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 21
+[2020.05.03-03.09.41:997][186]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 20
+[2020.05.03-03.09.42:809][223]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 19
+[2020.05.03-03.09.42:902][227]LogMaterial: Display: Missing cached shader map for material M_PlayerPlatformInclination, compiling. 
+[2020.05.03-03.09.42:984][227]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2020.05.03-03.09.43:147][233]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 21
+[2020.05.03-03.09.43:559][251]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 20
+[2020.05.03-03.09.44:195][278]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 19
+[2020.05.03-03.09.44:532][294]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 18
+[2020.05.03-03.09.45:003][312]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 17
+[2020.05.03-03.09.45:403][327]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 16
+[2020.05.03-03.09.46:223][358]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2020.05.03-03.09.46:450][369]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 14
+[2020.05.03-03.09.46:481][369]LogMaterial: Display: Missing cached shader map for material M_PlayerPlatformInclination, compiling. 
+[2020.05.03-03.09.46:554][369]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2020.05.03-03.09.46:602][369]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2020.05.03-03.09.46:627][369]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2020.05.03-03.09.46:651][369]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2020.05.03-03.09.46:674][369]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2020.05.03-03.09.46:975][377]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 25
+[2020.05.03-03.09.47:269][391]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 24
+[2020.05.03-03.09.48:614][450]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 23
+[2020.05.03-03.09.48:852][460]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 22
+[2020.05.03-03.09.49:567][489]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 21
+[2020.05.03-03.09.50:185][517]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 20
+[2020.05.03-03.09.50:816][546]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 19
+[2020.05.03-03.09.50:835][547]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 18
+[2020.05.03-03.09.50:876][548]LogMaterial: Display: Missing cached shader map for material M_PlayerPlatformInclination, compiling. 
+[2020.05.03-03.09.50:978][548]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2020.05.03-03.09.51:961][583]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 25
+[2020.05.03-03.09.52:052][587]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 24
+[2020.05.03-03.09.52:673][613]LogMaterialEditor: Saving and Compiling material M_PlayerPlatformInclination
+[2020.05.03-03.09.53:893][613]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 23
+[2020.05.03-03.09.53:893][613]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 22
+[2020.05.03-03.09.53:893][613]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 21
+[2020.05.03-03.09.53:893][613]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 20
+[2020.05.03-03.09.53:916][613]LogMaterial: Display: Missing cached shader map for material M_PlayerPlatformInclination, compiling. 
+[2020.05.03-03.09.54:074][613]LogMaterial: Display: Missing cached shader map for material M_PlayerPlatformInclination, compiling. 
+[2020.05.03-03.09.54:232][613]LogUObjectHash: Compacting FUObjectHashTables data took   5.25ms
+[2020.05.03-03.09.54:258][613]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.05.03-03.10.00:727][613]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 36
+[2020.05.03-03.10.00:727][613]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 35
+[2020.05.03-03.10.00:727][613]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 34
+[2020.05.03-03.10.00:727][613]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 33
+[2020.05.03-03.10.00:727][613]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 32
+[2020.05.03-03.10.00:727][613]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 31
+[2020.05.03-03.10.00:727][613]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 30
+[2020.05.03-03.10.00:727][613]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 29
+[2020.05.03-03.10.00:727][613]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 28
+[2020.05.03-03.10.00:727][613]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 27
+[2020.05.03-03.10.00:727][613]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 26
+[2020.05.03-03.10.00:727][613]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 25
+[2020.05.03-03.10.00:727][613]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 24
+[2020.05.03-03.10.00:727][613]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 23
+[2020.05.03-03.10.00:727][613]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 22
+[2020.05.03-03.10.00:727][613]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 21
+[2020.05.03-03.10.00:727][613]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 20
+[2020.05.03-03.10.00:727][613]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 19
+[2020.05.03-03.10.00:728][613]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 18
+[2020.05.03-03.10.00:728][613]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 17
+[2020.05.03-03.10.00:728][613]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 16
+[2020.05.03-03.10.00:728][613]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 15
+[2020.05.03-03.10.00:728][613]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 7
+[2020.05.03-03.10.00:732][613]TextureStreamingBuild: Display: Compiling optional shaders took 6.496 seconds.
+[2020.05.03-03.10.00:824][613]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.05.03-03.10.04:836][613]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2020.05.03-03.10.04:836][613]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.05.03-03.10.04:942][613]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/M_PlayerPlatformInclination52E12AB447E84575BA67B7859BBB0098.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/M_PlayerPlatformInclination.uasset'
+[2020.05.03-03.10.04:981][613]AssetCheck: New page: Asset Save: M_PlayerPlatformInclination
+[2020.05.03-03.10.04:981][613]LogContentValidation: Display: Validating Material /Game/BuildingSystem/Meshes/M_PlayerPlatformInclination.M_PlayerPlatformInclination
+[2020.05.03-03.10.04:992][613]MaterialEditorStats: Base pass shader: 130 instructions
+[2020.05.03-03.10.04:992][613]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 204 instructions
+[2020.05.03-03.10.04:992][613]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.03-03.10.04:992][613]MaterialEditorStats: Texture samplers: 7/16
+[2020.05.03-03.10.04:992][613]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2020.05.03-03.10.04:992][613]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.03-03.10.07:866][778]LogSlate: Window 'M_PlayerPlatformInclination' being destroyed
+[2020.05.03-03.10.07:876][778]LogSlate: Window 'M_PlayerPlatformInclination' being destroyed
+[2020.05.03-03.10.07:900][778]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.05.03-03.10.07:900][778]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.03-03.10.08:186][784]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.05.03-03.10.08:507][784]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/ThirdPersonExampleMap_Auto2CAE4836442F107F813EF0DAEAC91C8D0.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2020.05.03-03.10.08:531][784]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.452
+[2020.05.03-03.10.08:531][784]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.452
+[2020.05.03-03.11.17:373][543]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2020.05.03-03.11.18:165][543]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0022 seconds. Added 121 classes and 0 folders.
+[2020.05.03-03.11.23:607][637]LogSlate: Took 0.013336 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.05.03-03.12.23:534][933]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2020.05.03-03.12.23:663][933]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.05.03-03.12.23:664][933]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.03-03.13.05:703][406]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/A_Player_platform_Incline_Textur915462584C7A00972082B0884BAB6AE6.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Textures/A_Player_platform_Incline_Texture_BaseColor.uasset'
+[2020.05.03-03.13.05:730][406]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/A_Player_platform_Incline_TexturA0FD91AC4504FDD4E8A2C994BCD4F137.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Textures/A_Player_platform_Incline_Texture_Emissive.uasset'
+[2020.05.03-03.13.05:858][406]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/A_Player_platform_Incline_Textur1D4E70C843AE050463B82FA6867E6556.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Textures/A_Player_platform_Incline_Texture_Normal.uasset'
+[2020.05.03-03.13.05:928][406]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/A_Player_platform_Incline_Textur16FBA9574F1B077FE7942D8BD820FDB0.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Textures/A_Player_platform_Incline_Texture_OcclusionRoughnessMetallic.uasset'
+[2020.05.03-03.13.06:775][406]LogUObjectHash: Compacting FUObjectHashTables data took   8.72ms
+[2020.05.03-03.13.06:925][406]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2020.05.03-03.13.07:037][406]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2020.05.03-03.13.07:194][406]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2020.05.03-03.13.07:310][406]LogUObjectHash: Compacting FUObjectHashTables data took   7.11ms
+[2020.05.03-03.13.07:417][406]LogUObjectHash: Compacting FUObjectHashTables data took   5.92ms
+[2020.05.03-03.13.07:508][406]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/M_PlayerPlatformInclination3C68C748402D7EF159D493A41D330FAC.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/M_PlayerPlatformInclination.uasset'
+[2020.05.03-03.13.07:659][406]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.03-03.13.07:659][406]LogContentValidation: Display: Validating Texture2D /Game/BuildingSystem/Textures/A_Player_platform_Incline_Texture_BaseColor.A_Player_platform_Incline_Texture_BaseColor
+[2020.05.03-03.13.07:659][406]LogContentValidation: Display: Validating Texture2D /Game/BuildingSystem/Textures/A_Player_platform_Incline_Texture_Emissive.A_Player_platform_Incline_Texture_Emissive
+[2020.05.03-03.13.07:659][406]LogContentValidation: Display: Validating Texture2D /Game/BuildingSystem/Textures/A_Player_platform_Incline_Texture_Normal.A_Player_platform_Incline_Texture_Normal
+[2020.05.03-03.13.07:659][406]LogContentValidation: Display: Validating Texture2D /Game/BuildingSystem/Textures/A_Player_platform_Incline_Texture_OcclusionRoughnessMetallic.A_Player_platform_Incline_Texture_OcclusionRoughnessMetallic
+[2020.05.03-03.13.07:659][406]LogContentValidation: Display: Validating Material /Game/BuildingSystem/Meshes/M_PlayerPlatformInclination.M_PlayerPlatformInclination
+[2020.05.03-03.13.12:607][821]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/M_PlayerPlatformInclinationAFD81DB8411F3B3BFD22F08BC349C957.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Materials/M_PlayerPlatformInclination.uasset'
+[2020.05.03-03.13.12:916][821]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2020.05.03-03.13.13:033][821]LogUObjectHash: Compacting FUObjectHashTables data took   4.43ms
+[2020.05.03-03.13.13:138][821]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2020.05.03-03.13.13:233][821]AssetCheck: New page: Asset Save: M_PlayerPlatformInclination
+[2020.05.03-03.13.13:233][821]LogContentValidation: Display: Validating Material /Game/BuildingSystem/Materials/M_PlayerPlatformInclination.M_PlayerPlatformInclination
+[2020.05.03-03.13.26:616][772]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/BuildingSystem/Meshes/A_Player_Flat.A_Player_Flat
+[2020.05.03-03.13.28:229][772]LogRenderer: Reallocating scene render targets to support 1252x892 Format 9 NumSamples 1 (Frame:1).
+[2020.05.03-03.13.31:867][953]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/BuildingSystem/Meshes/pCube13_pCube13Mat.pCube13_pCube13Mat
+[2020.05.03-03.13.31:911][953]LogMaterial: Display: Missing cached shader map for material pCube13_pCube13Mat, compiling. 
+[2020.05.03-03.13.32:184][953]LogMaterial: Display: Missing cached shader map for material pCube13_pCube13Mat, compiling. 
+[2020.05.03-03.13.32:229][953]LogMaterial: Display: Missing cached shader map for material pCube13_pCube13Mat, compiling. 
+[2020.05.03-03.13.32:251][953]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.03-03.13.32:251][953]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.03-03.13.32:272][953]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.05.03-03.13.34:906][ 45]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 11
+[2020.05.03-03.13.35:256][ 58]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 10
+[2020.05.03-03.13.35:554][ 61]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.05.03-03.13.35:554][ 61]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.03-03.13.35:818][ 71]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.05.03-03.13.36:674][ 97]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2020.05.03-03.13.37:354][113]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.05.03-03.13.37:526][117]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2020.05.03-03.13.38:576][147]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.05.03-03.13.55:419][ 40]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/A_Player_Flat2BDFD33042C125AE29C4519F66FD2346.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/A_Player_Flat.uasset'
+[2020.05.03-03.13.55:448][ 40]AssetCheck: New page: Asset Save: A_Player_Flat
+[2020.05.03-03.13.55:448][ 40]LogContentValidation: Display: Validating StaticMesh /Game/BuildingSystem/Meshes/A_Player_Flat.A_Player_Flat
+[2020.05.03-03.13.56:155][ 79]LogSlate: Window 'A_Player_Flat' being destroyed
+[2020.05.03-03.13.56:180][ 79]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.05.03-03.13.56:180][ 79]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.03-03.14.01:212][320]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/BuildingSystem/Meshes/A_Wall_large.A_Wall_large
+[2020.05.03-03.14.04:458][426]LogSlate: Window 'A_Wall_large' being destroyed
+[2020.05.03-03.14.04:486][426]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.05.03-03.14.04:486][426]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.03-03.14.05:711][492]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/BuildingSystem/Meshes/A_Player_platform_Incline.A_Player_platform_Incline
+[2020.05.03-03.14.36:964][128]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/A_Player_platform_Incline99BEA48D4A26185C657FA09BA4639065.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/A_Player_platform_Incline.uasset'
+[2020.05.03-03.14.36:993][128]AssetCheck: New page: Asset Save: A_Player_platform_Incline
+[2020.05.03-03.14.36:993][128]LogContentValidation: Display: Validating StaticMesh /Game/BuildingSystem/Meshes/A_Player_platform_Incline.A_Player_platform_Incline
+[2020.05.03-03.14.38:480][208]LogSlate: Window 'A_Player_platform_Incline' being destroyed
+[2020.05.03-03.14.38:506][208]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.05.03-03.14.38:506][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.03-03.14.40:037][290]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/BuildingSystem/Meshes/A_Player_Flat.A_Player_Flat
+[2020.05.03-03.14.46:307][550]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/A_Player_Flat4B9BB5184CA97C1C022D8696933D86DD.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/A_Player_Flat.uasset'
+[2020.05.03-03.14.46:342][550]AssetCheck: New page: Asset Save: A_Player_Flat
+[2020.05.03-03.14.46:342][550]LogContentValidation: Display: Validating StaticMesh /Game/BuildingSystem/Meshes/A_Player_Flat.A_Player_Flat
+[2020.05.03-03.14.47:515][610]LogSlate: Window 'A_Player_Flat' being destroyed
+[2020.05.03-03.14.47:542][610]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.05.03-03.14.47:542][610]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.03-03.15.06:130][980]LogMetaData: Removing '/Game/BuildingSystem/Meshes/Misc/Platform.Platform:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BuildingSystem/Meshes/Platform.PackageMetaData'
+[2020.05.03-03.15.06:130][980]LogMetaData: Removing '/Game/BuildingSystem/Meshes/Misc/Platform.Platform_C' ref from Metadata '/Game/BuildingSystem/Meshes/Platform.PackageMetaData'
+[2020.05.03-03.15.06:130][980]LogMetaData: Removing '/Game/BuildingSystem/Meshes/Misc/Platform.Platform:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BuildingSystem/Meshes/Platform.PackageMetaData'
+[2020.05.03-03.15.06:131][980]LogMetaData: Removing '/Game/BuildingSystem/Meshes/Misc/Platform.Platform:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BuildingSystem/Meshes/Platform.PackageMetaData'
+[2020.05.03-03.15.06:131][980]LogMetaData: Removing '/Game/BuildingSystem/Meshes/Misc/Platform.Platform:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BuildingSystem/Meshes/Platform.PackageMetaData'
+[2020.05.03-03.15.06:131][980]LogMetaData: Removing '/Game/BuildingSystem/Meshes/Misc/Platform.SKEL_Platform_C:ReceiveBeginPlay' ref from Metadata '/Game/BuildingSystem/Meshes/Platform.PackageMetaData'
+[2020.05.03-03.15.06:131][980]LogMetaData: Removing '/Game/BuildingSystem/Meshes/Misc/Platform.SKEL_Platform_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/BuildingSystem/Meshes/Platform.PackageMetaData'
+[2020.05.03-03.15.06:131][980]LogMetaData: Removing '/Game/BuildingSystem/Meshes/Misc/Platform.SKEL_Platform_C:ReceiveTick' ref from Metadata '/Game/BuildingSystem/Meshes/Platform.PackageMetaData'
+[2020.05.03-03.15.06:131][980]LogMetaData: Removing '/Game/BuildingSystem/Meshes/Misc/Platform.SKEL_Platform_C:DefaultSceneRoot' ref from Metadata '/Game/BuildingSystem/Meshes/Platform.PackageMetaData'
+[2020.05.03-03.15.06:131][980]LogMetaData: Removing '/Game/BuildingSystem/Meshes/Misc/Platform.SKEL_Platform_C:UserConstructionScript' ref from Metadata '/Game/BuildingSystem/Meshes/Platform.PackageMetaData'
+[2020.05.03-03.15.06:131][980]LogMetaData: Removing '/Game/BuildingSystem/Meshes/Misc/Platform.SKEL_Platform_C' ref from Metadata '/Game/BuildingSystem/Meshes/Platform.PackageMetaData'
+[2020.05.03-03.15.06:131][980]LogMetaData: Removing '/Game/BuildingSystem/Meshes/Misc/Platform.Platform_C:DefaultSceneRoot' ref from Metadata '/Game/BuildingSystem/Meshes/Platform.PackageMetaData'
+[2020.05.03-03.15.06:200][980]LogMetaData: Removing '/Game/BuildingSystem/Meshes/Misc/RampStairs.RampStairs:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BuildingSystem/Meshes/RampStairs.PackageMetaData'
+[2020.05.03-03.15.06:200][980]LogMetaData: Removing '/Game/BuildingSystem/Meshes/Misc/RampStairs.RampStairs_C' ref from Metadata '/Game/BuildingSystem/Meshes/RampStairs.PackageMetaData'
+[2020.05.03-03.15.06:200][980]LogMetaData: Removing '/Game/BuildingSystem/Meshes/Misc/RampStairs.RampStairs:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BuildingSystem/Meshes/RampStairs.PackageMetaData'
+[2020.05.03-03.15.06:200][980]LogMetaData: Removing '/Game/BuildingSystem/Meshes/Misc/RampStairs.RampStairs:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BuildingSystem/Meshes/RampStairs.PackageMetaData'
+[2020.05.03-03.15.06:200][980]LogMetaData: Removing '/Game/BuildingSystem/Meshes/Misc/RampStairs.RampStairs:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BuildingSystem/Meshes/RampStairs.PackageMetaData'
+[2020.05.03-03.15.06:200][980]LogMetaData: Removing '/Game/BuildingSystem/Meshes/Misc/RampStairs.SKEL_RampStairs_C:ReceiveBeginPlay' ref from Metadata '/Game/BuildingSystem/Meshes/RampStairs.PackageMetaData'
+[2020.05.03-03.15.06:200][980]LogMetaData: Removing '/Game/BuildingSystem/Meshes/Misc/RampStairs.SKEL_RampStairs_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/BuildingSystem/Meshes/RampStairs.PackageMetaData'
+[2020.05.03-03.15.06:200][980]LogMetaData: Removing '/Game/BuildingSystem/Meshes/Misc/RampStairs.SKEL_RampStairs_C:ReceiveTick' ref from Metadata '/Game/BuildingSystem/Meshes/RampStairs.PackageMetaData'
+[2020.05.03-03.15.06:200][980]LogMetaData: Removing '/Game/BuildingSystem/Meshes/Misc/RampStairs.SKEL_RampStairs_C:DefaultSceneRoot' ref from Metadata '/Game/BuildingSystem/Meshes/RampStairs.PackageMetaData'
+[2020.05.03-03.15.06:200][980]LogMetaData: Removing '/Game/BuildingSystem/Meshes/Misc/RampStairs.SKEL_RampStairs_C:UserConstructionScript' ref from Metadata '/Game/BuildingSystem/Meshes/RampStairs.PackageMetaData'
+[2020.05.03-03.15.06:200][980]LogMetaData: Removing '/Game/BuildingSystem/Meshes/Misc/RampStairs.SKEL_RampStairs_C' ref from Metadata '/Game/BuildingSystem/Meshes/RampStairs.PackageMetaData'
+[2020.05.03-03.15.06:201][980]LogMetaData: Removing '/Game/BuildingSystem/Meshes/Misc/RampStairs.RampStairs_C:DefaultSceneRoot' ref from Metadata '/Game/BuildingSystem/Meshes/RampStairs.PackageMetaData'
+[2020.05.03-03.15.06:270][980]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/lambert1030DF021444DBA4510ADBF8E0205F122.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/Misc/lambert1.uasset'
+[2020.05.03-03.15.06:330][980]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/pCube13_pCube13Mat1B40BAE64CC82FA1BE317C97BC7B44B6.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/Misc/pCube13_pCube13Mat.uasset'
+[2020.05.03-03.15.06:368][980]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/pCube2Mat7478B56E465377035856F7A35816335B.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/Misc/pCube2Mat.uasset'
+[2020.05.03-03.15.06:406][980]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/pCube5MatE00F6945467C42079FB5ED9FCB1159D5.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/Misc/pCube5Mat.uasset'
+[2020.05.03-03.15.06:446][980]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/pCylinder1_pCylinder1Mat261B73434AE85509CC3DBCACB366EE98.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/Misc/pCylinder1_pCylinder1Mat.uasset'
+[2020.05.03-03.15.06:639][980]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Platform522D6AD441AD88870AA30F9D5176F9E3.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/Misc/Platform.uasset'
+[2020.05.03-03.15.06:679][980]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/polySurface11MatA854DA4546840C63C216BA8B2995C127.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/Misc/polySurface11Mat.uasset'
+[2020.05.03-03.15.06:718][980]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/polySurface8_polySurface8Mat88B5910B4F48A9D6F2DD1E835E883191.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/Misc/polySurface8_polySurface8Mat.uasset'
+[2020.05.03-03.15.06:741][980]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/RampStairsCC6C3C1A44F58F6EEB1F9F899E071220.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/Misc/RampStairs.uasset'
+[2020.05.03-03.15.09:048][980]LogUObjectHash: Compacting FUObjectHashTables data took   9.47ms
+[2020.05.03-03.15.09:333][980]LogUObjectHash: Compacting FUObjectHashTables data took   5.74ms
+[2020.05.03-03.15.09:423][980]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2020.05.03-03.15.09:504][980]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2020.05.03-03.15.09:586][980]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2020.05.03-03.15.09:676][980]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2020.05.03-03.15.09:754][980]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2020.05.03-03.15.09:845][980]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2020.05.03-03.15.09:937][980]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2020.05.03-03.15.10:026][980]LogUObjectHash: Compacting FUObjectHashTables data took   5.16ms
+[2020.05.03-03.15.10:119][980]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2020.05.03-03.15.10:249][980]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/A_Test_Flat_Platform_53E2F0724024974EC9D634981D04E942.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/A_Test_Flat_Platform_.uasset'
+[2020.05.03-03.15.10:278][980]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/A_Test_Stairs58D6003B4938F03FBE59FFA6AF81A69D.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/A_Test_Stairs.uasset'
+[2020.05.03-03.15.10:451][980]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.03-03.15.10:451][980]LogContentValidation: Display: Validating Material /Game/BuildingSystem/Meshes/Misc/lambert1.lambert1
+[2020.05.03-03.15.10:451][980]LogContentValidation: Display: Validating Material /Game/BuildingSystem/Meshes/Misc/pCube13_pCube13Mat.pCube13_pCube13Mat
+[2020.05.03-03.15.10:451][980]LogContentValidation: Display: Validating Material /Game/BuildingSystem/Meshes/Misc/pCube2Mat.pCube2Mat
+[2020.05.03-03.15.10:451][980]LogContentValidation: Display: Validating Material /Game/BuildingSystem/Meshes/Misc/pCube5Mat.pCube5Mat
+[2020.05.03-03.15.10:451][980]LogContentValidation: Display: Validating Material /Game/BuildingSystem/Meshes/Misc/pCylinder1_pCylinder1Mat.pCylinder1_pCylinder1Mat
+[2020.05.03-03.15.10:451][980]LogContentValidation: Display: Validating Blueprint /Game/BuildingSystem/Meshes/Misc/Platform.Platform
+[2020.05.03-03.15.10:451][980]LogContentValidation: Display: Validating Material /Game/BuildingSystem/Meshes/Misc/polySurface11Mat.polySurface11Mat
+[2020.05.03-03.15.10:451][980]LogContentValidation: Display: Validating Material /Game/BuildingSystem/Meshes/Misc/polySurface8_polySurface8Mat.polySurface8_polySurface8Mat
+[2020.05.03-03.15.10:451][980]LogContentValidation: Display: Validating Blueprint /Game/BuildingSystem/Meshes/Misc/RampStairs.RampStairs
+[2020.05.03-03.15.10:451][980]LogContentValidation: Display: Validating StaticMesh /Game/BuildingSystem/Meshes/A_Test_Flat_Platform_.A_Test_Flat_Platform_
+[2020.05.03-03.15.10:451][980]LogContentValidation: Display: Validating StaticMesh /Game/BuildingSystem/Meshes/A_Test_Stairs.A_Test_Stairs
+[2020.05.03-03.15.25:034][257]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.05.03-03.15.25:412][285]Cmd: EDIT COPY
+[2020.05.03-03.15.26:222][313]Cmd: EDIT PASTE
+[2020.05.03-03.15.38:762][475]Cmd: TRANSACTION UNDO
+[2020.05.03-03.15.38:762][475]LogEditorTransaction: Undo Move Actors
+[2020.05.03-03.16.38:056][908]LogUObjectHash: Compacting FUObjectHashTables data took   4.89ms
+[2020.05.03-03.16.38:493][908]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/ThirdPersonExampleMap305DDCBA4D69DCF5DB8CE58F2C2DBE7D.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2020.05.03-03.16.39:059][908]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/ThirdPersonExampleMap_BuiltDataB5108A35426457B15D7CDA84197BD494.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.05.03-03.16.39:111][908]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.03-03.16.39:111][908]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.05.03-03.16.39:111][908]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.05.03-03.16.48:965][776]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (A_Player_platform_Incline)
+[2020.05.03-03.16.49:549][822]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (A_Player_Flat)
+[2020.05.03-03.16.59:183][716]LogUObjectHash: Compacting FUObjectHashTables data took   6.38ms
+[2020.05.03-03.16.59:612][716]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/ThirdPersonExampleMapA6F92AB6473399F9DA7C8689D531F84C.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2020.05.03-03.16.59:972][716]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/ThirdPersonExampleMap_BuiltData2DA4F21947BD999F841122B8E55D6972.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.05.03-03.17.00:006][716]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.03-03.17.00:007][716]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.05.03-03.17.00:007][716]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.05.03-03.23.13:939][ 57]AssetReimport: New page: Outstanding source content changes 7:23:13 PM
+[2020.05.03-03.23.14:027][ 58]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/SpikeFloor01.OBJ)
+[2020.05.03-03.23.14:053][ 58]LogFbx: Loading FBX Scene from C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/SpikeFloor01.OBJ
+[2020.05.03-03.23.16:020][ 58]LogFbx: FBX Scene Loaded Succesfully
+[2020.05.03-03.23.24:594][ 58]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.05.03-03.23.31:618][ 58]LogStaticMesh: Building static mesh SpikeFloor01_Group17861...
+[2020.05.03-03.23.31:686][ 58]LogStaticMesh: Built static mesh [0.07s] /Game/BuildingSystem/Meshes/SpikeFloor01_Group17861.SpikeFloor01_Group17861
+[2020.05.03-03.23.37:056][ 58]LogStaticMesh: Building static mesh SpikeFloor01_Group17868...
+[2020.05.03-03.23.37:346][ 58]LogStaticMesh: Built static mesh [0.29s] /Game/BuildingSystem/Meshes/SpikeFloor01_Group17868.SpikeFloor01_Group17868
+[2020.05.03-03.23.37:587][ 59]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/ExtraPropsNew3.OBJ)
+[2020.05.03-03.23.37:602][ 59]LogFbx: Loading FBX Scene from C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/ExtraPropsNew3.OBJ
+[2020.05.03-03.23.37:680][ 59]LogFbx: FBX Scene Loaded Succesfully
+[2020.05.03-03.23.42:225][ 59]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.05.03-03.23.42:353][ 59]LogStaticMesh: Building static mesh ExtraPropsNew3_Group32200...
+[2020.05.03-03.23.42:362][ 59]LogStaticMesh: Built static mesh [0.02s] /Game/BuildingSystem/Meshes/ExtraPropsNew3_Group32200.ExtraPropsNew3_Group32200
+[2020.05.03-03.23.42:629][ 59]LogStaticMesh: Building static mesh ExtraPropsNew3_Group39237...
+[2020.05.03-03.23.42:678][ 59]LogStaticMesh: Built static mesh [0.05s] /Game/BuildingSystem/Meshes/ExtraPropsNew3_Group39237.ExtraPropsNew3_Group39237
+[2020.05.03-03.23.42:820][ 59]LogStaticMesh: Building static mesh ExtraPropsNew3_Group48298...
+[2020.05.03-03.23.42:821][ 59]LogStaticMesh: Built static mesh [0.00s] /Game/BuildingSystem/Meshes/ExtraPropsNew3_Group48298.ExtraPropsNew3_Group48298
+[2020.05.03-03.23.43:232][ 59]LogStaticMesh: Building static mesh ExtraPropsNew3_Group64396...
+[2020.05.03-03.23.43:252][ 59]LogStaticMesh: Built static mesh [0.08s] /Game/BuildingSystem/Meshes/ExtraPropsNew3_Group64396.ExtraPropsNew3_Group64396
+[2020.05.03-03.23.43:514][ 60]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/DoorEdit03.OBJ)
+[2020.05.03-03.23.43:538][ 60]LogFbx: Loading FBX Scene from C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/DoorEdit03.OBJ
+[2020.05.03-03.23.43:796][ 60]LogFbx: FBX Scene Loaded Succesfully
+[2020.05.03-03.23.45:718][ 60]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.05.03-03.23.45:854][ 60]LogStaticMesh: Building static mesh DoorEdit03...
+[2020.05.03-03.23.45:867][ 60]LogStaticMesh: Built static mesh [0.01s] /Game/BuildingSystem/Meshes/DoorEdit03.DoorEdit03
+[2020.05.03-03.23.45:959][ 61]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/BarrelModel01.FBX)
+[2020.05.03-03.23.46:031][ 61]LogFbx: Loading FBX Scene from C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/BarrelModel01.FBX
+[2020.05.03-03.23.46:294][ 61]LogFbx: FBX Scene Loaded Succesfully
+[2020.05.03-03.23.47:081][ 61]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.05.03-03.23.47:190][ 61]LogStaticMesh: Building static mesh BarrelModel01...
+[2020.05.03-03.23.47:247][ 61]LogStaticMesh: Built static mesh [0.06s] /Game/BuildingSystem/Meshes/BarrelModel01.BarrelModel01
+[2020.05.03-03.23.47:372][ 62]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/Barrel01.obj)
+[2020.05.03-03.23.47:404][ 62]LogFbx: Loading FBX Scene from C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/Barrel01.obj
+[2020.05.03-03.23.47:530][ 62]LogFbx: FBX Scene Loaded Succesfully
+[2020.05.03-03.23.48:060][ 62]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.05.03-03.23.48:491][ 62]LogStaticMesh: Building static mesh Barrel01...
+[2020.05.03-03.23.48:554][ 62]LogStaticMesh: Built static mesh [0.06s] /Game/BuildingSystem/Meshes/Barrel01.Barrel01
+[2020.05.03-03.23.48:673][ 63]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/Crate01.obj)
+[2020.05.03-03.23.48:697][ 63]LogFbx: Loading FBX Scene from C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/Crate01.obj
+[2020.05.03-03.23.48:716][ 63]LogFbx: FBX Scene Loaded Succesfully
+[2020.05.03-03.23.49:383][ 63]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.05.03-03.23.49:558][ 63]LogStaticMesh: Building static mesh Crate01_Box001...
+[2020.05.03-03.23.49:562][ 63]LogStaticMesh: Built static mesh [0.05s] /Game/BuildingSystem/Meshes/Crate01_Box001.Crate01_Box001
+[2020.05.03-03.23.49:774][ 63]LogStaticMesh: Building static mesh Crate01_Box003...
+[2020.05.03-03.23.49:775][ 63]LogStaticMesh: Built static mesh [0.00s] /Game/BuildingSystem/Meshes/Crate01_Box003.Crate01_Box003
+[2020.05.03-03.23.49:922][ 63]LogStaticMesh: Building static mesh Crate01_Box004...
+[2020.05.03-03.23.49:926][ 63]LogStaticMesh: Built static mesh [0.00s] /Game/BuildingSystem/Meshes/Crate01_Box004.Crate01_Box004
+[2020.05.03-03.23.50:014][ 63]LogStaticMesh: Building static mesh Crate01_Box005...
+[2020.05.03-03.23.50:015][ 63]LogStaticMesh: Built static mesh [0.01s] /Game/BuildingSystem/Meshes/Crate01_Box005.Crate01_Box005
+[2020.05.03-03.23.50:089][ 63]LogStaticMesh: Building static mesh Crate01_Box006...
+[2020.05.03-03.23.50:095][ 63]LogStaticMesh: Built static mesh [0.01s] /Game/BuildingSystem/Meshes/Crate01_Box006.Crate01_Box006
+[2020.05.03-03.23.50:259][ 63]LogStaticMesh: Building static mesh Crate01_Box007...
+[2020.05.03-03.23.50:260][ 63]LogStaticMesh: Built static mesh [0.03s] /Game/BuildingSystem/Meshes/Crate01_Box007.Crate01_Box007
+[2020.05.03-03.23.50:381][ 64]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/ChairRemesh02.OBJ)
+[2020.05.03-03.23.50:420][ 64]LogFbx: Loading FBX Scene from C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/ChairRemesh02.OBJ
+[2020.05.03-03.23.50:539][ 64]LogFbx: FBX Scene Loaded Succesfully
+[2020.05.03-03.23.51:370][ 64]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.05.03-03.23.51:514][ 64]LogStaticMesh: Building static mesh ChairRemesh02...
+[2020.05.03-03.23.51:577][ 64]LogStaticMesh: Built static mesh [0.06s] /Game/BuildingSystem/Meshes/ChairRemesh02.ChairRemesh02
+[2020.05.03-03.23.51:938][ 65]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/SpikeFloor01293918EA4727395F62D38B8A777750D7.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/SpikeFloor01.uasset'
+[2020.05.03-03.23.51:957][ 65]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/ExtraPropsNew3E74CC0B640D33E8AD3C512AEE7661D5E.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/ExtraPropsNew3.uasset'
+[2020.05.03-03.23.52:074][ 65]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/DoorEdit03822CCC2443F177DE5BE39985572C09D9.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/DoorEdit03.uasset'
+[2020.05.03-03.23.52:150][ 65]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/BarrelModel01507117814AA41F3D73A10E8D618D67A5.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/BarrelModel01.uasset'
+[2020.05.03-03.23.52:175][ 65]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BuildingSystem/Meshes/Barrel01" FILE="../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/Barrel01.uasset" SILENT=true
+[2020.05.03-03.23.52:219][ 65]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Barrel012C0F1C4344BD8D75D539C98FA3638AD8.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/Barrel01.uasset'
+[2020.05.03-03.23.52:228][ 65]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BuildingSystem/Meshes/Crate01" FILE="../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/Crate01.uasset" SILENT=true
+[2020.05.03-03.23.52:235][ 65]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Crate01A69F47744882138450D0869F4CE1D314.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/Crate01.uasset'
+[2020.05.03-03.23.52:307][ 65]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/ChairRemesh02653A6C014B8227C42E43FCB9869C24F8.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/ChairRemesh02.uasset'
+[2020.05.03-03.23.52:787][ 66]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.03-03.23.52:787][ 66]LogContentValidation: Display: Validating StaticMesh /Game/BuildingSystem/Meshes/DoorEdit03.DoorEdit03
+[2020.05.03-03.23.52:787][ 66]LogContentValidation: Display: Validating StaticMesh /Game/BuildingSystem/Meshes/BarrelModel01.BarrelModel01
+[2020.05.03-03.23.52:787][ 66]LogContentValidation: Display: Validating StaticMesh /Game/BuildingSystem/Meshes/Barrel01.Barrel01
+[2020.05.03-03.23.52:787][ 66]LogContentValidation: Display: Validating StaticMesh /Game/BuildingSystem/Meshes/ChairRemesh02.ChairRemesh02
+[2020.05.03-03.23.55:409][297]AssetReimport: Importing new asset /Game/BuildingSystem/Meshes/SpikeFloor01.
+[2020.05.03-03.23.55:409][297]AssetReimport: Importing new asset /Game/BuildingSystem/Meshes/ExtraPropsNew3.
+[2020.05.03-03.23.55:409][297]AssetReimport: Importing new asset /Game/BuildingSystem/Meshes/DoorEdit03.
+[2020.05.03-03.23.55:409][297]AssetReimport: Importing new asset /Game/BuildingSystem/Meshes/BarrelModel01.
+[2020.05.03-03.23.55:409][297]AssetReimport: Importing new asset /Game/BuildingSystem/Meshes/Barrel01.
+[2020.05.03-03.23.55:409][297]AssetReimport: Importing new asset /Game/BuildingSystem/Meshes/Crate01.
+[2020.05.03-03.23.55:409][297]AssetReimport: Importing new asset /Game/BuildingSystem/Meshes/ChairRemesh02.
+[2020.05.03-03.24.02:746][614]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 160
+[2020.05.03-03.24.03:448][651]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 150
+[2020.05.03-03.24.15:098][212]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 140
+[2020.05.03-03.24.15:755][246]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 130
+[2020.05.03-03.24.25:714][679]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 120
+[2020.05.03-03.24.28:468][819]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 110
+[2020.05.03-03.24.31:515][959]LogActorFactory: Actor Factory created A_Player_Flat
+[2020.05.03-03.24.33:595][ 57]LogActorFactory: Actor Factory created A_Player_Flat
+[2020.05.03-03.24.39:520][300]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 100
+[2020.05.03-03.24.39:635][306]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 90
+[2020.05.03-03.24.53:473][874]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 80
+[2020.05.03-03.24.53:506][875]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 70
+[2020.05.03-03.24.56:495][986]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/BuildingSystem/Meshes/A_Player_Flat.A_Player_Flat
+[2020.05.03-03.25.03:981][254]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 60
+[2020.05.03-03.25.05:217][313]LogEditorFactories: Performing atomic reimport of [C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/A_Player_Flat.obj]
+[2020.05.03-03.25.05:325][313]LogFbx: Loading FBX Scene from C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/A_Player_Flat.obj
+[2020.05.03-03.25.05:401][313]LogFbx: FBX Scene Loaded Succesfully
+[2020.05.03-03.25.05:492][313]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 50
+[2020.05.03-03.25.05:492][313]LogStaticMesh: Building static mesh A_Player_Flat...
+[2020.05.03-03.25.05:529][313]LogStaticMesh: Built static mesh [0.08s] /Game/BuildingSystem/Meshes/A_Player_Flat.A_Player_Flat
+[2020.05.03-03.25.05:658][313]LogEditorFactories: -- imported successfully
+[2020.05.03-03.25.05:664][313]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.05.03-03.25.15:814][662]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 40
+[2020.05.03-03.25.15:814][662]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/A_Player_FlatDC8F7CD74F2D5451D199E08C21F8EC7D.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/A_Player_Flat.uasset'
+[2020.05.03-03.25.15:850][662]AssetCheck: New page: Asset Save: A_Player_Flat
+[2020.05.03-03.25.15:850][662]LogContentValidation: Display: Validating StaticMesh /Game/BuildingSystem/Meshes/A_Player_Flat.A_Player_Flat
+[2020.05.03-03.25.16:285][678]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 30
+[2020.05.03-03.25.16:729][694]LogSlate: Window 'A_Player_Flat' being destroyed
+[2020.05.03-03.25.16:801][694]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.05.03-03.25.16:801][694]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.03-03.25.27:601][122]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.05.03-03.25.28:968][171]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 20
+[2020.05.03-03.25.29:829][204]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 10
+[2020.05.03-03.25.38:325][568]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2020.05.03-03.25.39:493][629]Cmd: TRANSACTION UNDO
+[2020.05.03-03.25.39:493][629]LogEditorTransaction: Undo Set Rotation
+[2020.05.03-03.25.39:791][633]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.05.03-03.25.49:566][246]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/BuildingSystem/Meshes/A_Player_Flat.A_Player_Flat
+[2020.05.03-03.26.04:346][985]LogEditorFactories: Performing atomic reimport of [C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/A_Player_Flat.obj]
+[2020.05.03-03.26.04:407][985]LogFbx: Loading FBX Scene from C:/Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/A_Player_Flat.obj
+[2020.05.03-03.26.04:462][985]LogFbx: FBX Scene Loaded Succesfully
+[2020.05.03-03.26.04:532][985]LogStaticMesh: Building static mesh A_Player_Flat...
+[2020.05.03-03.26.04:560][985]LogStaticMesh: Built static mesh [0.07s] /Game/BuildingSystem/Meshes/A_Player_Flat.A_Player_Flat
+[2020.05.03-03.26.04:678][985]LogEditorFactories: -- imported successfully
+[2020.05.03-03.26.04:682][985]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.05.03-03.26.39:061][787]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/A_Player_Flat21FF931E4CACDED521CD33AE1290C7F6.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/BuildingSystem/Meshes/A_Player_Flat.uasset'
+[2020.05.03-03.26.39:088][787]AssetCheck: New page: Asset Save: A_Player_Flat
+[2020.05.03-03.26.39:089][787]LogContentValidation: Display: Validating StaticMesh /Game/BuildingSystem/Meshes/A_Player_Flat.A_Player_Flat
+[2020.05.03-03.26.40:576][858]LogSlate: Window 'A_Player_Flat' being destroyed
+[2020.05.03-03.26.40:585][858]LogSlate: Window 'A_Player_Flat' being destroyed
+[2020.05.03-03.26.40:605][858]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.05.03-03.26.40:605][858]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.03-03.26.44:192][102]LogUObjectHash: Compacting FUObjectHashTables data took   6.11ms
+[2020.05.03-03.26.44:664][102]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/ThirdPersonExampleMapF245CE7347445E9EEC9BB8B4FD1C429D.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2020.05.03-03.26.45:097][102]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/ThirdPersonExampleMap_BuiltData807D608847A6636ADAAE18B6613F6768.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.05.03-03.26.45:133][102]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.03-03.26.45:133][102]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.05.03-03.26.45:133][102]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.05.03-03.26.46:716][211]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (A_Player_Flat)
+[2020.05.03-03.26.48:196][313]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (A_Player_platform_Incline)
+[2020.05.03-03.28.10:089][903]LogActorFactory: Actor Factory created ChairRemesh02
+[2020.05.03-03.28.11:987][ 25]LogActorFactory: Actor Factory created ChairRemesh02
+[2020.05.03-03.28.12:493][ 57]LogActorFactory: Actor Factory created ChairRemesh02
+[2020.05.03-03.28.18:857][466]LogActorFactory: Actor Factory created Crate01_Box001
+[2020.05.03-03.28.19:560][511]LogActorFactory: Actor Factory created Crate01_Box001
+[2020.05.03-03.28.32:742][388]LogActorFactory: Actor Factory created Crate01_Box003
+[2020.05.03-03.28.33:390][429]LogActorFactory: Actor Factory created Crate01_Box003
+[2020.05.03-03.28.47:519][395]LogActorFactory: Actor Factory created Crate01_Box004
+[2020.05.03-03.28.49:622][530]LogActorFactory: Actor Factory created Crate01_Box004
+[2020.05.03-03.29.19:853][410]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Crate01_Box003)
+[2020.05.03-03.30.41:204][ 26]LogActorFactory: Actor Factory created ExtraPropsNew3_Group64396
+[2020.05.03-03.30.42:539][103]LogActorFactory: Actor Factory created ExtraPropsNew3_Group64396
+[2020.05.03-03.31.10:987][181]LogActorFactory: Actor Factory created ExtraPropsNew3_Group39237
+[2020.05.03-03.31.12:679][288]LogActorFactory: Actor Factory created ExtraPropsNew3_Group39237
+[2020.05.03-03.32.42:792][757]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ExtraPropsNew3_Group64396)
+[2020.05.03-03.34.33:664][554]LogActorFactory: Actor Factory created SpikeFloor01_Group17868
+[2020.05.03-03.34.34:880][632]LogActorFactory: Actor Factory created SpikeFloor01_Group17868
+[2020.05.03-03.34.55:188][227]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (A_Player_Platform_v3)
+[2020.05.03-03.34.56:049][271]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ChairRemesh02)
+[2020.05.03-03.35.40:985][355]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ChairRemesh02)
+[2020.05.03-03.35.44:218][590]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ChairRemesh02)
+[2020.05.03-03.35.59:227][719]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ChairRemesh02)
+[2020.05.03-03.36.28:892][472]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.05.03-03.36.30:457][538]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ChairRemesh02)
+[2020.05.03-03.37.39:985][640]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall9)
+[2020.05.03-03.37.42:102][797]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.05.03-03.37.51:178][514]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ChairRemesh02)
+[2020.05.03-03.39.06:950][293]LogEditorViewport: Clicking on Actor (LMB): Tile_Stair_C (Tile_Stair)
+[2020.05.03-03.40.32:728][850]LogUObjectHash: Compacting FUObjectHashTables data took   6.16ms
+[2020.05.03-03.40.33:204][850]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/ThirdPersonExampleMap_Auto39E26AF9B46FDE06299670697BB9D0A98.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto3.umap'
+[2020.05.03-03.40.33:211][850]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.577
+[2020.05.03-03.40.33:211][850]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.577
+[2020.05.03-03.40.33:212][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BuildingSystem/Meshes/SpikeFloor01_Group17861] ([1] browsable assets)...
+[2020.05.03-03.40.33:232][850]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/BuildingSystem/Meshes/SpikeFloor01_Group17861.SpikeFloor01_Group17861]
+[2020.05.03-03.40.33:232][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingSystem/Meshes/SpikeFloor01_Group17861]
+[2020.05.03-03.40.33:317][850]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/SpikeFloor01_Group17861_Auto3FA92051E4CD19EA7AB7ACD89F5ADDD57.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/BuildingSystem/Meshes/SpikeFloor01_Group17861_Auto3.uasset'
+[2020.05.03-03.40.33:322][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BuildingSystem/Meshes/Group17861Mat] ([1] browsable assets)...
+[2020.05.03-03.40.33:336][850]OBJ SavePackage:     Rendered thumbnail for [Material /Game/BuildingSystem/Meshes/Group17861Mat.Group17861Mat]
+[2020.05.03-03.40.33:336][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingSystem/Meshes/Group17861Mat]
+[2020.05.03-03.40.33:354][850]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Group17861Mat_Auto3CCCC439B432F4547450AB9B42784523D.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/BuildingSystem/Meshes/Group17861Mat_Auto3.uasset'
+[2020.05.03-03.40.33:358][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BuildingSystem/Meshes/SpikeFloor01_Group17868] ([1] browsable assets)...
+[2020.05.03-03.40.33:373][850]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/BuildingSystem/Meshes/SpikeFloor01_Group17868.SpikeFloor01_Group17868]
+[2020.05.03-03.40.33:374][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingSystem/Meshes/SpikeFloor01_Group17868]
+[2020.05.03-03.40.33:479][850]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/SpikeFloor01_Group17868_Auto35FFACA264D6B123C859DE58542A70236.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/BuildingSystem/Meshes/SpikeFloor01_Group17868_Auto3.uasset'
+[2020.05.03-03.40.33:484][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BuildingSystem/Meshes/Group17868Mat] ([1] browsable assets)...
+[2020.05.03-03.40.33:498][850]OBJ SavePackage:     Rendered thumbnail for [Material /Game/BuildingSystem/Meshes/Group17868Mat.Group17868Mat]
+[2020.05.03-03.40.33:498][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingSystem/Meshes/Group17868Mat]
+[2020.05.03-03.40.33:518][850]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Group17868Mat_Auto34494DFB7452354E345BB039186B01C00.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/BuildingSystem/Meshes/Group17868Mat_Auto3.uasset'
+[2020.05.03-03.40.33:522][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BuildingSystem/Meshes/ExtraPropsNew3_Group32200] ([1] browsable assets)...
+[2020.05.03-03.40.33:537][850]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/BuildingSystem/Meshes/ExtraPropsNew3_Group32200.ExtraPropsNew3_Group32200]
+[2020.05.03-03.40.33:537][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingSystem/Meshes/ExtraPropsNew3_Group32200]
+[2020.05.03-03.40.33:558][850]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/ExtraPropsNew3_Group32200_Auto39906976D461ABF6922F0B4807907052D.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/BuildingSystem/Meshes/ExtraPropsNew3_Group32200_Auto3.uasset'
+[2020.05.03-03.40.33:564][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BuildingSystem/Meshes/Group32200Mat] ([1] browsable assets)...
+[2020.05.03-03.40.33:579][850]OBJ SavePackage:     Rendered thumbnail for [Material /Game/BuildingSystem/Meshes/Group32200Mat.Group32200Mat]
+[2020.05.03-03.40.33:579][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingSystem/Meshes/Group32200Mat]
+[2020.05.03-03.40.33:597][850]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Group32200Mat_Auto32CD4DF1C4EB30F3A03C5EE80120F5374.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/BuildingSystem/Meshes/Group32200Mat_Auto3.uasset'
+[2020.05.03-03.40.33:602][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BuildingSystem/Meshes/ExtraPropsNew3_Group39237] ([1] browsable assets)...
+[2020.05.03-03.40.33:617][850]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/BuildingSystem/Meshes/ExtraPropsNew3_Group39237.ExtraPropsNew3_Group39237]
+[2020.05.03-03.40.33:617][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingSystem/Meshes/ExtraPropsNew3_Group39237]
+[2020.05.03-03.40.33:653][850]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/ExtraPropsNew3_Group39237_Auto3B15A88F84FD2391FCA3CB387D52309F0.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/BuildingSystem/Meshes/ExtraPropsNew3_Group39237_Auto3.uasset'
+[2020.05.03-03.40.33:659][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BuildingSystem/Meshes/Group39237Mat] ([1] browsable assets)...
+[2020.05.03-03.40.33:674][850]OBJ SavePackage:     Rendered thumbnail for [Material /Game/BuildingSystem/Meshes/Group39237Mat.Group39237Mat]
+[2020.05.03-03.40.33:674][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingSystem/Meshes/Group39237Mat]
+[2020.05.03-03.40.33:692][850]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Group39237Mat_Auto342D29E614D1334921163DB9E4D1713BD.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/BuildingSystem/Meshes/Group39237Mat_Auto3.uasset'
+[2020.05.03-03.40.33:697][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BuildingSystem/Meshes/ExtraPropsNew3_Group48298] ([1] browsable assets)...
+[2020.05.03-03.40.33:713][850]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/BuildingSystem/Meshes/ExtraPropsNew3_Group48298.ExtraPropsNew3_Group48298]
+[2020.05.03-03.40.33:713][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingSystem/Meshes/ExtraPropsNew3_Group48298]
+[2020.05.03-03.40.33:737][850]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/ExtraPropsNew3_Group48298_Auto3B60066D24FBFA30E5D081780B02DB672.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/BuildingSystem/Meshes/ExtraPropsNew3_Group48298_Auto3.uasset'
+[2020.05.03-03.40.33:742][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BuildingSystem/Meshes/Group48298Mat] ([1] browsable assets)...
+[2020.05.03-03.40.33:757][850]OBJ SavePackage:     Rendered thumbnail for [Material /Game/BuildingSystem/Meshes/Group48298Mat.Group48298Mat]
+[2020.05.03-03.40.33:758][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingSystem/Meshes/Group48298Mat]
+[2020.05.03-03.40.33:775][850]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Group48298Mat_Auto39B8913814AF0A910BCC0309856BE3E4B.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/BuildingSystem/Meshes/Group48298Mat_Auto3.uasset'
+[2020.05.03-03.40.33:781][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BuildingSystem/Meshes/ExtraPropsNew3_Group64396] ([1] browsable assets)...
+[2020.05.03-03.40.33:797][850]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/BuildingSystem/Meshes/ExtraPropsNew3_Group64396.ExtraPropsNew3_Group64396]
+[2020.05.03-03.40.33:797][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingSystem/Meshes/ExtraPropsNew3_Group64396]
+[2020.05.03-03.40.33:819][850]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/ExtraPropsNew3_Group64396_Auto366526A19479506207732B097335A4B44.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/BuildingSystem/Meshes/ExtraPropsNew3_Group64396_Auto3.uasset'
+[2020.05.03-03.40.33:824][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BuildingSystem/Meshes/Group64396Mat] ([1] browsable assets)...
+[2020.05.03-03.40.33:839][850]OBJ SavePackage:     Rendered thumbnail for [Material /Game/BuildingSystem/Meshes/Group64396Mat.Group64396Mat]
+[2020.05.03-03.40.33:839][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingSystem/Meshes/Group64396Mat]
+[2020.05.03-03.40.33:855][850]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Group64396Mat_Auto3819218244FC9AB5275AE329D7296249B.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/BuildingSystem/Meshes/Group64396Mat_Auto3.uasset'
+[2020.05.03-03.40.33:861][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BuildingSystem/Meshes/Group31592Mat] ([1] browsable assets)...
+[2020.05.03-03.40.33:876][850]OBJ SavePackage:     Rendered thumbnail for [Material /Game/BuildingSystem/Meshes/Group31592Mat.Group31592Mat]
+[2020.05.03-03.40.33:876][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingSystem/Meshes/Group31592Mat]
+[2020.05.03-03.40.33:892][850]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Group31592Mat_Auto354B2400442DAF45AE218FEB6B761BFDB.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/BuildingSystem/Meshes/Group31592Mat_Auto3.uasset'
+[2020.05.03-03.40.33:897][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BuildingSystem/Meshes/Cylinder001Mat] ([1] browsable assets)...
+[2020.05.03-03.40.33:912][850]OBJ SavePackage:     Rendered thumbnail for [Material /Game/BuildingSystem/Meshes/Cylinder001Mat.Cylinder001Mat]
+[2020.05.03-03.40.33:912][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingSystem/Meshes/Cylinder001Mat]
+[2020.05.03-03.40.33:948][850]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Cylinder001Mat_Auto31ED50A8F471A36D6C6CF0EBA6B21EC81.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/BuildingSystem/Meshes/Cylinder001Mat_Auto3.uasset'
+[2020.05.03-03.40.33:953][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BuildingSystem/Meshes/Crate01_Box001] ([1] browsable assets)...
+[2020.05.03-03.40.33:969][850]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/BuildingSystem/Meshes/Crate01_Box001.Crate01_Box001]
+[2020.05.03-03.40.33:969][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingSystem/Meshes/Crate01_Box001]
+[2020.05.03-03.40.33:990][850]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Crate01_Box001_Auto331E740DA4D0FFBF834D895B01506F516.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/BuildingSystem/Meshes/Crate01_Box001_Auto3.uasset'
+[2020.05.03-03.40.33:995][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BuildingSystem/Meshes/Box001Mat] ([1] browsable assets)...
+[2020.05.03-03.40.34:010][850]OBJ SavePackage:     Rendered thumbnail for [Material /Game/BuildingSystem/Meshes/Box001Mat.Box001Mat]
+[2020.05.03-03.40.34:010][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingSystem/Meshes/Box001Mat]
+[2020.05.03-03.40.34:026][850]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Box001Mat_Auto348E610B148ECC956AC0F3C93473D7AAE.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/BuildingSystem/Meshes/Box001Mat_Auto3.uasset'
+[2020.05.03-03.40.34:030][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BuildingSystem/Meshes/Crate01_Box003] ([1] browsable assets)...
+[2020.05.03-03.40.34:044][850]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/BuildingSystem/Meshes/Crate01_Box003.Crate01_Box003]
+[2020.05.03-03.40.34:044][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingSystem/Meshes/Crate01_Box003]
+[2020.05.03-03.40.34:063][850]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Crate01_Box003_Auto362D56E024163E7E160EA2E9DB9AB6FAA.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/BuildingSystem/Meshes/Crate01_Box003_Auto3.uasset'
+[2020.05.03-03.40.34:068][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BuildingSystem/Meshes/Box003Mat] ([1] browsable assets)...
+[2020.05.03-03.40.34:084][850]OBJ SavePackage:     Rendered thumbnail for [Material /Game/BuildingSystem/Meshes/Box003Mat.Box003Mat]
+[2020.05.03-03.40.34:084][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingSystem/Meshes/Box003Mat]
+[2020.05.03-03.40.34:100][850]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Box003Mat_Auto3C41690054DC02E0D60B37F90E213D226.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/BuildingSystem/Meshes/Box003Mat_Auto3.uasset'
+[2020.05.03-03.40.34:159][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BuildingSystem/Meshes/Crate01_Box004] ([1] browsable assets)...
+[2020.05.03-03.40.34:173][850]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/BuildingSystem/Meshes/Crate01_Box004.Crate01_Box004]
+[2020.05.03-03.40.34:173][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingSystem/Meshes/Crate01_Box004]
+[2020.05.03-03.40.34:192][850]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Crate01_Box004_Auto3D2AB112E4901A9BE9C04DF8955A90D51.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/BuildingSystem/Meshes/Crate01_Box004_Auto3.uasset'
+[2020.05.03-03.40.34:197][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BuildingSystem/Meshes/Box004Mat] ([1] browsable assets)...
+[2020.05.03-03.40.34:213][850]OBJ SavePackage:     Rendered thumbnail for [Material /Game/BuildingSystem/Meshes/Box004Mat.Box004Mat]
+[2020.05.03-03.40.34:213][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingSystem/Meshes/Box004Mat]
+[2020.05.03-03.40.34:231][850]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Box004Mat_Auto39A72558744ECE7414968B293A3BA0C70.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/BuildingSystem/Meshes/Box004Mat_Auto3.uasset'
+[2020.05.03-03.40.34:236][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BuildingSystem/Meshes/Crate01_Box005] ([1] browsable assets)...
+[2020.05.03-03.40.34:251][850]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/BuildingSystem/Meshes/Crate01_Box005.Crate01_Box005]
+[2020.05.03-03.40.34:252][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingSystem/Meshes/Crate01_Box005]
+[2020.05.03-03.40.34:272][850]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Crate01_Box005_Auto3E3F8F1F8407BD815A754E1A79F9CA85C.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/BuildingSystem/Meshes/Crate01_Box005_Auto3.uasset'
+[2020.05.03-03.40.34:277][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BuildingSystem/Meshes/Box005Mat] ([1] browsable assets)...
+[2020.05.03-03.40.34:293][850]OBJ SavePackage:     Rendered thumbnail for [Material /Game/BuildingSystem/Meshes/Box005Mat.Box005Mat]
+[2020.05.03-03.40.34:293][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingSystem/Meshes/Box005Mat]
+[2020.05.03-03.40.34:308][850]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Box005Mat_Auto388AC7C27464E5CE8778DC09ED1133B82.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/BuildingSystem/Meshes/Box005Mat_Auto3.uasset'
+[2020.05.03-03.40.34:313][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BuildingSystem/Meshes/Crate01_Box006] ([1] browsable assets)...
+[2020.05.03-03.40.34:328][850]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/BuildingSystem/Meshes/Crate01_Box006.Crate01_Box006]
+[2020.05.03-03.40.34:328][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingSystem/Meshes/Crate01_Box006]
+[2020.05.03-03.40.34:348][850]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Crate01_Box006_Auto3A899F8684B1EDBC8984C379AB1F0862F.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/BuildingSystem/Meshes/Crate01_Box006_Auto3.uasset'
+[2020.05.03-03.40.34:353][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BuildingSystem/Meshes/Box006Mat] ([1] browsable assets)...
+[2020.05.03-03.40.34:369][850]OBJ SavePackage:     Rendered thumbnail for [Material /Game/BuildingSystem/Meshes/Box006Mat.Box006Mat]
+[2020.05.03-03.40.34:369][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingSystem/Meshes/Box006Mat]
+[2020.05.03-03.40.34:388][850]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Box006Mat_Auto3C28F8B7C4F1D825F56ACA8A2681EEDED.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/BuildingSystem/Meshes/Box006Mat_Auto3.uasset'
+[2020.05.03-03.40.34:393][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BuildingSystem/Meshes/Crate01_Box007] ([1] browsable assets)...
+[2020.05.03-03.40.34:409][850]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/BuildingSystem/Meshes/Crate01_Box007.Crate01_Box007]
+[2020.05.03-03.40.34:409][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingSystem/Meshes/Crate01_Box007]
+[2020.05.03-03.40.34:431][850]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Crate01_Box007_Auto39D0662E34021B4E3F2795E8612EF389E.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/BuildingSystem/Meshes/Crate01_Box007_Auto3.uasset'
+[2020.05.03-03.40.34:436][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BuildingSystem/Meshes/Box007Mat] ([1] browsable assets)...
+[2020.05.03-03.40.34:452][850]OBJ SavePackage:     Rendered thumbnail for [Material /Game/BuildingSystem/Meshes/Box007Mat.Box007Mat]
+[2020.05.03-03.40.34:452][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingSystem/Meshes/Box007Mat]
+[2020.05.03-03.40.34:468][850]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Box007Mat_Auto3E8FCDE424BBD52C594E7F689DAECBC6A.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/BuildingSystem/Meshes/Box007Mat_Auto3.uasset'
+[2020.05.03-03.40.34:489][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BuildingSystem/Meshes/Group34520Mat] ([1] browsable assets)...
+[2020.05.03-03.40.34:505][850]OBJ SavePackage:     Rendered thumbnail for [Material /Game/BuildingSystem/Meshes/Group34520Mat.Group34520Mat]
+[2020.05.03-03.40.34:505][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/BuildingSystem/Meshes/Group34520Mat]
+[2020.05.03-03.40.34:577][850]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Group34520Mat_Auto38BFA2B004707596B5BB6758995B5403A.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/BuildingSystem/Meshes/Group34520Mat_Auto3.uasset'
+[2020.05.03-03.40.34:584][850]LogFileHelpers: Auto-saving content packages took 1.373
+[2020.05.03-03.41.12:346][343]LogUObjectHash: Compacting FUObjectHashTables data took   6.61ms
+[2020.05.03-03.41.28:365][343]LogSlate: Window 'Delete Assets' being destroyed
+[2020.05.03-03.41.30:071][456]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ExtraPropsNew3_Group39237)
+[2020.05.03-03.41.30:918][515]Cmd: DELETE
+[2020.05.03-03.41.30:918][515]Cmd: ACTOR DELETE
+[2020.05.03-03.41.31:187][515]LogAIModule: Creating AISystem for world Level_04_Draft
+[2020.05.03-03.41.31:231][515]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.05.03-03.41.31:327][515]LogUObjectHash: Compacting FUObjectHashTables data took   6.02ms
+[2020.05.03-03.41.31:331][515]LogEditorActor: Deleted 1 Actors (0.397 secs)
+[2020.05.03-03.41.31:878][566]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.05.03-03.41.32:315][588]Cmd: DELETE
+[2020.05.03-03.41.32:315][588]Cmd: ACTOR DELETE
+[2020.05.03-03.41.32:320][588]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.05.03-03.41.32:413][588]LogUObjectHash: Compacting FUObjectHashTables data took   4.43ms
+[2020.05.03-03.41.32:415][588]LogEditorActor: Deleted 1 Actors (0.099 secs)
+[2020.05.03-03.41.33:611][707]Cmd: TRANSACTION UNDO
+[2020.05.03-03.41.33:611][707]LogEditorTransaction: Undo Delete Actors
+[2020.05.03-03.41.35:555][811]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ChairRemesh02)
+[2020.05.03-03.41.36:192][852]Cmd: DELETE
+[2020.05.03-03.41.36:192][852]Cmd: ACTOR DELETE
+[2020.05.03-03.41.36:198][852]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.05.03-03.41.36:291][852]LogUObjectHash: Compacting FUObjectHashTables data took   5.16ms
+[2020.05.03-03.41.36:293][852]LogEditorActor: Deleted 1 Actors (0.101 secs)
+[2020.05.03-03.41.38:403][ 45]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Crate01_Box001)
+[2020.05.03-03.41.39:142][ 95]Cmd: DELETE
+[2020.05.03-03.41.39:142][ 95]Cmd: ACTOR DELETE
+[2020.05.03-03.41.39:147][ 95]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.05.03-03.41.39:242][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2020.05.03-03.41.39:244][ 95]LogEditorActor: Deleted 1 Actors (0.102 secs)
+[2020.05.03-03.41.39:733][142]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Crate01_Box004)
+[2020.05.03-03.41.39:939][151]Cmd: DELETE
+[2020.05.03-03.41.39:939][151]Cmd: ACTOR DELETE
+[2020.05.03-03.41.39:944][151]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.05.03-03.41.40:039][151]LogUObjectHash: Compacting FUObjectHashTables data took   5.00ms
+[2020.05.03-03.41.40:041][151]LogEditorActor: Deleted 1 Actors (0.101 secs)
+[2020.05.03-03.41.41:004][242]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Crate01_Box003)
+[2020.05.03-03.41.41:188][251]Cmd: DELETE
+[2020.05.03-03.41.41:188][251]Cmd: ACTOR DELETE
+[2020.05.03-03.41.41:193][251]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.05.03-03.41.41:276][251]LogUObjectHash: Compacting FUObjectHashTables data took   4.62ms
+[2020.05.03-03.41.41:277][251]LogEditorActor: Deleted 1 Actors (0.089 secs)
+[2020.05.03-03.41.45:309][629]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ExtraPropsNew3_Group64396)
+[2020.05.03-03.41.46:004][678]Cmd: DELETE
+[2020.05.03-03.41.46:004][678]Cmd: ACTOR DELETE
+[2020.05.03-03.41.46:008][678]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.05.03-03.41.46:091][678]LogUObjectHash: Compacting FUObjectHashTables data took   4.68ms
+[2020.05.03-03.41.46:094][678]LogEditorActor: Deleted 1 Actors (0.089 secs)
+[2020.05.03-03.42.11:176][938]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2020.05.03-03.42.26:072][938]LogSlate: Window 'Delete Assets' being destroyed
+[2020.05.03-03.42.39:333][938]LogUObjectGlobals: Force Deleting 31 Package(s):
+	Asset Name: /Game/BuildingSystem/Meshes/Barrel01.Barrel01
+	Asset Name: /Game/BuildingSystem/Meshes/BarrelModel01.BarrelModel01
+	Asset Name: /Game/BuildingSystem/Meshes/Box001Mat.Box001Mat
+	Asset Name: /Game/BuildingSystem/Meshes/Box003Mat.Box003Mat
+	Asset Name: /Game/BuildingSystem/Meshes/Box004Mat.Box004Mat
+	Asset Name: /Game/BuildingSystem/Meshes/Box005Mat.Box005Mat
+	Asset Name: /Game/BuildingSystem/Meshes/Box006Mat.Box006Mat
+	Asset Name: /Game/BuildingSystem/Meshes/Box007Mat.Box007Mat
+	Asset Name: /Game/BuildingSystem/Meshes/ChairRemesh02.ChairRemesh02
+	Asset Name: /Game/BuildingSystem/Meshes/Crate01_Box001.Crate01_Box001
+[2020.05.03-03.42.53:998][938]LogUObjectHash: Compacting FUObjectHashTables data took   8.98ms
+[2020.05.03-03.42.54:089][938]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2020.05.03-03.42.54:195][938]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2020.05.03-03.42.54:301][938]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2020.05.03-03.42.54:503][938]LogUObjectHash: Compacting FUObjectHashTables data took   5.07ms
+[2020.05.03-03.42.54:598][938]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2020.05.03-03.43.25:872][ 33]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.05.03-03.49.59:351][665]LogUObjectHash: Compacting FUObjectHashTables data took   4.60ms
+[2020.05.03-03.49.59:791][665]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/ThirdPersonExampleMapCE74ABF84910ABFCBF4B629AC78AE431.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2020.05.03-03.50.00:189][665]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Level_04_Draft_BuiltDataBC5B739B4699110BADD611AAD9A6BAB4.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/ThirdPersonCPP/Maps/Level_04_Draft_BuiltData.uasset'
+[2020.05.03-03.50.00:222][665]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.03-03.50.00:222][665]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.05.03-03.50.00:222][665]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/Level_04_Draft_BuiltData.Level_04_Draft_BuiltData
+[2020.05.03-03.50.00:830][723]LogUObjectHash: Compacting FUObjectHashTables data took   6.13ms
+[2020.05.03-03.50.00:985][723]LogSlate: Window 'CGXJam - Unreal Editor' being destroyed
+[2020.05.03-03.50.00:988][723]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.05.03-03.50.01:799][724]Cmd: QUIT_EDITOR
+[2020.05.03-03.50.01:799][724]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.05.03-03.50.01:855][724]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.05.03-03.50.01:873][724]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.03-03.50.02:508][724]LogExit: Preparing to exit.
+[2020.05.03-03.50.04:207][724]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-03.50.04:207][724]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-03.50.04:207][724]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-03.50.04:207][724]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-03.50.04:207][724]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-03.50.04:207][724]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-03.50.04:207][724]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-03.50.04:207][724]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.05.03-03.50.04:209][724]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-03.50.04:209][724]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-03.50.04:209][724]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-03.50.04:209][724]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-03.50.04:209][724]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-03.50.04:209][724]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-03.50.04:210][724]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-03.50.04:210][724]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.05.03-03.50.04:211][724]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-03.50.04:211][724]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-03.50.04:211][724]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-03.50.04:211][724]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-03.50.04:211][724]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-03.50.04:211][724]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-03.50.04:211][724]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-03.50.04:211][724]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.05.03-03.50.04:527][724]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.05.03-03.50.04:867][724]LogExit: Editor shut down
+[2020.05.03-03.50.04:870][724]LogExit: Transaction tracking system shut down
+[2020.05.03-03.50.07:632][724]LogExit: Object subsystem successfully closed.
+[2020.05.03-03.50.08:801][724]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.05.03-03.50.10:812][724]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (708)
+[2020.05.03-03.50.10:812][724]LogModuleManager: Shutting down and abandoning module BlueprintGraph (706)
+[2020.05.03-03.50.10:812][724]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (704)
+[2020.05.03-03.50.10:829][724]LogModuleManager: Shutting down and abandoning module MeshBuilder (702)
+[2020.05.03-03.50.10:829][724]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (700)
+[2020.05.03-03.50.10:829][724]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (698)
+[2020.05.03-03.50.10:829][724]LogModuleManager: Shutting down and abandoning module SceneOutliner (696)
+[2020.05.03-03.50.10:829][724]LogModuleManager: Shutting down and abandoning module AddContentDialog (694)
+[2020.05.03-03.50.10:942][724]LogModuleManager: Shutting down and abandoning module WidgetCarousel (693)
+[2020.05.03-03.50.10:942][724]LogModuleManager: Shutting down and abandoning module EditorWidgets (690)
+[2020.05.03-03.50.10:942][724]LogModuleManager: Shutting down and abandoning module CollectionManager (688)
+[2020.05.03-03.50.10:967][724]LogModuleManager: Shutting down and abandoning module StatsViewer (686)
+[2020.05.03-03.50.10:992][724]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (684)
+[2020.05.03-03.50.11:007][724]LogModuleManager: Shutting down and abandoning module FoliageEdit (682)
+[2020.05.03-03.50.11:016][724]LogModuleManager: Shutting down and abandoning module LandscapeEditor (680)
+[2020.05.03-03.50.11:042][724]LogModuleManager: Shutting down and abandoning module MeshPaintMode (678)
+[2020.05.03-03.50.11:042][724]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (676)
+[2020.05.03-03.50.11:042][724]LogModuleManager: Shutting down and abandoning module ActorPickerMode (674)
+[2020.05.03-03.50.11:042][724]LogModuleManager: Shutting down and abandoning module GeometryMode (672)
+[2020.05.03-03.50.11:042][724]LogModuleManager: Shutting down and abandoning module TextureAlignMode (670)
+[2020.05.03-03.50.11:042][724]LogModuleManager: Shutting down and abandoning module BspMode (668)
+[2020.05.03-03.50.11:042][724]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (666)
+[2020.05.03-03.50.11:043][724]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (664)
+[2020.05.03-03.50.11:053][724]LogModuleManager: Shutting down and abandoning module AutomationWorker (662)
+[2020.05.03-03.50.11:053][724]LogModuleManager: Shutting down and abandoning module SteamVREditor (660)
+[2020.05.03-03.50.11:053][724]LogModuleManager: Shutting down and abandoning module OculusMR (658)
+[2020.05.03-03.50.11:070][724]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (656)
+[2020.05.03-03.50.11:071][724]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (654)
+[2020.05.03-03.50.11:089][724]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (652)
+[2020.05.03-03.50.11:200][724]LogModuleManager: Shutting down and abandoning module PlacementMode (651)
+[2020.05.03-03.50.11:200][724]LogModuleManager: Shutting down and abandoning module MaterialEditor (650)
+[2020.05.03-03.50.11:201][724]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (646)
+[2020.05.03-03.50.11:212][724]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (644)
+[2020.05.03-03.50.11:212][724]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (642)
+[2020.05.03-03.50.11:212][724]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (640)
+[2020.05.03-03.50.11:212][724]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (638)
+[2020.05.03-03.50.11:212][724]LogModuleManager: Shutting down and abandoning module WebMMedia (636)
+[2020.05.03-03.50.11:212][724]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (634)
+[2020.05.03-03.50.11:237][724]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (632)
+[2020.05.03-03.50.11:259][724]LogModuleManager: Shutting down and abandoning module SequenceRecorder (631)
+[2020.05.03-03.50.11:260][724]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (628)
+[2020.05.03-03.50.11:260][724]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (626)
+[2020.05.03-03.50.11:260][724]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (624)
+[2020.05.03-03.50.11:260][724]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (622)
+[2020.05.03-03.50.11:260][724]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (620)
+[2020.05.03-03.50.11:260][724]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (618)
+[2020.05.03-03.50.11:260][724]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (616)
+[2020.05.03-03.50.11:260][724]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (614)
+[2020.05.03-03.50.11:260][724]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (612)
+[2020.05.03-03.50.11:260][724]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (610)
+[2020.05.03-03.50.11:260][724]LogModuleManager: Shutting down and abandoning module CharacterAI (608)
+[2020.05.03-03.50.11:260][724]LogModuleManager: Shutting down and abandoning module SmartSnapping (606)
+[2020.05.03-03.50.11:260][724]LogModuleManager: Shutting down and abandoning module SessionServices (604)
+[2020.05.03-03.50.11:260][724]LogModuleManager: Shutting down and abandoning module MeshPaint (602)
+[2020.05.03-03.50.11:287][724]LogModuleManager: Shutting down and abandoning module ViewportSnapping (600)
+[2020.05.03-03.50.11:287][724]LogModuleManager: Shutting down and abandoning module ViewportInteraction (598)
+[2020.05.03-03.50.11:287][724]LogModuleManager: Shutting down and abandoning module ClothPainter (596)
+[2020.05.03-03.50.11:320][724]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (595)
+[2020.05.03-03.50.11:341][724]LogModuleManager: Shutting down and abandoning module LogVisualizer (592)
+[2020.05.03-03.50.11:382][724]LogModuleManager: Shutting down and abandoning module IntroTutorials (590)
+[2020.05.03-03.50.11:400][724]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (589)
+[2020.05.03-03.50.11:424][724]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (586)
+[2020.05.03-03.50.11:424][724]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (584)
+[2020.05.03-03.50.11:424][724]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (582)
+[2020.05.03-03.50.11:424][724]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (581)
+[2020.05.03-03.50.13:008][724]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (578)
+[2020.05.03-03.50.13:008][724]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (576)
+[2020.05.03-03.50.13:008][724]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (574)
+[2020.05.03-03.50.13:008][724]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (572)
+[2020.05.03-03.50.13:008][724]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (570)
+[2020.05.03-03.50.13:008][724]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (568)
+[2020.05.03-03.50.13:008][724]LogModuleManager: Shutting down and abandoning module InputBindingEditor (566)
+[2020.05.03-03.50.13:157][724]LogModuleManager: Shutting down and abandoning module MergeActors (564)
+[2020.05.03-03.50.13:317][724]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (562)
+[2020.05.03-03.50.13:332][724]LogModuleManager: Shutting down and abandoning module LocalizationService (561)
+[2020.05.03-03.50.13:356][724]LogModuleManager: Shutting down and abandoning module HardwareTargeting (558)
+[2020.05.03-03.50.13:357][724]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (556)
+[2020.05.03-03.50.13:357][724]LogModuleManager: Shutting down and abandoning module UndoHistory (554)
+[2020.05.03-03.50.13:386][724]LogModuleManager: Shutting down and abandoning module XmlParser (552)
+[2020.05.03-03.50.13:465][724]LogModuleManager: Shutting down and abandoning module Blutility (550)
+[2020.05.03-03.50.13:465][724]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (548)
+[2020.05.03-03.50.13:465][724]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (547)
+[2020.05.03-03.50.13:466][724]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (544)
+[2020.05.03-03.50.13:466][724]LogModuleManager: Shutting down and abandoning module SettingsEditor (542)
+[2020.05.03-03.50.13:673][724]LogModuleManager: Shutting down and abandoning module ProjectLauncher (540)
+[2020.05.03-03.50.13:759][724]LogModuleManager: Shutting down and abandoning module SessionFrontend (538)
+[2020.05.03-03.50.13:780][724]LogModuleManager: Shutting down and abandoning module ProfilerClient (536)
+[2020.05.03-03.50.13:830][724]LogModuleManager: Shutting down and abandoning module DeviceManager (534)
+[2020.05.03-03.50.13:924][724]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (533)
+[2020.05.03-03.50.13:958][724]LogModuleManager: Shutting down and abandoning module AutomationController (530)
+[2020.05.03-03.50.14:056][724]LogModuleManager: Shutting down and abandoning module AutomationWindow (528)
+[2020.05.03-03.50.14:114][724]LogModuleManager: Shutting down and abandoning module Layers (526)
+[2020.05.03-03.50.14:468][724]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (524)
+[2020.05.03-03.50.14:468][724]LogModuleManager: Shutting down and abandoning module DetailCustomizations (522)
+[2020.05.03-03.50.14:468][724]LogModuleManager: Shutting down and abandoning module PackagesDialog (520)
+[2020.05.03-03.50.14:468][724]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (518)
+[2020.05.03-03.50.14:641][724]LogModuleManager: Shutting down and abandoning module Persona (516)
+[2020.05.03-03.50.14:756][724]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (515)
+[2020.05.03-03.50.14:756][724]LogModuleManager: Shutting down and abandoning module AnimGraph (513)
+[2020.05.03-03.50.14:766][724]LogModuleManager: Shutting down and abandoning module Kismet (510)
+[2020.05.03-03.50.14:803][724]LogModuleManager: Shutting down and abandoning module KismetWidgets (509)
+[2020.05.03-03.50.14:803][724]LogModuleManager: Shutting down and abandoning module GraphEditor (506)
+[2020.05.03-03.50.14:803][724]LogModuleManager: Shutting down and abandoning module StructViewer (504)
+[2020.05.03-03.50.14:803][724]LogModuleManager: Shutting down and abandoning module ClassViewer (502)
+[2020.05.03-03.50.14:803][724]LogModuleManager: Shutting down and abandoning module Toolbox (500)
+[2020.05.03-03.50.14:803][724]LogModuleManager: Shutting down and abandoning module ModuleUI (498)
+[2020.05.03-03.50.14:812][724]LogModuleManager: Shutting down and abandoning module OutputLog (496)
+[2020.05.03-03.50.14:850][724]LogModuleManager: Shutting down and abandoning module GammaUI (494)
+[2020.05.03-03.50.14:906][724]LogModuleManager: Shutting down and abandoning module Documentation (492)
+[2020.05.03-03.50.14:907][724]LogModuleManager: Shutting down and abandoning module ToolMenus (490)
+[2020.05.03-03.50.14:907][724]LogModuleManager: Shutting down and abandoning module LiveCoding (488)
+[2020.05.03-03.50.15:143][724]LogModuleManager: Shutting down and abandoning module LevelSequence (486)
+[2020.05.03-03.50.15:143][724]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (484)
+[2020.05.03-03.50.15:143][724]LogModuleManager: Shutting down and abandoning module MovieScene (482)
+[2020.05.03-03.50.15:215][724]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (480)
+[2020.05.03-03.50.15:251][724]LogModuleManager: Shutting down and abandoning module LauncherPlatform (478)
+[2020.05.03-03.50.15:251][724]LogModuleManager: Shutting down and abandoning module AnalyticsET (476)
+[2020.05.03-03.50.15:251][724]LogModuleManager: Shutting down and abandoning module PortalServices (474)
+[2020.05.03-03.50.15:251][724]LogModuleManager: Shutting down and abandoning module PortalRpc (472)
+[2020.05.03-03.50.15:251][724]LogModuleManager: Shutting down and abandoning module MessagingRpc (470)
+[2020.05.03-03.50.15:252][724]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (468)
+[2020.05.03-03.50.15:252][724]LogModuleManager: Shutting down and abandoning module AIModule (466)
+[2020.05.03-03.50.15:279][724]LogModuleManager: Shutting down and abandoning module GameplayDebugger (465)
+[2020.05.03-03.50.15:280][724]LogModuleManager: Shutting down and abandoning module AITestSuite (463)
+[2020.05.03-03.50.15:280][724]LogModuleManager: Shutting down and abandoning module NavigationSystem (461)
+[2020.05.03-03.50.15:280][724]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (458)
+[2020.05.03-03.50.15:286][724]LogModuleManager: Shutting down and abandoning module ProfilerService (456)
+[2020.05.03-03.50.15:385][724]LogModuleManager: Shutting down and abandoning module TaskGraph (454)
+[2020.05.03-03.50.15:441][724]LogModuleManager: Shutting down and abandoning module ScreenshotTools (452)
+[2020.05.03-03.50.15:441][724]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (450)
+[2020.05.03-03.50.15:441][724]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (448)
+[2020.05.03-03.50.15:441][724]LogModuleManager: Shutting down and abandoning module OculusEditor (446)
+[2020.05.03-03.50.15:453][724]LogModuleManager: Shutting down and abandoning module OculusInput (444)
+[2020.05.03-03.50.15:453][724]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (442)
+[2020.05.03-03.50.15:454][724]LogModuleManager: Shutting down and abandoning module EditableMesh (440)
+[2020.05.03-03.50.15:470][724]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (438)
+[2020.05.03-03.50.15:470][724]LogModuleManager: Shutting down and abandoning module CableComponent (436)
+[2020.05.03-03.50.15:470][724]LogModuleManager: Shutting down and abandoning module AudioCapture (434)
+[2020.05.03-03.50.15:470][724]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (433)
+[2020.05.03-03.50.15:470][724]LogModuleManager: Shutting down and abandoning module AssetTags (430)
+[2020.05.03-03.50.15:470][724]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (428)
+[2020.05.03-03.50.15:470][724]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (426)
+[2020.05.03-03.50.15:470][724]LogModuleManager: Shutting down and abandoning module AppleImageUtils (424)
+[2020.05.03-03.50.15:470][724]LogModuleManager: Shutting down and abandoning module AndroidPermission (422)
+[2020.05.03-03.50.15:470][724]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (420)
+[2020.05.03-03.50.15:483][724]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (418)
+[2020.05.03-03.50.15:528][724]LogModuleManager: Shutting down and abandoning module MediaCompositing (416)
+[2020.05.03-03.50.15:528][724]LogModuleManager: Shutting down and abandoning module ImgMedia (414)
+[2020.05.03-03.50.15:528][724]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (412)
+[2020.05.03-03.50.15:528][724]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (410)
+[2020.05.03-03.50.15:528][724]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (408)
+[2020.05.03-03.50.15:528][724]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (406)
+[2020.05.03-03.50.15:528][724]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (404)
+[2020.05.03-03.50.15:528][724]LogModuleManager: Shutting down and abandoning module BackChannel (402)
+[2020.05.03-03.50.15:803][724]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (400)
+[2020.05.03-03.50.15:803][724]LogModuleManager: Shutting down and abandoning module AutomationUtils (398)
+[2020.05.03-03.50.15:803][724]LogModuleManager: Shutting down and abandoning module AlembicImporter (396)
+[2020.05.03-03.50.15:843][724]LogModuleManager: Shutting down and abandoning module AlembicLibrary (395)
+[2020.05.03-03.50.15:908][724]LogModuleManager: Shutting down and abandoning module GeometryCache (394)
+[2020.05.03-03.50.15:909][724]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (393)
+[2020.05.03-03.50.15:909][724]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (388)
+[2020.05.03-03.50.15:922][724]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (386)
+[2020.05.03-03.50.15:933][724]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (384)
+[2020.05.03-03.50.15:934][724]LogModuleManager: Shutting down and abandoning module PluginBrowser (382)
+[2020.05.03-03.50.15:990][724]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (380)
+[2020.05.03-03.50.15:997][724]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (378)
+[2020.05.03-03.50.16:017][724]LogModuleManager: Shutting down and abandoning module CurveEditorTools (376)
+[2020.05.03-03.50.16:042][724]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (374)
+[2020.05.03-03.50.16:042][724]LogModuleManager: Shutting down and abandoning module CryptoKeys (372)
+[2020.05.03-03.50.16:042][724]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (370)
+[2020.05.03-03.50.16:096][724]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (368)
+[2020.05.03-03.50.16:096][724]LogModuleManager: Shutting down and abandoning module UObjectPlugin (366)
+[2020.05.03-03.50.16:096][724]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (364)
+[2020.05.03-03.50.16:121][724]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (362)
+[2020.05.03-03.50.16:142][724]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (360)
+[2020.05.03-03.50.16:609][724]LogModuleManager: Shutting down and abandoning module GitSourceControl (358)
+[2020.05.03-03.50.16:689][724]LogModuleManager: Shutting down and abandoning module SourceControl (357)
+[2020.05.03-03.50.16:689][724]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (354)
+[2020.05.03-03.50.16:702][724]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (352)
+[2020.05.03-03.50.16:702][724]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (350)
+[2020.05.03-03.50.16:702][724]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (348)
+[2020.05.03-03.50.16:702][724]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (346)
+[2020.05.03-03.50.16:702][724]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (344)
+[2020.05.03-03.50.16:702][724]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (342)
+[2020.05.03-03.50.16:702][724]LogModuleManager: Shutting down and abandoning module Paper2DEditor (340)
+[2020.05.03-03.50.16:978][724]LogModuleManager: Shutting down and abandoning module CGXJam (338)
+[2020.05.03-03.50.16:978][724]LogModuleManager: Shutting down and abandoning module SignificanceManager (336)
+[2020.05.03-03.50.16:978][724]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (334)
+[2020.05.03-03.50.16:978][724]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (332)
+[2020.05.03-03.50.16:978][724]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (328)
+[2020.05.03-03.50.16:978][724]LogModuleManager: Shutting down and abandoning module ActorSequence (326)
+[2020.05.03-03.50.16:978][724]LogModuleManager: Shutting down and abandoning module UdpMessaging (324)
+[2020.05.03-03.50.17:079][724]LogModuleManager: Shutting down and abandoning module TcpMessaging (322)
+[2020.05.03-03.50.17:226][724]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (320)
+[2020.05.03-03.50.17:237][724]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (318)
+[2020.05.03-03.50.17:250][724]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.05.03-03.50.17:250][724]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (316)
+[2020.05.03-03.50.17:250][724]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (314)
+[2020.05.03-03.50.17:250][724]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (312)
+[2020.05.03-03.50.17:250][724]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (310)
+[2020.05.03-03.50.17:250][724]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (308)
+[2020.05.03-03.50.17:259][724]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (306)
+[2020.05.03-03.50.17:259][724]LogModuleManager: Shutting down and abandoning module MagicLeapController (304)
+[2020.05.03-03.50.17:274][724]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.05.03-03.50.17:274][724]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (302)
+[2020.05.03-03.50.17:274][724]LogModuleManager: Shutting down and abandoning module MagicLeapAR (300)
+[2020.05.03-03.50.17:274][724]LogModuleManager: Shutting down and abandoning module AugmentedReality (299)
+[2020.05.03-03.50.17:274][724]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (296)
+[2020.05.03-03.50.17:274][724]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (294)
+[2020.05.03-03.50.17:274][724]LogModuleManager: Shutting down and abandoning module FacialAnimation (292)
+[2020.05.03-03.50.17:274][724]LogModuleManager: Shutting down and abandoning module DataValidation (290)
+[2020.05.03-03.50.17:274][724]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (288)
+[2020.05.03-03.50.17:305][724]LogModuleManager: Shutting down and abandoning module LevelEditor (287)
+[2020.05.03-03.50.17:378][724]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (286)
+[2020.05.03-03.50.17:727][724]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (284)
+[2020.05.03-03.50.17:727][724]LogModuleManager: Shutting down and abandoning module MainFrame (282)
+[2020.05.03-03.50.17:727][724]LogModuleManager: Shutting down and abandoning module HotReload (281)
+[2020.05.03-03.50.17:800][724]LogModuleManager: Shutting down and abandoning module ContentBrowser (277)
+[2020.05.03-03.50.17:804][724]LogModuleManager: Shutting down and abandoning module TreeMap (275)
+[2020.05.03-03.50.17:819][724]LogModuleManager: Shutting down and abandoning module AnimationSharing (272)
+[2020.05.03-03.50.17:819][724]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (270)
+[2020.05.03-03.50.17:819][724]LogModuleManager: Shutting down and abandoning module Paper2D (268)
+[2020.05.03-03.50.17:835][724]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (266)
+[2020.05.03-03.50.17:867][724]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (264)
+[2020.05.03-03.50.17:884][724]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (262)
+[2020.05.03-03.50.17:884][724]LogModuleManager: Shutting down and abandoning module PacketHandler (260)
+[2020.05.03-03.50.17:884][724]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (258)
+[2020.05.03-03.50.17:884][724]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (256)
+[2020.05.03-03.50.17:912][724]LogModuleManager: Shutting down and abandoning module MediaAssets (254)
+[2020.05.03-03.50.17:913][724]LogModuleManager: Shutting down and abandoning module Overlay (252)
+[2020.05.03-03.50.17:913][724]LogModuleManager: Shutting down and abandoning module OverlayEditor (251)
+[2020.05.03-03.50.17:913][724]LogModuleManager: Shutting down and abandoning module VREditor (248)
+[2020.05.03-03.50.18:002][724]LogModuleManager: Shutting down and abandoning module StringTableEditor (246)
+[2020.05.03-03.50.18:029][724]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (244)
+[2020.05.03-03.50.18:029][724]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (242)
+[2020.05.03-03.50.18:095][724]LogModuleManager: Shutting down and abandoning module FunctionalTesting (240)
+[2020.05.03-03.50.18:106][724]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (238)
+[2020.05.03-03.50.18:151][724]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (237)
+[2020.05.03-03.50.18:151][724]LogModuleManager: Shutting down and abandoning module UMG (234)
+[2020.05.03-03.50.18:164][724]LogModuleManager: Shutting down and abandoning module UMGEditor (233)
+[2020.05.03-03.50.18:164][724]LogModuleManager: Shutting down and abandoning module MessageLog (231)
+[2020.05.03-03.50.18:164][724]LogModuleManager: Shutting down and abandoning module SlateReflector (226)
+[2020.05.03-03.50.18:359][724]LogModuleManager: Shutting down and abandoning module Slate (224)
+[2020.05.03-03.50.18:359][724]LogModuleManager: Shutting down and abandoning module SlateCore (222)
+[2020.05.03-03.50.18:359][724]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (220)
+[2020.05.03-03.50.18:359][724]LogModuleManager: Shutting down and abandoning module UnrealEd (218)
+[2020.05.03-03.50.18:398][724]LogModuleManager: Shutting down and abandoning module MRMesh (216)
+[2020.05.03-03.50.18:398][724]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (214)
+[2020.05.03-03.50.18:398][724]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (212)
+[2020.05.03-03.50.18:419][724]LogModuleManager: Shutting down and abandoning module XAudio2 (210)
+[2020.05.03-03.50.18:770][724]LogModuleManager: Shutting down and abandoning module Networking (208)
+[2020.05.03-03.50.18:770][724]LogModuleManager: Shutting down and abandoning module Core (206)
+[2020.05.03-03.50.18:770][724]LogModuleManager: Shutting down and abandoning module MovieSceneTools (204)
+[2020.05.03-03.50.18:829][724]LogModuleManager: Shutting down and abandoning module CurveEditor (203)
+[2020.05.03-03.50.18:893][724]LogModuleManager: Shutting down and abandoning module Sequencer (201)
+[2020.05.03-03.50.18:949][724]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2020.05.03-03.50.18:954][724]LogModuleManager: Shutting down and abandoning module KismetCompiler (196)
+[2020.05.03-03.50.18:954][724]LogModuleManager: Shutting down and abandoning module MeshUtilities (194)
+[2020.05.03-03.50.18:954][724]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (193)
+[2020.05.03-03.50.18:972][724]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (192)
+[2020.05.03-03.50.18:972][724]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (191)
+[2020.05.03-03.50.19:011][724]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (189)
+[2020.05.03-03.50.19:295][724]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (187)
+[2020.05.03-03.50.19:320][724]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (185)
+[2020.05.03-03.50.19:332][724]LogModuleManager: Shutting down and abandoning module MaterialBaking (181)
+[2020.05.03-03.50.19:352][724]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (176)
+[2020.05.03-03.50.19:352][724]LogModuleManager: Shutting down and abandoning module DerivedDataCache (174)
+[2020.05.03-03.50.19:352][724]LogDerivedDataCache: Shutdown
+[2020.05.03-03.50.19:352][724]LogModuleManager: Shutting down and abandoning module XGEController (172)
+[2020.05.03-03.50.19:352][724]LogXGEController: Cleaning working directory: C:/Users/Delam/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.05.03-03.50.19:352][724]LogModuleManager: Shutting down and abandoning module TargetPlatform (170)
+[2020.05.03-03.50.19:362][724]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (169)
+[2020.05.03-03.50.19:371][724]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (167)
+[2020.05.03-03.50.19:387][724]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (165)
+[2020.05.03-03.50.19:392][724]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (163)
+[2020.05.03-03.50.19:392][724]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (161)
+[2020.05.03-03.50.19:520][724]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (159)
+[2020.05.03-03.50.19:520][724]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (157)
+[2020.05.03-03.50.19:520][724]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (155)
+[2020.05.03-03.50.19:520][724]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (153)
+[2020.05.03-03.50.19:521][724]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (151)
+[2020.05.03-03.50.19:521][724]LogModuleManager: Shutting down and abandoning module ImageWrapper (150)
+[2020.05.03-03.50.19:521][724]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (147)
+[2020.05.03-03.50.19:521][724]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (145)
+[2020.05.03-03.50.19:536][724]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (143)
+[2020.05.03-03.50.19:536][724]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (141)
+[2020.05.03-03.50.19:539][724]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (139)
+[2020.05.03-03.50.19:539][724]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (137)
+[2020.05.03-03.50.19:539][724]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (135)
+[2020.05.03-03.50.19:539][724]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (133)
+[2020.05.03-03.50.19:539][724]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (131)
+[2020.05.03-03.50.21:046][724]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (129)
+[2020.05.03-03.50.22:054][724]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (127)
+[2020.05.03-03.50.22:054][724]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (125)
+[2020.05.03-03.50.22:086][724]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (123)
+[2020.05.03-03.50.22:239][724]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
+[2020.05.03-03.50.22:239][724]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2020.05.03-03.50.22:298][724]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (117)
+[2020.05.03-03.50.22:318][724]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2020.05.03-03.50.22:318][724]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2020.05.03-03.50.22:683][724]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (111)
+[2020.05.03-03.50.24:196][724]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (109)
+[2020.05.03-03.50.24:196][724]LogModuleManager: Shutting down and abandoning module InputCore (106)
+[2020.05.03-03.50.24:196][724]LogModuleManager: Shutting down and abandoning module Settings (104)
+[2020.05.03-03.50.24:196][724]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (102)
+[2020.05.03-03.50.24:218][724]LogModuleManager: Shutting down and abandoning module PhysXCooking (100)
+[2020.05.03-03.50.24:218][724]LogModuleManager: Shutting down and abandoning module ChaosSolvers (98)
+[2020.05.03-03.50.24:344][724]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (97)
+[2020.05.03-03.50.24:344][724]LogModuleManager: Shutting down and abandoning module Chaos (94)
+[2020.05.03-03.50.24:344][724]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (92)
+[2020.05.03-03.50.24:344][724]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (91)
+[2020.05.03-03.50.24:486][724]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (88)
+[2020.05.03-03.50.24:497][724]LogModuleManager: Shutting down and abandoning module SteamVRInput (86)
+[2020.05.03-03.50.24:497][724]LogModuleManager: Shutting down and abandoning module SteamVR (84)
+[2020.05.03-03.50.24:515][724]LogHMD: Freeing OpenVRDLLHandle.
+[2020.05.03-03.50.24:515][724]LogModuleManager: Shutting down and abandoning module OculusHMD (82)
+[2020.05.03-03.50.24:563][724]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (80)
+[2020.05.03-03.50.24:563][724]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (78)
+[2020.05.03-03.50.24:563][724]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (76)
+[2020.05.03-03.50.24:563][724]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (72)
+[2020.05.03-03.50.24:721][724]LogModuleManager: Shutting down and abandoning module XMPP (67)
+[2020.05.03-03.50.24:745][724]LogModuleManager: Shutting down and abandoning module WebSockets (66)
+[2020.05.03-03.50.24:862][724]LogModuleManager: Shutting down and abandoning module HTTP (63)
+[2020.05.03-03.50.24:863][724]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.05.03-03.50.24:863][724]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B38DCD685-4D88-84FB-64BF-3384F6F8AA4E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=7bb62920447e14c7a1fea3ba6f048eee%7C433ff53fa1834d9fa4871fd6fa4afd61%7Cfc2b0267-6694-4009-b4f6-945db30adf84&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2020.05.03-03.50.24:875][724]LogModuleManager: Shutting down and abandoning module SSL (62)
+[2020.05.03-03.50.24:878][724]LogModuleManager: Shutting down and abandoning module WmfMedia (58)
+[2020.05.03-03.50.24:899][724]LogModuleManager: Shutting down and abandoning module Media (57)
+[2020.05.03-03.50.24:901][724]LogModuleManager: Shutting down and abandoning module MagicLeap (54)
+[2020.05.03-03.50.24:901][724]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.05.03-03.50.24:901][724]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.05.03-03.50.24:901][724]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.05.03-03.50.24:901][724]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.05.03-03.50.24:901][724]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.05.03-03.50.24:915][724]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.05.03-03.50.24:915][724]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.05.03-03.50.24:915][724]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.05.03-03.50.24:922][724]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.05.03-03.50.24:926][724]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.05.03-03.50.24:976][724]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.05.03-03.50.24:976][724]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.05.03-03.50.24:976][724]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.05.03-03.50.24:976][724]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.05.03-03.50.25:032][724]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.05.03-03.50.25:164][724]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.05.03-03.50.25:164][724]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.05.03-03.50.25:176][724]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.05.03-03.50.25:206][724]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.05.03-03.50.25:206][724]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.05.03-03.50.25:206][724]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.05.03-03.50.25:217][724]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.05.03-03.50.25:218][724]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.05.03-03.50.25:234][724]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.05.03-03.50.25:285][724]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.05.03-03.50.25:285][724]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.05.03-03.50.25:315][724]LogD3D11RHI: Shutdown
+[2020.05.03-03.50.25:315][724]LogD3D11RHI: CleanupD3DDevice
+[2020.05.03-03.50.26:029][724]LogExit: Exiting.
+[2020.05.03-03.50.26:103][724]Log file closed, 05/02/20 23:50:26
