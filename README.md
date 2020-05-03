@@ -3,7 +3,7 @@ CGX Game Jam
 
 # *Team* 
 
-# 2D & 3D Enviromental/UI Artists:
+# 2D & 3D Enviromental/UI/Shader Artists:
 Misha, Mohamed Bouchenafa, Ya Xuan
 
 # Level Design
