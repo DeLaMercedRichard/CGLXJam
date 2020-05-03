@@ -6,6 +6,7 @@ CGX Game Jam
 # 2D & 3D Enviromental/UI Artists:
 Mohamed Bouchenafa
 Ya Xuan
+Misha
 
 # Level Design
 DongHyeong Lee
