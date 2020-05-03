@@ -450,7 +450,7 @@ void EmptyLinkFunctionForGeneratedCodeUIManager_CPP() {}
 		{ "ToolTip", "Stage Weight Tracking" },
 	};
 #endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_i_buildLimit = { "i_buildLimit", nullptr, (EPropertyFlags)0x0040000000020001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AUIManager_CPP, i_buildLimit), METADATA_PARAMS(Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_i_buildLimit_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_i_buildLimit_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_i_buildLimit = { "i_buildLimit", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AUIManager_CPP, i_buildLimit), METADATA_PARAMS(Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_i_buildLimit_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_i_buildLimit_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_f_timer_MetaData[] = {
 		{ "Category", "Stage Timer" },
@@ -507,7 +507,7 @@ void EmptyLinkFunctionForGeneratedCodeUIManager_CPP() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AUIManager_CPP, 378459839);
+	IMPLEMENT_CLASS(AUIManager_CPP, 35272357);
 	template<> CGXJAM_API UClass* StaticClass<AUIManager_CPP>()
 	{
 		return AUIManager_CPP::StaticClass();
