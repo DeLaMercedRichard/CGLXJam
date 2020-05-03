@@ -6,6 +6,7 @@
 /NAME:"UE4Editor-CGXJam.dll"
 /IGNORE:4221
 /NODEFAULTLIB
+
 "C:\Users\Brand\Desktop\CGLXJam\CGXJam\Intermediate\Build\Win64\CGXJamEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
 "C:\Users\Brand\Desktop\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\CGXJam.cpp.obj"
 "C:\Users\Brand\Desktop\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\CGXJamCharacter.cpp.obj"
@@ -17,4 +18,5 @@
 "C:\Users\Brand\Desktop\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\UIManager_CPP.gen.cpp.obj"
 "C:\Users\Brand\Desktop\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\Default.rc2.res"
 /OUT:"C:\Users\Brand\Desktop\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\UE4Editor-CGXJam.lib"
+
 /INCLUDE:IMPLEMENT_MODULE_CGXJam
