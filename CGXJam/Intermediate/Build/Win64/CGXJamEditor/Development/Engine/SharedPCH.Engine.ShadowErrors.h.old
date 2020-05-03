@@ -1,5 +1,5 @@
 
-// PCH for C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\EngineSharedPCH.h
+// PCH for E:\UE_4.24\Engine\Source\Runtime\Engine\Public\EngineSharedPCH.h
 
 #define IS_PROGRAM 0
 #define UE_EDITOR 1
@@ -396,4 +396,5 @@
 #define AUDIOMIXERCORE_VTABLE DLLIMPORT_VTABLE
 #define AUDIOMIXERCORE_API DLLIMPORT
 
-#include "C:/Program Files/Epic Games/UE_4.24/Engine/Source/Runtime/Engine/Public/EngineSharedPCH.h"
+#include "E:/UE_4.24/Engine/Source/Runtime/Engine/Public/EngineSharedPCH.h"
+
