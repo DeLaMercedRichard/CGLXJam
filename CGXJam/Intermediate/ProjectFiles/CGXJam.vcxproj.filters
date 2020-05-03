@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\CGXJam.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{96130FCF-3BC4-4D0A-9E31-64BB03BE54CC}</UniqueIdentifier>
+      <UniqueIdentifier>{71E9196F-B811-4E3F-9D03-D5F7BDE3D746}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\CGXJam.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{DA0215A7-B234-459F-813D-BFBA63ADF069}</UniqueIdentifier>
+      <UniqueIdentifier>{6DFE5CDA-DC78-4DA0-B818-767120A6C951}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\CGXJam">
-      <UniqueIdentifier>{CCDF92AB-6B13-436C-AD6A-E857E9297AED}</UniqueIdentifier>
+      <UniqueIdentifier>{25BE90D1-0E62-44D4-9BD4-776F34DA72AE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\CGXJam\CGXJam.Build.cs">
       <Filter>Source\CGXJam</Filter>
