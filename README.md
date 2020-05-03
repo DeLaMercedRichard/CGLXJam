@@ -4,13 +4,10 @@ CGX Game Jam
 # *Team* 
 
 # 2D & 3D Enviromental/UI Artists:
-Mohamed Bouchenafa
-Ya Xuan
-Misha
+Misha, Mohamed Bouchenafa, Ya Xuan
 
 # Level Design
-DongHyeong Lee
-Jose Gutierrez
+DongHyeong Lee, Jose Gutierrez
 
 # Mechanics/UI/ Programmers:
 [Brandon Gale](https://brandongale142.wixsite.com/mysite)
@@ -25,8 +22,4 @@ Jose Gutierrez
 Mason Victoria
 
 # *Programs Used Used*
-Maya 
-CC2019 Photoshop
-Substance Painter
-Unreal Engine 4.24.3
-Visual Studio 2017
+Maya, CC2019 Photoshop, Substance Painter, Unreal Engine 4.24.3, Visual Studio 2017
