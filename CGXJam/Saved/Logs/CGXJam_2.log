@@ -630,3 +630,34 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.03-02.37.41:541][272]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
 [2020.05.03-02.37.41:656][272]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
 [2020.05.03-02.37.41:762][272]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.03-02.37.45:613][272]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.05.03-02.37.45:900][272]LogExit: Preparing to exit.
+[2020.05.03-02.37.51:418][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:418][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:418][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:419][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:419][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:419][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:419][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:419][272]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.05.03-02.37.51:500][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:500][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:500][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:500][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:500][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:500][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:500][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:500][272]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.05.03-02.37.51:500][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:500][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:500][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:500][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:500][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:500][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:500][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:500][272]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.05.03-02.37.53:206][272]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.05.03-02.37.54:145][272]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.05.03-02.37.54:145][272]LogExit: Editor shut down
+[2020.05.03-02.37.54:146][272]LogExit: Transaction tracking system shut down
+[2020.05.03-02.38.00:700][272]LogExit: Object subsystem successfully closed.
