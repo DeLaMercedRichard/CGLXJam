@@ -54,7 +54,7 @@ float AUIManager_CPP::GetTimer()
 
 void AUIManager_CPP::SetStageBuildLimit(int stageLimit_)
 {
-
+	i_buildLimit = stageLimit_;
 }
 bool AUIManager_CPP::TryAddToStageBudget(int itemValue_)
 {
