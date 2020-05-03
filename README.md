@@ -28,7 +28,7 @@ Misha, [Mohamed Bouchenafa](https://www.linkedin.com/in/mohamed-bouchenafa-30385
 [Richard De La Merced](https://richarddelamerced.com/)
 
 # Sound Effects
-Mason Victoria
+[Mason Victoria](www.masonvictoriamusic.com/artist-portfolio)
 
 # *Programs Used*
 Maya, CC2019 Photoshop, Substance Painter, Unreal Engine 4.24.3, Visual Studio 2017
