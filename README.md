@@ -13,13 +13,13 @@ DongHyeong Lee
 Jose Gutierrez
 
 # Mechanics/UI/ Programmers:
-Brandon Gale
+[Brandon Gale](https://brandongale142.wixsite.com/mysite)
 
 # Music:
-Michael Macapagal
+[Michael Macapagal](https://www.michaelmacapagal.com/)
 
 # Project Lead: 
-Richard De La Merced
+[Richard De La Merced](https://richarddelamerced.com/)
 
 # Sound Effects
 Mason Victoria
