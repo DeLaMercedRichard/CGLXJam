@@ -415,3 +415,102 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.03-02.11.01:671][  0]LogInit: Setting process to per monitor DPI aware
 [2020.05.03-02.11.02:660][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
 [2020.05.03-02.11.02:660][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.05.03-02.11.13:524][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.05.03-02.11.13:537][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.05.03-02.11.13:537][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.05.03-02.11.13:537][  0]LogD3D11RHI: D3D11 adapters:
+[2020.05.03-02.11.14:297][  0]LogD3D11RHI:    0. 'Radeon(TM) RX 460 Graphics' (Feature Level 11_0)
+[2020.05.03-02.11.14:297][  0]LogD3D11RHI:       4041/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2020.05.03-02.11.14:453][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.05.03-02.11.14:453][  0]LogD3D11RHI:       0/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.05.03-02.11.14:453][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.05.03-02.11.14:522][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.05.03-02.11.14:522][  0]LogD3D11RHI:     GPU DeviceId: 0x67ef (for the marketing name, search the web for "GPU Device Id")
+[2020.05.03-02.11.14:522][  0]LogWindows: EnumDisplayDevices:
+[2020.05.03-02.11.14:522][  0]LogWindows:    0. 'Radeon(TM) RX 460 Graphics' (P:1 D:1)
+[2020.05.03-02.11.14:556][  0]LogWindows:    1. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
+[2020.05.03-02.11.14:557][  0]LogWindows:    2. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
+[2020.05.03-02.11.14:558][  0]LogWindows:    3. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
+[2020.05.03-02.11.14:559][  0]LogWindows:    4. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
+[2020.05.03-02.11.14:560][  0]LogWindows:    5. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
+[2020.05.03-02.11.14:561][  0]LogWindows:    6. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
+[2020.05.03-02.11.14:562][  0]LogWindows: DebugString: FoundDriverCount:7 
+[2020.05.03-02.11.14:562][  0]LogD3D11RHI:     Adapter Name: Radeon(TM) RX 460 Graphics
+[2020.05.03-02.11.14:562][  0]LogD3D11RHI:   Driver Version: Adrenalin 19.20 (internal:26.20.12028.2, unified:26.20.12028.2)
+[2020.05.03-02.11.14:562][  0]LogD3D11RHI:      Driver Date: 8-16-2019
+[2020.05.03-02.11.14:562][  0]LogRHI: Texture pool is 2828 MB (70% of 4041 MB)
+[2020.05.03-02.11.16:751][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.05.03-02.11.16:751][  0]LogD3D11RHI: Async texture creation enabled
+[2020.05.03-02.11.17:654][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2020.05.03-02.11.19:231][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.05.03-02.11.19:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.05.03-02.11.19:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.05.03-02.11.19:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.05.03-02.11.19:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.05.03-02.11.19:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.05.03-02.11.19:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.05.03-02.11.19:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.05.03-02.11.19:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.05.03-02.11.19:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.05.03-02.11.19:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.05.03-02.11.19:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.05.03-02.11.19:494][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.05.03-02.11.19:494][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.05.03-02.11.19:494][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.05.03-02.11.19:494][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.05.03-02.11.19:494][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.05.03-02.11.19:494][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.05.03-02.11.19:494][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.05.03-02.11.19:885][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.05.03-02.11.19:885][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.05.03-02.11.20:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.05.03-02.11.20:117][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.05.03-02.11.20:295][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.05.03-02.11.20:342][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.05.03-02.11.20:381][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.05.03-02.11.20:498][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.05.03-02.11.20:700][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.05.03-02.11.20:701][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.05.03-02.11.20:772][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.05.03-02.11.20:772][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.05.03-02.11.20:896][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.05.03-02.11.20:965][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.05.03-02.11.21:012][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.05.03-02.11.21:047][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.05.03-02.11.21:047][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.05.03-02.11.21:882][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.05.03-02.11.24:878][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Intermediate/Shaders/WorkingDirectory/11612/).
+[2020.05.03-02.11.24:879][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Delam/AppData/Local/Temp/UnrealShaderWorkingDir/6D0C6D4944944EDB47A2DCA08BC83D4D/'.
+[2020.05.03-02.11.25:127][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.05.03-02.11.25:155][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.05.03-02.11.25:155][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.05.03-02.11.40:496][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.05.03-02.11.41:935][  0]LogDerivedDataCache: Loaded boot cache 1.39s 82MB C:/Users/Delam/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.05.03-02.11.41:935][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Delam/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.05.03-02.11.41:935][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.05.03-02.11.41:936][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.05.03-02.11.41:936][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.03-02.11.41:936][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.05.03-02.11.41:998][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.05.03-02.11.41:998][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.03-02.11.41:998][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.05.03-02.11.42:000][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Delam/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.05.03-02.11.42:000][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.05.03-02.11.42:000][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.05.03-02.11.42:146][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.05.03-02.11.42:335][  0]LogSlate: Using FreeType 2.10.0
+[2020.05.03-02.11.42:511][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.05.03-02.11.46:126][  0]LogAssetRegistry: FAssetRegistry took 0.0090 seconds to start up
+[2020.05.03-02.11.55:840][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.03-02.11.59:752][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.05.03-02.11.59:753][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.05.03-02.11.59:753][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.05.03-02.11.59:753][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.05.03-02.11.59:778][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.05.03-02.12.00:551][  0]LogNetVersion: CGXJam 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2130632310)
+[2020.05.03-02.13.25:034][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.103628 seconds
+[2020.05.03-02.13.25:179][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.05.03-02.13.25:179][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.05.03-02.13.25:179][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.05.03-02.13.42:727][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.05.03-02.13.43:005][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
