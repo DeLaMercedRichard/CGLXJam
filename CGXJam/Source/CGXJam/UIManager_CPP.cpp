@@ -98,13 +98,13 @@ void AUIManager_CPP::SetMenuHidden()
 {
 	//if true, menu is hidden and must be shown
 	//if false, menu is showing and must be hidden
-	switch (isHidden)
+	switch (b_isHidden)
 	{
 	case true: //menu will become visible
-		isHidden = false;
+		b_isHidden = false;
 		break;
 	case false: //menu will become hidden
-		isHidden = true;
+		b_isHidden = true;
 		break;
 	
 	}
@@ -113,7 +113,7 @@ void AUIManager_CPP::SetMenuHidden()
 
 bool AUIManager_CPP::GetMenuHidden()
 {
-	return isHidden;
+	return b_isHidden;
 }
 
 void AUIManager_CPP::SetDefaults() //default throwaway values
@@ -122,6 +122,15 @@ void AUIManager_CPP::SetDefaults() //default throwaway values
 		b_isTimerActive = true;
 		i_buildLimit = 10;
 		i_usedBudget = 0;
-		isHidden = true;
+		b_isHidden = true;
+		b_isDead = false;
 }
 
+void AUIManager_CPP::SetPlayerDead()
+{
+	b_isDead = true;
+}
+bool AUIManager_CPP::GetPlayerDead()
+{
+	return b_isDead;
+}

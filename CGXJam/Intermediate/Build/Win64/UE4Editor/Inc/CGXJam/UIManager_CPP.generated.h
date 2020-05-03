@@ -16,6 +16,22 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define CGXJam_Source_CGXJam_UIManager_CPP_h_12_SPARSE_DATA
 #define CGXJam_Source_CGXJam_UIManager_CPP_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetPlayerDead) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetPlayerDead(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetPlayerDead) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetPlayerDead(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execGetMenuHidden) \
 	{ \
 		P_FINISH; \
@@ -94,6 +110,22 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define CGXJam_Source_CGXJam_UIManager_CPP_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetPlayerDead) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetPlayerDead(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetPlayerDead) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetPlayerDead(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execGetMenuHidden) \
 	{ \
@@ -218,7 +250,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AUIManager_CPP); \
 	FORCEINLINE static uint32 __PPO__f_timer() { return STRUCT_OFFSET(AUIManager_CPP, f_timer); } \
 	FORCEINLINE static uint32 __PPO__i_buildLimit() { return STRUCT_OFFSET(AUIManager_CPP, i_buildLimit); } \
 	FORCEINLINE static uint32 __PPO__i_usedBudget() { return STRUCT_OFFSET(AUIManager_CPP, i_usedBudget); } \
-	FORCEINLINE static uint32 __PPO__isHidden() { return STRUCT_OFFSET(AUIManager_CPP, isHidden); }
+	FORCEINLINE static uint32 __PPO__b_isHidden() { return STRUCT_OFFSET(AUIManager_CPP, b_isHidden); } \
+	FORCEINLINE static uint32 __PPO__b_isDead() { return STRUCT_OFFSET(AUIManager_CPP, b_isDead); }
 
 
 #define CGXJam_Source_CGXJam_UIManager_CPP_h_9_PROLOG

@@ -57,6 +57,13 @@ public:
 
 		UFUNCTION(Blueprintpure, Category = "Build Menu")
 			bool GetMenuHidden(); //call if the menu should be hidden for the UI
+
+		//Player State reference
+		UFUNCTION(BlueprintCallable, Category = "Player State")
+			void SetPlayerDead();
+
+		UFUNCTION(BlueprintCallable, Category = "Player State")
+			bool GetPlayerDead();
 private:
 	//Timer Functionallity
 	UPROPERTY(VisibleAnywhere, Category = "Stage Timer")
@@ -71,11 +78,14 @@ private:
 
 	//Build Menu Properties
 	UPROPERTY(VisibleAnywhere, Category = "Build Menu")
-	bool isHidden; //is the build menu showing?
+	bool b_isHidden; //is the build menu showing?
 
-
+	//Player State Reference
+	UPROPERTY(VisibleAnywhere, Category = "Player State")
+	bool b_isDead;
 
 	//debug functions
+
 	void SetDefaults();
 
 };

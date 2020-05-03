@@ -19,9 +19,11 @@ void EmptyLinkFunctionForGeneratedCodeUIManager_CPP() {}
 	UPackage* Z_Construct_UPackage__Script_CGXJam();
 	CGXJAM_API UFunction* Z_Construct_UFunction_AUIManager_CPP_GetBuildLimit();
 	CGXJAM_API UFunction* Z_Construct_UFunction_AUIManager_CPP_GetMenuHidden();
+	CGXJAM_API UFunction* Z_Construct_UFunction_AUIManager_CPP_GetPlayerDead();
 	CGXJAM_API UFunction* Z_Construct_UFunction_AUIManager_CPP_GetTimer();
 	CGXJAM_API UFunction* Z_Construct_UFunction_AUIManager_CPP_GetUsedBudget();
 	CGXJAM_API UFunction* Z_Construct_UFunction_AUIManager_CPP_SetMenuHidden();
+	CGXJAM_API UFunction* Z_Construct_UFunction_AUIManager_CPP_SetPlayerDead();
 	CGXJAM_API UFunction* Z_Construct_UFunction_AUIManager_CPP_SetStageBuildLimit();
 	CGXJAM_API UFunction* Z_Construct_UFunction_AUIManager_CPP_SetTimer();
 	CGXJAM_API UFunction* Z_Construct_UFunction_AUIManager_CPP_SubtractFromStageBudget();
@@ -33,9 +35,11 @@ void EmptyLinkFunctionForGeneratedCodeUIManager_CPP() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "GetBuildLimit", &AUIManager_CPP::execGetBuildLimit },
 			{ "GetMenuHidden", &AUIManager_CPP::execGetMenuHidden },
+			{ "GetPlayerDead", &AUIManager_CPP::execGetPlayerDead },
 			{ "GetTimer", &AUIManager_CPP::execGetTimer },
 			{ "GetUsedBudget", &AUIManager_CPP::execGetUsedBudget },
 			{ "SetMenuHidden", &AUIManager_CPP::execSetMenuHidden },
+			{ "SetPlayerDead", &AUIManager_CPP::execSetPlayerDead },
 			{ "SetStageBuildLimit", &AUIManager_CPP::execSetStageBuildLimit },
 			{ "SetTimer", &AUIManager_CPP::execSetTimer },
 			{ "SubtractFromStageBudget", &AUIManager_CPP::execSubtractFromStageBudget },
@@ -115,6 +119,44 @@ void EmptyLinkFunctionForGeneratedCodeUIManager_CPP() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AUIManager_CPP_GetMenuHidden_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AUIManager_CPP_GetPlayerDead_Statics
+	{
+		struct UIManager_CPP_eventGetPlayerDead_Parms
+		{
+			bool ReturnValue;
+		};
+		static void NewProp_ReturnValue_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_AUIManager_CPP_GetPlayerDead_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+	{
+		((UIManager_CPP_eventGetPlayerDead_Parms*)Obj)->ReturnValue = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AUIManager_CPP_GetPlayerDead_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UIManager_CPP_eventGetPlayerDead_Parms), &Z_Construct_UFunction_AUIManager_CPP_GetPlayerDead_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AUIManager_CPP_GetPlayerDead_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AUIManager_CPP_GetPlayerDead_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AUIManager_CPP_GetPlayerDead_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Player State" },
+		{ "ModuleRelativePath", "UIManager_CPP.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AUIManager_CPP_GetPlayerDead_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AUIManager_CPP, nullptr, "GetPlayerDead", nullptr, nullptr, sizeof(UIManager_CPP_eventGetPlayerDead_Parms), Z_Construct_UFunction_AUIManager_CPP_GetPlayerDead_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AUIManager_CPP_GetPlayerDead_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AUIManager_CPP_GetPlayerDead_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AUIManager_CPP_GetPlayerDead_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AUIManager_CPP_GetPlayerDead()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AUIManager_CPP_GetPlayerDead_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -210,6 +252,31 @@ void EmptyLinkFunctionForGeneratedCodeUIManager_CPP() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AUIManager_CPP_SetMenuHidden_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AUIManager_CPP_SetPlayerDead_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AUIManager_CPP_SetPlayerDead_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Player State" },
+		{ "Comment", "//Player State reference\n" },
+		{ "ModuleRelativePath", "UIManager_CPP.h" },
+		{ "ToolTip", "Player State reference" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AUIManager_CPP_SetPlayerDead_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AUIManager_CPP, nullptr, "SetPlayerDead", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AUIManager_CPP_SetPlayerDead_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AUIManager_CPP_SetPlayerDead_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AUIManager_CPP_SetPlayerDead()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AUIManager_CPP_SetPlayerDead_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -374,10 +441,15 @@ void EmptyLinkFunctionForGeneratedCodeUIManager_CPP() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isHidden_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b_isDead_MetaData[];
 #endif
-		static void NewProp_isHidden_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isHidden;
+		static void NewProp_b_isDead_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_b_isDead;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b_isHidden_MetaData[];
+#endif
+		static void NewProp_b_isHidden_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_b_isHidden;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_i_usedBudget_MetaData[];
 #endif
@@ -406,9 +478,11 @@ void EmptyLinkFunctionForGeneratedCodeUIManager_CPP() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_AUIManager_CPP_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AUIManager_CPP_GetBuildLimit, "GetBuildLimit" }, // 4080118128
 		{ &Z_Construct_UFunction_AUIManager_CPP_GetMenuHidden, "GetMenuHidden" }, // 1853998486
+		{ &Z_Construct_UFunction_AUIManager_CPP_GetPlayerDead, "GetPlayerDead" }, // 1702570616
 		{ &Z_Construct_UFunction_AUIManager_CPP_GetTimer, "GetTimer" }, // 3697720180
 		{ &Z_Construct_UFunction_AUIManager_CPP_GetUsedBudget, "GetUsedBudget" }, // 217118593
 		{ &Z_Construct_UFunction_AUIManager_CPP_SetMenuHidden, "SetMenuHidden" }, // 401990361
+		{ &Z_Construct_UFunction_AUIManager_CPP_SetPlayerDead, "SetPlayerDead" }, // 925121244
 		{ &Z_Construct_UFunction_AUIManager_CPP_SetStageBuildLimit, "SetStageBuildLimit" }, // 3499102606
 		{ &Z_Construct_UFunction_AUIManager_CPP_SetTimer, "SetTimer" }, // 1331309388
 		{ &Z_Construct_UFunction_AUIManager_CPP_SubtractFromStageBudget, "SubtractFromStageBudget" }, // 3435750508
@@ -421,18 +495,31 @@ void EmptyLinkFunctionForGeneratedCodeUIManager_CPP() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_isHidden_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_b_isDead_MetaData[] = {
+		{ "Category", "Player State" },
+		{ "Comment", "//Player State Reference\n" },
+		{ "ModuleRelativePath", "UIManager_CPP.h" },
+		{ "ToolTip", "Player State Reference" },
+	};
+#endif
+	void Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_b_isDead_SetBit(void* Obj)
+	{
+		((AUIManager_CPP*)Obj)->b_isDead = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_b_isDead = { "b_isDead", nullptr, (EPropertyFlags)0x0040000000020001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AUIManager_CPP), &Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_b_isDead_SetBit, METADATA_PARAMS(Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_b_isDead_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_b_isDead_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_b_isHidden_MetaData[] = {
 		{ "Category", "Build Menu" },
 		{ "Comment", "//Build Menu Properties\n" },
 		{ "ModuleRelativePath", "UIManager_CPP.h" },
 		{ "ToolTip", "Build Menu Properties" },
 	};
 #endif
-	void Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_isHidden_SetBit(void* Obj)
+	void Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_b_isHidden_SetBit(void* Obj)
 	{
-		((AUIManager_CPP*)Obj)->isHidden = 1;
+		((AUIManager_CPP*)Obj)->b_isHidden = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_isHidden = { "isHidden", nullptr, (EPropertyFlags)0x0040000000020001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AUIManager_CPP), &Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_isHidden_SetBit, METADATA_PARAMS(Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_isHidden_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_isHidden_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_b_isHidden = { "b_isHidden", nullptr, (EPropertyFlags)0x0040000000020001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AUIManager_CPP), &Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_b_isHidden_SetBit, METADATA_PARAMS(Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_b_isHidden_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_b_isHidden_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_i_usedBudget_MetaData[] = {
 		{ "Category", "Stage Properties" },
@@ -474,7 +561,8 @@ void EmptyLinkFunctionForGeneratedCodeUIManager_CPP() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_b_isTimerActive = { "b_isTimerActive", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AUIManager_CPP), &Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_b_isTimerActive_SetBit, METADATA_PARAMS(Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_b_isTimerActive_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_b_isTimerActive_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AUIManager_CPP_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_isHidden,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_b_isDead,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_b_isHidden,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_i_usedBudget,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_i_buildLimit,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AUIManager_CPP_Statics::NewProp_f_timer,
@@ -507,7 +595,7 @@ void EmptyLinkFunctionForGeneratedCodeUIManager_CPP() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AUIManager_CPP, 35272357);
+	IMPLEMENT_CLASS(AUIManager_CPP, 1229418036);
 	template<> CGXJAM_API UClass* StaticClass<AUIManager_CPP>()
 	{
 		return AUIManager_CPP::StaticClass();
