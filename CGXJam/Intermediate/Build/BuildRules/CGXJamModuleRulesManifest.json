@@ -1,8 +1,10 @@
 {
 	"SourceFiles": [
+
 		"C:\\Users\\Delam\\OneDrive\\Documents\\GitHub\\CGLXJam\\CGXJam\\Source\\CGXJam\\CGXJam.Build.cs",
 		"C:\\Users\\Delam\\OneDrive\\Documents\\GitHub\\CGLXJam\\CGXJam\\Source\\CGXJam.Target.cs",
 		"C:\\Users\\Delam\\OneDrive\\Documents\\GitHub\\CGLXJam\\CGXJam\\Source\\CGXJamEditor.Target.cs"
+
 	],
 	"EngineVersion": "4.24.3"
 }

@@ -63,7 +63,7 @@ private:
 	float f_timer; //The time the player has to complete the stage
 
 	//Stage Weight Tracking
-	UPROPERTY(VisibleAnywhere, Category = "Stage Properties")
+	UPROPERTY(EditAnywhere, Category = "Stage Properties")
 		int i_buildLimit; //Max value of buildable obejects per stage
 
 	UPROPERTY(VisibleAnywhere, Category = "Stage Properties")
