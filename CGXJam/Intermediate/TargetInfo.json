@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "CGXJam",
-			"Path": "C:\\Users\\Brand\\Desktop\\CGLXJam\\CGXJam\\Source\\CGXJam.Target.cs",
+			"Path": "D:\\Projects\\Unreal\\Unreal Engine\\GameJams\\CGLXJam\\CGXJam\\Source\\CGXJam.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "CGXJamEditor",
-			"Path": "C:\\Users\\Brand\\Desktop\\CGLXJam\\CGXJam\\Source\\CGXJamEditor.Target.cs",
+			"Path": "D:\\Projects\\Unreal\\Unreal Engine\\GameJams\\CGLXJam\\CGXJam\\Source\\CGXJamEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

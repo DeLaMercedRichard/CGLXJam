@@ -16,6 +16,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define CGXJam_Source_CGXJam_UIManager_CPP_h_12_SPARSE_DATA
 #define CGXJam_Source_CGXJam_UIManager_CPP_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetStageComplete) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetStageComplete(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execSetStageComplete) \
 	{ \
 		P_FINISH; \
@@ -118,6 +126,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define CGXJam_Source_CGXJam_UIManager_CPP_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetStageComplete) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetStageComplete(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execSetStageComplete) \
 	{ \
@@ -267,7 +283,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AUIManager_CPP); \
 	FORCEINLINE static uint32 __PPO__i_buildLimit() { return STRUCT_OFFSET(AUIManager_CPP, i_buildLimit); } \
 	FORCEINLINE static uint32 __PPO__i_usedBudget() { return STRUCT_OFFSET(AUIManager_CPP, i_usedBudget); } \
 	FORCEINLINE static uint32 __PPO__b_isHidden() { return STRUCT_OFFSET(AUIManager_CPP, b_isHidden); } \
-	FORCEINLINE static uint32 __PPO__b_isDead() { return STRUCT_OFFSET(AUIManager_CPP, b_isDead); }
+	FORCEINLINE static uint32 __PPO__b_isDead() { return STRUCT_OFFSET(AUIManager_CPP, b_isDead); } \
+	FORCEINLINE static uint32 __PPO__b_stageComplete() { return STRUCT_OFFSET(AUIManager_CPP, b_stageComplete); }
 
 
 #define CGXJam_Source_CGXJam_UIManager_CPP_h_9_PROLOG
