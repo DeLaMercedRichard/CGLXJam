@@ -1,6 +1,15 @@
 # CGX Jam
 CGX Game Jam
 
+# Controls:
+# WASD keys - movement
+# Space - Jump
+# Q - Place Tile
+# E - Cycle Through Tile Types
+# R - Remove Highlighted Tile
+# G - Restart Level
+
+
 # *Team* 
 
 # 2D & 3D Enviromental/UI/Shader Artists:
@@ -23,3 +32,4 @@ Mason Victoria
 
 # *Programs Used Used*
 Maya, CC2019 Photoshop, Substance Painter, Unreal Engine 4.24.3, Visual Studio 2017
+
