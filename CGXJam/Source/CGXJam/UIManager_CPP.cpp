@@ -56,11 +56,27 @@ void AUIManager_CPP::SetStageBuildLimit(int stageLimit_)
 {
 
 }
-void AUIManager_CPP::AddToStageBudget(int itemValue_)
+bool AUIManager_CPP::TryAddToStageBudget(int itemValue_)
 {
-	if(i_usedBudget < i_buildLimit)//debug only, player class will check against the item usage /cap
 	i_usedBudget += itemValue_;
+	if (i_usedBudget <= i_buildLimit)//debug only, player class will check against the item usage /cap
+	{
+		if (i_usedBudget <= i_buildLimit)
+		{
+			return true;
+		}
+		else
+		{
+			i_usedBudget -= itemValue_;
+			return false;
+		}
 
+	}
+	else
+	{
+		i_usedBudget -= itemValue_;
+		return false;
+	}
 }
 void AUIManager_CPP::SubtractFromStageBudget(int itemValue_)
 {
