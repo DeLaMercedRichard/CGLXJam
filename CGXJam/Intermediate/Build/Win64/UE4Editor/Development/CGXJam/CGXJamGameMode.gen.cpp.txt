@@ -1,9 +1,9 @@
-C:\Users\Brand\Desktop\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\Definitions.CGXJam.h
-E:\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-E:\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\Brand\Desktop\CGLXJam\CGXJam\Source\CGXJam/CGXJamGameMode.h
-E:\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-E:\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-E:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-E:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-C:\Users\Brand\Desktop\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Inc\CGXJam\CGXJamGameMode.generated.h
+C:\Users\Delam\OneDrive\Documents\GitHub\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\Definitions.CGXJam.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\Delam\OneDrive\Documents\GitHub\CGLXJam\CGXJam\Source\CGXJam/CGXJamGameMode.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+c:\users\delam\onedrive\documents\github\cglxjam\cgxjam\intermediate\build\win64\ue4editor\inc\cgxjam\CGXJamGameMode.generated.h
