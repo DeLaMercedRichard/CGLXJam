@@ -1,2 +1,2 @@
-C:\Users\Brand\Desktop\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\Definitions.CGXJam.h
-C:\Users\Brand\Desktop\CGLXJam\CGXJam\Source\CGXJam\CGXJam.h
+D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\Definitions.CGXJam.h
+D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\Source\CGXJam\CGXJam.h

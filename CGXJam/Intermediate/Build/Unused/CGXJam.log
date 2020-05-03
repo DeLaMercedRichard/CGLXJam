@@ -1,0 +1,18 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam).
+  Creating makefile for CGXJamEditor (no existing makefile)
+  Parsing headers for CGXJamEditor
+    Running UnrealHeaderTool "D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\CGXJam.uproject" "D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\Intermediate\Build\Win64\CGXJamEditor\Development\CGXJamEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for CGXJamEditor in 6.7057321 seconds
+  Building CGXJamEditor...
+  Using Visual Studio 2019 14.25.28614 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 6 actions with 12 processes...
+    [1/6] CGXJam.init.gen.cpp
+    [2/6] UIManager_CPP.cpp
+    [3/6] UIManager_CPP.gen.cpp
+    [4/6] UE4Editor-CGXJam-0001.lib
+       Creating library D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\UE4Editor-CGXJam-0001.lib and object D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\UE4Editor-CGXJam-0001.exp
+    [5/6] UE4Editor-CGXJam-0001.dll
+       Creating library D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\UE4Editor-CGXJam-0001.suppressed.lib and object D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\UE4Editor-CGXJam-0001.suppressed.exp
+    [6/6] CGXJamEditor.target
+  Total time in Parallel executor: 3.01 seconds
+  Total execution time: 12.19 seconds
