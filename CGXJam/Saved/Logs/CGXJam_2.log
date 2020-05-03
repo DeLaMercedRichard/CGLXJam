@@ -611,3 +611,53 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.03-02.15.32:702][749]LogUObjectHash: Compacting FUObjectHashTables data took   5.29ms
 [2020.05.03-02.15.32:706][749]LogEditorActor: Deleted 1 Actors (0.315 secs)
 [2020.05.03-02.15.33:230][787]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.05.03-02.24.44:424][112]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2020.05.03-02.24.48:070][112]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/ThirdPersonExampleMap_Auto1707146CD4FA0FF9E9FA1D1BD2B252C45.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2020.05.03-02.24.48:224][112]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 3.906
+[2020.05.03-02.24.48:225][112]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.906
+[2020.05.03-02.30.53:200][261]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.05.03-02.31.25:659][309]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.05.03-02.31.25:673][309]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.05.03-02.37.30:610][271]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2020.05.03-02.37.34:595][271]LogSlate: Window 'Save Content' being destroyed
+[2020.05.03-02.37.34:970][271]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2020.05.03-02.37.36:725][271]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Saved/ThirdPersonExampleMapA324579848D30FCA8167E1B84D6A39A5.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/CGLXJam/CGXJam/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2020.05.03-02.37.37:119][271]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 2.421
+[2020.05.03-02.37.38:126][271]LogSlate: Window 'CGXJam - Unreal Editor' being destroyed
+[2020.05.03-02.37.41:530][271]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
+[2020.05.03-02.37.41:530][271]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.05.03-02.37.41:541][272]Cmd: QUIT_EDITOR
+[2020.05.03-02.37.41:541][272]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.05.03-02.37.41:656][272]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.05.03-02.37.41:762][272]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.03-02.37.45:613][272]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.05.03-02.37.45:900][272]LogExit: Preparing to exit.
+[2020.05.03-02.37.51:418][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:418][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:418][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:419][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:419][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:419][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:419][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:419][272]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.05.03-02.37.51:500][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:500][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:500][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:500][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:500][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:500][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:500][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:500][272]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.05.03-02.37.51:500][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:500][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:500][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:500][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:500][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:500][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:500][272]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.05.03-02.37.51:500][272]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.05.03-02.37.53:206][272]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.05.03-02.37.54:145][272]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.05.03-02.37.54:145][272]LogExit: Editor shut down
+[2020.05.03-02.37.54:146][272]LogExit: Transaction tracking system shut down
+[2020.05.03-02.38.00:700][272]LogExit: Object subsystem successfully closed.
