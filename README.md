@@ -13,7 +13,7 @@ CGX Game Jam
 # *Team* 
 
 # 2D & 3D Enviromental/UI/Shader Artists:
-Misha, [Mohamed Bouchenafa](https://www.linkedin.com/in/mohamed-bouchenafa-303853165), [Ya Xuan](https://www.linkedin.com/in/ya-xuan-pu-64bb451a1/)
+[Misha Samorodin](https://mishasamorodin1992.artstation.com/projects/GXGaAQ), [Mohamed Bouchenafa](https://www.linkedin.com/in/mohamed-bouchenafa-303853165), [Ya Xuan](https://www.linkedin.com/in/ya-xuan-pu-64bb451a1/)
 
 # Level Design
 [DongHyeong Lee](https://dlee4428.github.io/), [Jose Gutierrez](https://www.linkedin.com/in/jose-gutierrez-munzon-636771196/)
