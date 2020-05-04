@@ -28,7 +28,7 @@ CGX Game Jam
 [Richard De La Merced](https://richarddelamerced.com/)
 
 # Sound Effects
-[Mason Victoria](www.masonvictoriamusic.com/artist-portfolio)
+[Mason Victoria](https://www.masonvictoriamusic.com/artist-portfolio)
 
 # *Programs Used*
 Maya, CC2019 Photoshop, Substance Painter, Unreal Engine 4.24.3, Visual Studio 2017
