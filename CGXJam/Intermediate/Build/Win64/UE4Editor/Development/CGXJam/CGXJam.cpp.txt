@@ -1,2 +1,2 @@
-D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\Definitions.CGXJam.h
-D:\Projects\Unreal\Unreal Engine\GameJams\CGLXJam\CGXJam\Source\CGXJam\CGXJam.h
+C:\Users\Delam\OneDrive\Documents\GitHub\CGLXJam\CGXJam\Intermediate\Build\Win64\UE4Editor\Development\CGXJam\Definitions.CGXJam.h
+c:\users\delam\onedrive\documents\github\cglxjam\cgxjam\source\cgxjam\CGXJam.h
